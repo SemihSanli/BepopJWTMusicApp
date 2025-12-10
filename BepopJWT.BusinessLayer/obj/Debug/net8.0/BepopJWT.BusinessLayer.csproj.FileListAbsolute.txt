@@ -1,0 +1,17 @@
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.BusinessLayer.deps.json
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.BusinessLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.BusinessLayer.pdb
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DataAccessLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DataAccessLayer.pdb
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.pdb
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.AssemblyInfo.cs
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.15841857.Up2Date
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\refint\BepopJWT.BusinessLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.pdb
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\ref\BepopJWT.BusinessLayer.dll

@@ -1,0 +1,6 @@
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\obj\Debug\net8.0\staticwebassets.build.json

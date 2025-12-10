@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2sFTtoZTClgmY2qXjQtQhlRYvbDmFbSuSBq9pDzFcwI=",
+  "Source": "BepopJWT.API",
+  "BasePath": "_content/BepopJWT.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
