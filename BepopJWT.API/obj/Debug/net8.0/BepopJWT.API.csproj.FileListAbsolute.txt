@@ -152,3 +152,7 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\ru\Microsoft.
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\BepopJWT.DTOLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\BepopJWT.DTOLayer.pdb
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -12,9 +12,13 @@ namespace BepopJWT.EntityLayer.Entities
         public string SongTitle { get; set; }
         public string FileUrl { get; set; }
         public string ImageUrl { get; set; }
+        public int MinLevelRequired { get; set; }
+        public int ArtistId { get; set; }
+        public Artist Artist { get; set; }
 
-        public int PackageId { get; set; }
-        public Package Package { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
+
         public ICollection<PlaylistSong> PlaylistSongs { get; set; }
     }
 }

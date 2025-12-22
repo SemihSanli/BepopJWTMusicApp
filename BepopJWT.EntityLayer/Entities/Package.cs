@@ -12,8 +12,7 @@ namespace BepopJWT.EntityLayer.Entities
         public string PackageTitle { get; set; }
         public string PackageDescription { get; set; }
         public decimal Price { get; set; }
-        public int RequiredLevel { get; set; }
-        public ICollection<Song>Songs { get; set; }
+        public int PackageLevel { get; set; }
         public ICollection<User>Users { get; set; }
     }
 }

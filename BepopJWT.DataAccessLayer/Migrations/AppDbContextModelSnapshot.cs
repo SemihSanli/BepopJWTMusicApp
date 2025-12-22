@@ -106,15 +106,15 @@ namespace BepopJWT.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PackageLevel")
+                        .HasColumnType("int");
+
                     b.Property<string>("PackageTitle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("RequiredLevel")
-                        .HasColumnType("int");
 
                     b.HasKey("PackageId");
 
@@ -152,7 +152,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
                     b.Property<DateTime>("PaymentDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("PaymentStatus")
+                    b.Property<int>("Status")
                         .HasColumnType("int");
 
                     b.HasKey("PaymentId");
@@ -210,10 +210,10 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SongId"));
 
-                    b.Property<int?>("ArtistId")
+                    b.Property<int>("ArtistId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CategoryId")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("FileUrl")
@@ -224,7 +224,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PackageId")
+                    b.Property<int>("MinLevelRequired")
                         .HasColumnType("int");
 
                     b.Property<int?>("PlaylistId")
@@ -239,8 +239,6 @@ namespace BepopJWT.DataAccessLayer.Migrations
                     b.HasIndex("ArtistId");
 
                     b.HasIndex("CategoryId");
-
-                    b.HasIndex("PackageId");
 
                     b.HasIndex("PlaylistId");
 
@@ -267,6 +265,10 @@ namespace BepopJWT.DataAccessLayer.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -343,17 +345,15 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Song", b =>
                 {
-                    b.HasOne("BepopJWT.EntityLayer.Entities.Artist", null)
+                    b.HasOne("BepopJWT.EntityLayer.Entities.Artist", "Artist")
                         .WithMany("Songs")
-                        .HasForeignKey("ArtistId");
+                        .HasForeignKey("ArtistId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("BepopJWT.EntityLayer.Entities.Category", null)
+                    b.HasOne("BepopJWT.EntityLayer.Entities.Category", "Category")
                         .WithMany("Songs")
-                        .HasForeignKey("CategoryId");
-
-                    b.HasOne("BepopJWT.EntityLayer.Entities.Package", "Package")
-                        .WithMany("Songs")
-                        .HasForeignKey("PackageId")
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -361,7 +361,9 @@ namespace BepopJWT.DataAccessLayer.Migrations
                         .WithMany("Songs")
                         .HasForeignKey("PlaylistId");
 
-                    b.Navigation("Package");
+                    b.Navigation("Artist");
+
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.User", b =>
@@ -390,8 +392,6 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Package", b =>
                 {
-                    b.Navigation("Songs");
-
                     b.Navigation("Users");
                 });
 

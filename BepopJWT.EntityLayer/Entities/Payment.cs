@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BepopJWT.EntityLayer.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +25,7 @@ namespace BepopJWT.EntityLayer.Entities
         public string Currency { get; set; } = "TRY";
 
 
-        public int PaymentStatus { get; set; }
+        public PaymentStatus Status { get; set; }
 
 
         public string? ErrorMessage { get; set; }

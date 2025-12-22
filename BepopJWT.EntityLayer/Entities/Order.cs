@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BepopJWT.EntityLayer.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace BepopJWT.EntityLayer.Entities
     {
         public int OrderId { get; set; }
         public string ConversationId { get; set; } 
-        public int Status { get; set; }
+        public OrderStatus Status { get; set; }
 
         public int UserId { get; set; }
         public User User { get; set; }
