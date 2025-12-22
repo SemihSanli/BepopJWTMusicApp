@@ -1,4 +1,5 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
+using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,30 +11,43 @@ namespace BepopJWT.BusinessLayer.Concrete
 {
     public class ArtistManager : IArtistService
     {
-        
-        public Task TAddAsync(Artist entity)
+        private readonly IArtistDal _artistDal;
+
+        public ArtistManager(IArtistDal artistDal)
         {
-            throw new NotImplementedException();
+            _artistDal = artistDal;
         }
 
-        public Task TDeleteAsync(int id)
+        public async Task TAddAsync(Artist entity)
         {
-            throw new NotImplementedException();
+           await _artistDal.AddAsync(entity);
         }
 
-        public Task<List<Artist>> TGetAllAsync()
+        public async Task TDeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var value = await _artistDal.GetByIdAsync(id);
+            if (value == null)
+            {
+                throw new Exception("Artis Bulunamadı");
+            }
+            else
+            {
+                await _artistDal.DeleteAsync(id);
+            }
+        }
+        public async Task<List<Artist>> TGetAllAsync()
+        {
+           return await _artistDal.GetAllAsync();
         }
 
-        public Task<Artist> TGetByIdAsync(int id)
+        public async Task<Artist> TGetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _artistDal.GetByIdAsync(id);
         }
 
-        public Task TUpdateAsync(Artist entity)
+        public async Task TUpdateAsync(Artist entity)
         {
-            throw new NotImplementedException();
+           await _artistDal.UpdateAsync(entity);
         }
     }
 }

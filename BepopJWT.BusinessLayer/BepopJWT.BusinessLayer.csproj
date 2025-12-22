@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BepopJWT.DataAccessLayer\BepopJWT.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\BepopJWT.DTOLayer\BepopJWT.DTOLayer.csproj" />
   </ItemGroup>
 
 </Project>

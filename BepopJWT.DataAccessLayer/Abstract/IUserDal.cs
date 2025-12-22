@@ -9,5 +9,6 @@ namespace BepopJWT.DataAccessLayer.Abstract
 {
     public interface IUserDal:IGenericDal<User>
     {
+        Task<User?> GetByEmailAsync(string email);
     }
 }

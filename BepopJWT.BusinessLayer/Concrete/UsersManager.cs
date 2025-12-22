@@ -1,4 +1,5 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
+using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,29 +11,41 @@ namespace BepopJWT.BusinessLayer.Concrete
 {
     public class UsersManager : IUserService
     {
-        public Task TAddAsync(User entity)
+        private readonly IUserDal _userDal;
+
+        public UsersManager(IUserDal userDal)
         {
-            throw new NotImplementedException();
+            _userDal = userDal;
         }
 
-        public Task TDeleteAsync(int id)
+        public async Task TAddAsync(User entity)
         {
-            throw new NotImplementedException();
+           await _userDal.AddAsync(entity);
         }
 
-        public Task<List<User>> TGetAllAsync()
+        public async Task TDeleteAsync(int id)
         {
-            throw new NotImplementedException();
+           await _userDal.DeleteAsync(id);
         }
 
-        public Task<User> TGetByIdAsync(int id)
+        public async Task<List<User>> TGetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _userDal.GetAllAsync();
         }
 
-        public Task TUpdateAsync(User entity)
+        public async Task<User?> TGetByEmailAsync(string email)
         {
-            throw new NotImplementedException();
+           return await _userDal.GetByEmailAsync(email);
+        }
+
+        public async Task<User> TGetByIdAsync(int id)
+        {
+           return await _userDal.GetByIdAsync(id);
+        }
+
+        public async Task TUpdateAsync(User entity)
+        {
+            await _userDal.UpdateAsync(entity);
         }
     }
 }

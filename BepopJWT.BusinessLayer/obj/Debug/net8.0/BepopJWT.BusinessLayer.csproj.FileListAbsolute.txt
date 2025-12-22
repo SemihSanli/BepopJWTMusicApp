@@ -15,3 +15,5 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\Bep
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\refint\BepopJWT.BusinessLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\ref\BepopJWT.BusinessLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DTOLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DTOLayer.pdb
