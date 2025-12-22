@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Sy4p4MQQAbU=",
+  "dgSpecHash": "MKo/beUSmFY=",
   "success": true,
   "projectFilePath": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Semih\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\Semih\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
