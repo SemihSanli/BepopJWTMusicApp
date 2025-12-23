@@ -48,7 +48,8 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddScoped<IAuthService, AuthManager>();
 builder.Services.AddScoped<IArtistDal, EfArtistDal>();
 builder.Services.AddScoped<IArtistService, ArtistManager>();
-
+builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
+builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<IUserDal, EfUserDal>();
 builder.Services.AddScoped<IUserService, UsersManager>();
 builder.Services.AddScoped<ITokenService, TokenManager>();

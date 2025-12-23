@@ -1,4 +1,5 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
+using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,29 +11,36 @@ namespace BepopJWT.BusinessLayer.Concrete
 {
     public class CategoryManager : ICategoryService
     {
-        public Task TAddAsync(Category entity)
+        private readonly ICategoryDal _categoryDal;
+
+        public CategoryManager(ICategoryDal categoryDal)
         {
-            throw new NotImplementedException();
+            _categoryDal = categoryDal;
         }
 
-        public Task TDeleteAsync(int id)
+        public async Task TAddAsync(Category entity)
         {
-            throw new NotImplementedException();
+            await _categoryDal.AddAsync(entity);
         }
 
-        public Task<List<Category>> TGetAllAsync()
+        public async Task TDeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            await _categoryDal.DeleteAsync(id);
         }
 
-        public Task<Category> TGetByIdAsync(int id)
+        public async Task<List<Category>> TGetAllAsync()
         {
-            throw new NotImplementedException();
+           return await _categoryDal.GetAllAsync();
         }
 
-        public Task TUpdateAsync(Category entity)
+        public async Task<Category> TGetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+           return await _categoryDal.GetByIdAsync(id);
+        }
+
+        public async Task TUpdateAsync(Category entity)
+        {
+            await _categoryDal.UpdateAsync(entity);
         }
     }
 }
