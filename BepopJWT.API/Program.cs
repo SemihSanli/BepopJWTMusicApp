@@ -50,6 +50,8 @@ builder.Services.AddScoped<IArtistDal, EfArtistDal>();
 builder.Services.AddScoped<IArtistService, ArtistManager>();
 builder.Services.AddScoped<ICategoryDal, EfCategoryDal>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
+builder.Services.AddScoped<IPackageDal,EfPackageDal>();
+builder.Services.AddScoped<IPackageService, PackageManager>();
 builder.Services.AddScoped<IUserDal, EfUserDal>();
 builder.Services.AddScoped<IUserService, UsersManager>();
 builder.Services.AddScoped<ITokenService, TokenManager>();
