@@ -8,11 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Iyzipay" Version="2.1.67" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BepopJWT.DataAccessLayer\BepopJWT.DataAccessLayer.csproj" />
     <ProjectReference Include="..\BepopJWT.DTOLayer\BepopJWT.DTOLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IyzicoSettings\" />
   </ItemGroup>
 
 </Project>

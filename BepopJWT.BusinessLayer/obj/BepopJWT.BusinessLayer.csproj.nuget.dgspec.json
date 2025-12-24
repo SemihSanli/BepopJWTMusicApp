@@ -61,6 +61,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Iyzipay": {
+              "target": "Package",
+              "version": "[2.1.67, )"
             }
           },
           "imports": [
