@@ -33,6 +33,11 @@ namespace BepopJWT.BusinessLayer.Concrete
             return await _orderDal.GetAllAsync();
         }
 
+        public async Task<Order> TGetByConversationId(string conversationId)
+        {
+          return await _orderDal.GetByConversationId(conversationId);
+        }
+
         public async Task<Order> TGetByIdAsync(int id)
         {
             return await _orderDal.GetByIdAsync(id);

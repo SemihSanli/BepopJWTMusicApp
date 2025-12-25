@@ -9,5 +9,6 @@ namespace BepopJWT.DataAccessLayer.Abstract
 {
     public interface IOrderDal:IGenericDal<Order>
     {
+        Task<Order> GetByConversationId(string conversationId);
     }
 }

@@ -2,6 +2,7 @@
 using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.DTOLayer.PaymentDTOs;
 using BepopJWT.EntityLayer.Entities;
+using BepopJWT.EntityLayer.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,13 +47,54 @@ namespace BepopJWT.BusinessLayer.Concrete
                 ConversationId = Guid.NewGuid().ToString(),
                 UserId = user.UserId,
                 PackageId = newPackage.PackageId,
+                PaidAmount = newPackage.Price,
+                Status = OrderStatus.Pending,
+                CreatedDate = DateTime.UtcNow
             };
-            return order.ToString();
+            await _orderService.TAddAsync(order);
+            return await _iyzicoService.StartPaymentProcess(user, newPackage, order.ConversationId);
+
         }
 
-        public Task<string> ProcessCallBack(IyzicoCallbackDTO iyzicoCallbackDto)
+        public async Task<string> ProcessCallBack(IyzicoCallbackDTO iyzicoCallbackDto)
         {
-            throw new NotImplementedException();
+            var form = await _iyzicoService.GetPaymentResult(iyzicoCallbackDto.Token);
+            if (form.PaymentStatus != "SUCCESS") return "FAILED" + form.ErrorMessage;
+            var order = await _orderService.TGetByConversationId(form.ConversationId);
+            if (order == null) return "ORDER_NOT_FOUND";
+
+            if (order.Status == OrderStatus.Paid) return "ORDER_ALREADY_PAID";
+
+            try
+            {
+                // A. Siparişi Güncelle (Enum ile)
+                order.Status = OrderStatus.Paid;
+                await _orderService.TUpdateAsync(order);
+
+                // B. Ödeme Kaydı
+                var payment = new Payment
+                {
+                    OrderId = order.OrderId,
+                    IyzicoPaymentId = form.PaymentId,
+                    ConversationId = form.ConversationId,
+                    PaidPrice = Convert.ToDecimal(form.PaidPrice),
+                    Status = PaymentStatus.Success, // Payment tablosundaki status int ise 1 kalabilir, enum ise onu da düzeltirsin.
+                    PaymentDate = DateTime.UtcNow
+                };
+                await _paymentDal.AddAsync(payment);
+
+                // C. Kullanıcı Paketini Güncelle
+                var user = await _userService.TGetByIdAsync(order.UserId);
+                user.PackageId = order.PackageId;
+                await _userService.TUpdateAsync(user);
+
+                return "SUCCESS";
+            }
+            catch (Exception ex)
+            {
+                await _iyzicoService.RefundPayment(form.PaymentId, "127.0.0.1");
+                return "SYSTEM_ERROR_REFUNDED: " + ex.Message;
+            }
         }
 
         public async Task TAddAsync(Payment entity)

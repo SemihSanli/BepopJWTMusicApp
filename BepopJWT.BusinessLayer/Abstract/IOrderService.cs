@@ -9,5 +9,6 @@ namespace BepopJWT.BusinessLayer.Abstract
 {
     public interface IOrderService:IGenericService<Order>
     {
+        Task<Order> TGetByConversationId(string conversationId);
     }
 }
