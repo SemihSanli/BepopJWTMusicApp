@@ -163,3 +163,9 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\obj\Debug\net8.0\refint\Be
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\obj\Debug\net8.0\BepopJWT.Consume.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\obj\Debug\net8.0\BepopJWT.Consume.genruntimeconfig.cache
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\obj\Debug\net8.0\ref\BepopJWT.Consume.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\bin\Debug\net8.0\Iyzipay.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\bin\Debug\net8.0\BepopJWT.DTOLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.Consume\bin\Debug\net8.0\BepopJWT.DTOLayer.pdb

@@ -1,4 +1,5 @@
-﻿using BepopJWT.EntityLayer.Entities;
+﻿using BepopJWT.DTOLayer.PaymentDTOs;
+using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,7 @@ namespace BepopJWT.BusinessLayer.Abstract
 {
     public interface IPaymentService:IGenericService<Payment>
     {
+        Task<string> InitializePayment(PaymentRequestDTO paymentRequestDto);
+        Task<string> ProcessCallBack(IyzicoCallbackDTO iyzicoCallbackDto);
     }
 }

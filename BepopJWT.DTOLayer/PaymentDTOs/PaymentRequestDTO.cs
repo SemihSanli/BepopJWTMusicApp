@@ -10,6 +10,5 @@ namespace BepopJWT.DTOLayer.PaymentDTOs
     {
         public int UserId { get; set; } 
         public int PackageId { get; set; } 
-        public decimal Price { get; set; } 
     }
 }

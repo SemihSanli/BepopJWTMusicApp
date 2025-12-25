@@ -1,5 +1,6 @@
 using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.BusinessLayer.Concrete;
+using BepopJWT.BusinessLayer.Options.IyzicoOptions;
 using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.DataAccessLayer.Context;
 using BepopJWT.DataAccessLayer.EntityFramework;
@@ -12,6 +13,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.Configure<IyzicoSettings>(builder.Configuration.GetSection("Iyzipay"));
+builder.Services.Configure<PaymentSettings>(builder.Configuration.GetSection("PaymentSettings"));
 
 
 //JWT Kaydým buraya

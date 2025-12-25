@@ -10,7 +10,9 @@ namespace BepopJWT.EntityLayer.Entities
     public class Order
     {
         public int OrderId { get; set; }
-        public string ConversationId { get; set; } 
+        public string ConversationId { get; set; }
+        public decimal PaidAmount { get; set; } 
+        public DateTime CreatedDate { get; set; } 
         public OrderStatus Status { get; set; }
 
         public int UserId { get; set; }
