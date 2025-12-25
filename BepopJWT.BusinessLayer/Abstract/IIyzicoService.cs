@@ -11,7 +11,7 @@ namespace BepopJWT.BusinessLayer.Abstract
 {
     public interface IIyzicoService
     {
-        Task<string> StartPaymentProcess(PaymentRequestDTO paymentRequestDTO, User user, Package package, string conversationId);
+        Task<string> StartPaymentProcess(User user, Package package, string conversationId);
         Task<CheckoutForm> GetPaymentResult(string token);
 
         Task<bool> RefundPayment(string paymentId, string ip);
