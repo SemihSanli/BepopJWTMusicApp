@@ -1,4 +1,5 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
+using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,29 +11,36 @@ namespace BepopJWT.BusinessLayer.Concrete
 {
     public class OrderManager : IOrderService
     {
-        public Task TAddAsync(Order entity)
+        private readonly IOrderDal _orderDal;
+
+        public OrderManager(IOrderDal orderDal)
         {
-            throw new NotImplementedException();
+            _orderDal = orderDal;
         }
 
-        public Task TDeleteAsync(int id)
+        public async Task TAddAsync(Order entity)
         {
-            throw new NotImplementedException();
+           await _orderDal.AddAsync(entity);
         }
 
-        public Task<List<Order>> TGetAllAsync()
+        public async Task TDeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            await _orderDal.DeleteAsync(id);
         }
 
-        public Task<Order> TGetByIdAsync(int id)
+        public async Task<List<Order>> TGetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _orderDal.GetAllAsync();
         }
 
-        public Task TUpdateAsync(Order entity)
+        public async Task<Order> TGetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _orderDal.GetByIdAsync(id);
+        }
+
+        public async Task TUpdateAsync(Order entity)
+        {
+           await _orderDal.UpdateAsync(entity);
         }
     }
 }
