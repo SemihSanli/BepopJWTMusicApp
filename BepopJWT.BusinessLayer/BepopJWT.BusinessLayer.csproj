@@ -16,8 +16,4 @@
     <ProjectReference Include="..\BepopJWT.DTOLayer\BepopJWT.DTOLayer.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="IyzicoSettings\" />
-  </ItemGroup>
-
 </Project>

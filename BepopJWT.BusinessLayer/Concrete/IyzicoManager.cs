@@ -1,0 +1,135 @@
+﻿using BepopJWT.BusinessLayer.Abstract;
+using BepopJWT.BusinessLayer.Options.IyzicoOptions;
+using BepopJWT.DTOLayer.PaymentDTOs;
+using BepopJWT.EntityLayer.Entities;
+using Iyzipay.Model;
+using Iyzipay.Request;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BepopJWT.BusinessLayer.Concrete
+{
+    public class IyzicoManager : IIyzicoService
+    {
+        private readonly IyzicoSettings _iyzicoSettings;
+        private readonly PaymentSettings _paymentSettings;
+
+        public IyzicoManager(PaymentSettings paymentSettings, IyzicoSettings iyzicoSettings)
+        {
+            _paymentSettings = paymentSettings;
+            _iyzicoSettings = iyzicoSettings;
+        }
+
+        private Iyzipay.Options GetOptions()
+        {
+            var options = new Iyzipay.Options();
+            options.ApiKey = _iyzicoSettings.ApiKey;
+            options.SecretKey = _iyzicoSettings.SecretKey;
+            options.BaseUrl = _iyzicoSettings.BaseUrl;
+            return options;
+
+        }
+
+        public Task<CheckoutForm> GetPaymentResult(string token)
+        {
+           var request = new RetrieveCheckoutFormRequest {
+               Token = token
+           };
+            return CheckoutForm.Retrieve(request, GetOptions());
+        }
+
+        public async Task<bool> RefundPayment(string paymentId, string ip)
+        {
+            var request = new CreateCancelRequest();
+            request.ConversationId = Guid.NewGuid().ToString();
+            request.Locale = Locale.TR.ToString();
+            request.PaymentId = paymentId; // İptal edilecek işlemin Iyzico ID'si
+            request.Ip = ip ?? "127.0.0.1"; // İsteği yapan IP adresi
+            request.Reason = "other";
+            request.Description = "Sistem hatası nedeniyle otomatik iptal (Rollback)";
+          
+            {
+                var cancel = await Cancel.Create(request, GetOptions());
+
+                // Artık burası kesinlikle string, hata vermez.
+                if (cancel.Status == "success")
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            };
+        }
+
+        public async Task<string> StartPaymentProcess(User user, Package package, string conversationId)
+        {
+            var request = new CreateCheckoutFormInitializeRequest();
+            request.CallbackUrl = _paymentSettings.CallbackUrl;
+
+            request.ConversationId = conversationId;
+            request.Price = package.Price.ToString("F2",CultureInfo.InvariantCulture);
+            request.PaidPrice=package.Price.ToString("F2", CultureInfo.InvariantCulture);
+            request.Currency = Currency.TRY.ToString();
+            request.BasketId = conversationId;
+            request.PaymentGroup = PaymentGroup.PRODUCT.ToString();
+            request.EnabledInstallments = new List<int> { 1 };
+
+            //Alıcı bilgilerim
+
+            var buyer = new Buyer
+            {
+                Id = user.UserId.ToString(),
+                Name = user.FullName.Split(' ')[0],
+                GsmNumber = "+905555555555", //buraya canlı olarak user entitysine ekleyebilirz fakat ben yapmadım sandbox olduğu için
+                Email = user.Email,
+                IdentityNumber = "11111111111", //Sandbox ortamında bu geçerlidir fakat canlıda TC Kimlik no girilmeli
+                RegistrationAddress = "İzmir", //Bu da db'den çekilebilir
+                Ip = "127.0.0.1",
+                City = "İzmir",
+                Country="Turkey"
+            };
+            request.Buyer = buyer;
+
+            //Fatura adresi
+            var address = new Address
+            {
+                ContactName = user.FullName,
+                City = "İzmir",
+                Country = "Turkey",
+                Description = "İzmir Adres",
+                ZipCode = "35000"
+            };
+            request.BillingAddress = address;
+            request.ShippingAddress = address;
+
+            //Sepet içeriğimiz
+
+            var basketItems = new List<BasketItem>
+            {
+                new BasketItem
+                {
+                    Id = package.PackageId.ToString(),
+                    Name = package.PackageTitle,
+                    Category1 = "Package",
+                    ItemType = BasketItemType.PHYSICAL.ToString(),
+                    Price = package.Price.ToString("F2",CultureInfo.InvariantCulture)
+                }
+            };
+            request.BasketItems = basketItems;
+
+            var form = await CheckoutFormInitialize.Create(request, GetOptions());
+
+            if(form.Status == "success")
+            {
+                return form.PaymentPageUrl;
+            }
+            throw new Exception($"Iyzico başlama hatası : {form.ErrorMessage} - Code : {form.ErrorCode}");
+        }
+    }
+}

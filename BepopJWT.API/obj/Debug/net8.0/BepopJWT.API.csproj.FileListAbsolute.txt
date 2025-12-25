@@ -156,3 +156,5 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\BCrypt.Net-Ne
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\BepopJWT.DTOLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\BepopJWT.DTOLayer.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\Iyzipay.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\Newtonsoft.Json.dll
