@@ -16,5 +16,6 @@ namespace BepopJWT.EntityLayer.Entities
         public string Role { get; set; } = "Member";
         public int? PackageId { get; set; }
         public Package Package { get; set; }
+        public ICollection<Playlist> Playlists { get; set; }
     }
 }

@@ -9,3 +9,4 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.DTOLayer\obj\Debug\net8.0\BepopJWT
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.DTOLayer\obj\Debug\net8.0\refint\BepopJWT.DTOLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.DTOLayer\obj\Debug\net8.0\BepopJWT.DTOLayer.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.DTOLayer\obj\Debug\net8.0\ref\BepopJWT.DTOLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.DTOLayer\obj\Debug\net8.0\BepopJWT.DTOLayer.csproj.AssemblyReference.cache

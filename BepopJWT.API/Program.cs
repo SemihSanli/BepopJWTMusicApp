@@ -1,5 +1,6 @@
 using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.BusinessLayer.Concrete;
+using BepopJWT.BusinessLayer.Options.CloudinaryOptions;
 using BepopJWT.BusinessLayer.Options.IyzicoOptions;
 using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.DataAccessLayer.Context;
@@ -15,6 +16,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 
 builder.Services.Configure<IyzicoSettings>(builder.Configuration.GetSection("Iyzipay"));
 builder.Services.Configure<PaymentSettings>(builder.Configuration.GetSection("PaymentSettings"));
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
 
 
 //JWT Kaydým buraya
@@ -63,6 +65,9 @@ builder.Services.AddScoped<IOrderService, OrderManager>();
 builder.Services.AddScoped<IUserDal, EfUserDal>();
 builder.Services.AddScoped<IUserService, UsersManager>();
 builder.Services.AddScoped<ITokenService, TokenManager>();
+builder.Services.AddScoped<ISongDal, EfSongDal>();
+builder.Services.AddScoped<ISongService, SongManager>();
+builder.Services.AddScoped<IFileUploadService, FileUploadManager>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

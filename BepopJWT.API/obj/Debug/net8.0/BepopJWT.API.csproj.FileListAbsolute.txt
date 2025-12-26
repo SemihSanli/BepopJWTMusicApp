@@ -158,3 +158,4 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\BepopJWT.DTOL
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\Iyzipay.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.API\bin\Debug\net8.0\CloudinaryDotNet.dll

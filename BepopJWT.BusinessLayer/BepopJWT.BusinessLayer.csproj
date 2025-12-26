@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="CloudinaryDotNet" Version="1.27.9" />
     <PackageReference Include="Iyzipay" Version="2.1.67" />
   </ItemGroup>
 

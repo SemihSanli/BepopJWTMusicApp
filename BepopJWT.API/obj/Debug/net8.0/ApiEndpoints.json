@@ -254,6 +254,89 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BepopJWT.WebApi.Controllers.PaymentsController",
+    "Method": "ProcessCallback",
+    "RelativePath": "api/Payments/callback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "callbackDto",
+        "Type": "BepopJWT.DTOLayer.PaymentDTOs.IyzicoCallbackDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.WebApi.Controllers.PaymentsController",
+    "Method": "InitializePayment",
+    "RelativePath": "api/Payments/initialize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentRequestDto",
+        "Type": "BepopJWT.DTOLayer.PaymentDTOs.PaymentRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "GetAllSongs",
+    "RelativePath": "api/Songs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "UploadSong",
+    "RelativePath": "api/Songs/fileupload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SongTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArtistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinLevelRequired",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SongFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BepopJWT.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

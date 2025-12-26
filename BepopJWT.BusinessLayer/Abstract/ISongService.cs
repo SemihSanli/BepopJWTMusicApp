@@ -1,4 +1,5 @@
-﻿using BepopJWT.EntityLayer.Entities;
+﻿using BepopJWT.DTOLayer.SongDTOs;
+using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace BepopJWT.BusinessLayer.Abstract
 {
     public interface ISongService:IGenericService<Song>
     {
+        Task AddSongWithFileAsync(CreateSongDTO createSongDto, string rootPath);
     }
 }

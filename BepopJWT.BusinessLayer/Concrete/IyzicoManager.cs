@@ -4,6 +4,7 @@ using BepopJWT.DTOLayer.PaymentDTOs;
 using BepopJWT.EntityLayer.Entities;
 using Iyzipay.Model;
 using Iyzipay.Request;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -18,10 +19,11 @@ namespace BepopJWT.BusinessLayer.Concrete
         private readonly IyzicoSettings _iyzicoSettings;
         private readonly PaymentSettings _paymentSettings;
 
-        public IyzicoManager(PaymentSettings paymentSettings, IyzicoSettings iyzicoSettings)
+        public IyzicoManager(IOptions<PaymentSettings> paymentSettingsOptions, IOptions<IyzicoSettings> iyzicoSettingsOptions)
         {
-            _paymentSettings = paymentSettings;
-            _iyzicoSettings = iyzicoSettings;
+            
+            _paymentSettings = paymentSettingsOptions.Value;
+            _iyzicoSettings = iyzicoSettingsOptions.Value;
         }
 
         private Iyzipay.Options GetOptions()
@@ -69,6 +71,36 @@ namespace BepopJWT.BusinessLayer.Concrete
 
         public async Task<string> StartPaymentProcess(User user, Package package, string conversationId)
         {
+
+            // --- 1. AD VE SOYAD AYRIŞTIRMA MANTIĞI ---
+            string buyerName = user.Username; //Bu kısım benim yedeğim aslında. Eğer name ve surname boşsa name yerine username surname yerine de "Uye" yazıyor.
+            string buyerSurname = "Uye";      
+
+
+            //Bu kısım normalde gerekli değil fakat ben Db'de fullName tuttuğum için ve iyzico da surname kısmını zorunlu kıldığı için böyle bir bölme işlemine girdim.
+            if (!string.IsNullOrWhiteSpace(user.FullName))
+            {
+                string tempName = user.FullName.Trim(); //burdaki trim, kullanıcı yanlışlıkla boşluk bırakarak yazarsa o boşlukları düzeltiyor
+                int lastSpaceIndex = tempName.LastIndexOf(' '); // Burada en son boşluğu arıyor, "Ad Soyad" gibi
+
+                if (lastSpaceIndex > 0)
+                {
+                    //0'cı karakterden başlayıp son boşluğa kadar alıyor.
+                    buyerName = tempName.Substring(0, lastSpaceIndex);
+
+                    // Son boşluktan sonraki kısmı alıyor burası da.
+                    buyerSurname = tempName.Substring(lastSpaceIndex + 1);
+                }
+                else
+                {
+                    // Hiç boşluk yoksa (Tek kelime ise), hata vermesin diye ikisine de aynı şeyi yazıyoruz.
+                    buyerName = tempName;
+                    buyerSurname = tempName;
+                }
+            }
+            // -----------------------------------------
+
+
             var request = new CreateCheckoutFormInitializeRequest();
             request.CallbackUrl = _paymentSettings.CallbackUrl;
 
@@ -85,7 +117,8 @@ namespace BepopJWT.BusinessLayer.Concrete
             var buyer = new Buyer
             {
                 Id = user.UserId.ToString(),
-                Name = user.FullName.Split(' ')[0],
+                Name = buyerName,
+                Surname = buyerSurname,
                 GsmNumber = "+905555555555", //buraya canlı olarak user entitysine ekleyebilirz fakat ben yapmadım sandbox olduğu için
                 Email = user.Email,
                 IdentityNumber = "11111111111", //Sandbox ortamında bu geçerlidir fakat canlıda TC Kimlik no girilmeli
