@@ -44,7 +44,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasKey("ArtistId");
 
-                    b.ToTable("Artists");
+                    b.ToTable("Artists", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Category", b =>
@@ -61,7 +61,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasKey("CategoryId");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Order", b =>
@@ -97,7 +97,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Package", b =>
@@ -124,7 +124,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasKey("PackageId");
 
-                    b.ToTable("Packages");
+                    b.ToTable("Packages", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Payment", b =>
@@ -165,7 +165,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("Payments");
+                    b.ToTable("Payments", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Playlist", b =>
@@ -187,7 +187,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Playlists");
+                    b.ToTable("Playlists", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.PlaylistSong", b =>
@@ -205,7 +205,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasIndex("SongId");
 
-                    b.ToTable("PlaylistSongs");
+                    b.ToTable("PlaylistSongs", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Song", b =>
@@ -248,7 +248,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasIndex("PlaylistId");
 
-                    b.ToTable("Songs");
+                    b.ToTable("Songs", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.User", b =>
@@ -286,7 +286,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
                     b.HasIndex("PackageId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Order", b =>
