@@ -21,7 +21,7 @@ namespace BepopJWT.BusinessLayer.Concrete
             _fileUploadService = fileUploadService;
         }
 
-        public async Task AddSongWithFileAsync(CreateSongDTO createSongDto, string rootPath)
+        public async Task AddSongWithFileAsync(CreateSongDTO createSongDto)
         {
             var newSong = new Song
             {
@@ -30,27 +30,37 @@ namespace BepopJWT.BusinessLayer.Concrete
                 ArtistId = createSongDto.ArtistId,
                 MinLevelRequired = createSongDto.MinLevelRequired,
             };
+
+            // Müzik Yükleme
             if (createSongDto.SongFile != null)
             {
-                var musicDto = new UploadMusicDTO
-                {
-                    musicFile = createSongDto.SongFile,
-                    rootPath = rootPath
-                };
+                var musicDto = new UploadMusicDTO { musicFile = createSongDto.SongFile };
                 newSong.FileUrl = await _fileUploadService.UploadMusicAsync(musicDto);
             }
+
+            // Resim Yükleme (HATANIN ÇÖZÜLDÜĞÜ YER) 👇
             if (createSongDto.ImageFile != null)
             {
-                var imageDto = new UploadImageDTO
-                {
-                    imageFile = createSongDto.ImageFile,
-                    rootPath = rootPath
-                };
-                newSong.ImageUrl = await _fileUploadService.UploadImageAsync(imageDto);
+                var imageDto = new UploadImageDTO { imageFile = createSongDto.ImageFile };
+
+                // Buraya "bepop_covers" ekledik, artık patlamaz.
+                newSong.ImageUrl = await _fileUploadService.UploadImageAsync(imageDto, "bepop_covers");
             }
+
             await _songDal.AddAsync(newSong);
         }
-        //URL ile şarkı eklenmek isterse direkt olarak bu metodu kullanırız
+
+        public async Task DeleteWithFileAsync(int id)
+        {
+            var song = await _songDal.GetByIdAsync(id);
+            if(song==null) throw new Exception("Şarkı Bulunamadı");
+
+            await _fileUploadService.DeleteMusicAsync(song.FileUrl);
+            await _fileUploadService.DeleteImageAsync(song.ImageUrl);
+
+            await _songDal.DeleteAsync(id);
+        }
+
         public async Task TAddAsync(Song entity)
         {
           await  _songDal.AddAsync(entity);
@@ -74,6 +84,21 @@ namespace BepopJWT.BusinessLayer.Concrete
         public async Task TUpdateAsync(Song entity)
         {
            await _songDal.UpdateAsync(entity);
+        }
+
+        public async Task UpdateWithFileAsync(UpdateSongDTO updateSongDto)
+        {
+            var oldSong = await _songDal.GetByIdAsync(updateSongDto.SongId);
+            if (oldSong == null) throw new Exception("Şarkı Bulunamadı");
+
+            oldSong.FileUrl = await _fileUploadService.UpdateMusicAsync(updateSongDto.SongFile, oldSong.FileUrl);
+            oldSong.ImageUrl = await _fileUploadService.UpdateImageAsync(updateSongDto.ImageFile, oldSong.ImageUrl, "bepop_covers");
+
+            oldSong.SongTitle = updateSongDto.SongTitle;
+            oldSong.MinLevelRequired = updateSongDto.MinLevelRequired;
+            oldSong.ArtistId = updateSongDto.ArtistId;
+            oldSong.CategoryId = updateSongDto.CategoryId;
+            await _songDal.UpdateAsync(oldSong);
         }
     }
 }

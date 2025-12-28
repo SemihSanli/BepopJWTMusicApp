@@ -10,6 +10,9 @@ namespace BepopJWT.BusinessLayer.Abstract
 {
     public interface ISongService:IGenericService<Song>
     {
-        Task AddSongWithFileAsync(CreateSongDTO createSongDto, string rootPath);
+        Task AddSongWithFileAsync(CreateSongDTO createSongDto);
+        Task UpdateWithFileAsync(UpdateSongDTO updateSongDto);
+        Task DeleteWithFileAsync(int id);
+       
     }
 }

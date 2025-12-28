@@ -25,10 +25,21 @@ namespace BepopJWT.API.Controllers
         [HttpPost("fileupload")]
         public async Task<IActionResult> UploadSong([FromForm] CreateSongDTO createSongDto)
         {
-            string rootPath = _webHostEnvironment.WebRootPath;
-
-            await _songService.AddSongWithFileAsync(createSongDto, rootPath);
+           await _songService.AddSongWithFileAsync(createSongDto);
             return Ok(201 + "Dosya Yükleme İşleminiz Başarıyla Tamamlandı");
+        }
+        [HttpPut]
+        public async Task<IActionResult> UpdateSong([FromForm] UpdateSongDTO updateSongDto)
+        {
+            
+            await _songService.UpdateWithFileAsync(updateSongDto);
+            return Ok("Şarkı başarıyla güncellendi.");
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteSong(int id)
+        {
+            await _songService.DeleteWithFileAsync(id);
+            return Ok("Şarkı ve dosyaları başarıyla silindi.");
         }
     }
 }
