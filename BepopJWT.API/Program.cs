@@ -68,6 +68,9 @@ builder.Services.AddScoped<ITokenService, TokenManager>();
 builder.Services.AddScoped<ISongDal, EfSongDal>();
 builder.Services.AddScoped<ISongService, SongManager>();
 builder.Services.AddScoped<IFileUploadService, FileUploadManager>();
+builder.Services.AddScoped<IPlaylistDal, EfPlaylistDal>();
+builder.Services.AddScoped<IPlaylistSongDal, EfPlaylistSongDal>();
+builder.Services.AddScoped<IPlayListService, PlaylistManager>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

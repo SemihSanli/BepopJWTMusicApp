@@ -22,6 +22,7 @@ namespace BepopJWT.DataAccessLayer.Context
         public DbSet<Playlist> Playlists { get; set; }
         public DbSet<PlaylistSong> PlaylistSongs { get; set; }
         public DbSet<Song> Songs { get; set; }
+        public DbSet<Slider> Sliders { get; set; }
         public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
