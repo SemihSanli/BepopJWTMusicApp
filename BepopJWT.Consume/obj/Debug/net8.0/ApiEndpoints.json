@@ -1,0 +1,505 @@
+[
+  {
+    "ContainingType": "BepopJWT.API.Controllers.ArtistsController",
+    "Method": "GetAllArtists",
+    "RelativePath": "api/Artists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.ArtistsController",
+    "Method": "CreateArtist",
+    "RelativePath": "api/Artists",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.ArtistsController",
+    "Method": "UpdateArtist",
+    "RelativePath": "api/Artists",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ArtistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.ArtistsController",
+    "Method": "RemoveArtist",
+    "RelativePath": "api/Artists/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.ArtistsController",
+    "Method": "GetArtistById",
+    "RelativePath": "api/Artists/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.AuthsController",
+    "Method": "Login",
+    "RelativePath": "api/Auths/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "BepopJWT.DTOLayer.AuthDTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.AuthsController",
+    "Method": "Register",
+    "RelativePath": "api/Auths/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "BepopJWT.DTOLayer.AuthDTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.CategoriesController",
+    "Method": "GetAllCategories",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.CategoriesController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCategoryDTO",
+        "Type": "BepopJWT.DTOLayer.CategoryDTOs.CreateCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.CategoriesController",
+    "Method": "UpdateCategory",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateCategoryDTO",
+        "Type": "BepopJWT.DTOLayer.CategoryDTOs.UpdateCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.CategoriesController",
+    "Method": "RemoveCategory",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.CategoriesController",
+    "Method": "GetCategoryById",
+    "RelativePath": "api/Categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PackageController",
+    "Method": "GetAllPackage",
+    "RelativePath": "api/Package",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PackageController",
+    "Method": "CreatePackage",
+    "RelativePath": "api/Package",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createPackageDTO",
+        "Type": "BepopJWT.DTOLayer.PackageDTOs.CreatePackageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PackageController",
+    "Method": "UpdatePackage",
+    "RelativePath": "api/Package",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePackageDTO",
+        "Type": "BepopJWT.DTOLayer.PackageDTOs.UpdatePackageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PackageController",
+    "Method": "RemovePackage",
+    "RelativePath": "api/Package/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PackageController",
+    "Method": "GetPackageById",
+    "RelativePath": "api/Package/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.WebApi.Controllers.PaymentsController",
+    "Method": "ProcessCallback",
+    "RelativePath": "api/Payments/callback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "callbackDto",
+        "Type": "BepopJWT.DTOLayer.PaymentDTOs.IyzicoCallbackDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.WebApi.Controllers.PaymentsController",
+    "Method": "InitializePayment",
+    "RelativePath": "api/Payments/initialize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentRequestDto",
+        "Type": "BepopJWT.DTOLayer.PaymentDTOs.PaymentRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PlaylistsController",
+    "Method": "GetAllPlaylists",
+    "RelativePath": "api/Playlists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PlaylistsController",
+    "Method": "AddSongToPlaylist",
+    "RelativePath": "api/Playlists/add-song",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addSongToPlaylistDto",
+        "Type": "BepopJWT.DTOLayer.PlaylistDTOs.AddSongToPlaylistDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PlaylistsController",
+    "Method": "CreatePlaylist",
+    "RelativePath": "api/Playlists/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createPlaylistDto",
+        "Type": "BepopJWT.DTOLayer.PlaylistDTOs.CreatePlaylistDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PlaylistsController",
+    "Method": "GetUserPlaylists",
+    "RelativePath": "api/Playlists/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "GetAllSongs",
+    "RelativePath": "api/Songs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "UpdateSong",
+    "RelativePath": "api/Songs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SongId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SongTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinLevelRequired",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArtistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SongFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "DeleteSong",
+    "RelativePath": "api/Songs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "UploadSong",
+    "RelativePath": "api/Songs/fileupload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SongTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArtistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinLevelRequired",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SongFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BepopJWT.API.WeatherForecast, BepopJWT.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

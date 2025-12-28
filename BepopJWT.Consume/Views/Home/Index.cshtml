@@ -1,8 +1,357 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroBeat - Synthwave UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <style>
+        :root {
+            --neon-pink: #ff00ff;
+            --neon-blue: #00ffff;
+            --neon-orange: #ff9900;
+            --bg-dark: #121212;
+            --bg-panel: #1e1e24;
+            --paper-color: #f3e5ab; /* Üst kısımdaki kağıt rengi */
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            padding-bottom: 80px; /* Alt menü için boşluk */
+        }
+
+        /* --- ÜST BAR (Kağıt Dokusu) --- */
+        .top-navbar {
+            background-color: var(--paper-color);
+            background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png'); /* Kağıt dokusu */
+            padding: 15px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            border-bottom: 2px solid #d4c59a;
+            position: relative;
+            z-index: 10;
+        }
+
+        .brand-logo {
+            font-family: 'Righteous', cursive;
+            font-size: 2rem;
+            color: #5a3e2b; /* Kahverengi retro ton */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .brand-logo span {
+            color: #d35400;
+        }
+
+        .search-input {
+            border-radius: 20px;
+            border: 1px solid #cbb69d;
+            background: rgba(255,255,255,0.6);
+            color: #333;
+        }
+
+        /* --- ANA HERO ALANI (Plak Çalar) --- */
+        .hero-section {
+            position: relative;
+            background: radial-gradient(circle at center, #2b2b3d 0%, #1a1a2e 100%);
+            border: 2px solid var(--neon-pink);
+            border-radius: 20px;
+            box-shadow: 0 0 15px var(--neon-pink), inset 0 0 20px rgba(255, 0, 255, 0.2);
+            overflow: hidden;
+            margin-top: -10px; /* Üst barın altına hafif girsin */
+            padding: 40px;
+        }
+
+        /* Dekoratif Neon Çizgiler */
+        .neon-line {
+            height: 4px;
+            background: var(--neon-blue);
+            box-shadow: 0 0 10px var(--neon-blue);
+            margin: 20px 0;
+            border-radius: 2px;
+        }
+
+        /* --- KASETLER (Mixtapes) --- */
+        .tape-card {
+            background: #222;
+            border: 3px solid #444;
+            border-radius: 10px;
+            padding: 15px;
+            position: relative;
+            transition: transform 0.3s;
+            background: linear-gradient(135deg, #333 0%, #111 100%);
+        }
+
+        .tape-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--neon-orange);
+            box-shadow: 0 0 15px var(--neon-orange);
+        }
+
+        .tape-label {
+            background: #f0f0f0;
+            color: #333;
+            padding: 5px 10px;
+            font-family: 'Righteous', cursive;
+            border-radius: 4px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            transform: rotate(-2deg); /* Hafif yamukluk retro hissi verir */
+        }
+
+        .tape-circles {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 10px 0;
+        }
+
+        .tape-circle {
+            width: 40px;
+            height: 40px;
+            background: #000;
+            border-radius: 50%;
+            border: 2px solid #555;
+            position: relative;
+        }
+        .tape-circle::after {
+            content: '';
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10px; height: 10px;
+            background: #fff;
+            border-radius: 50%; /* Dişli görünümü */
+        }
+
+        /* --- VU METRELER (Artists) --- */
+        .vu-meter {
+            background: #e0d6c2;
+            border: 4px solid #333;
+            border-radius: 5px;
+            height: 80px;
+            position: relative;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+            overflow: hidden;
+        }
+
+        .vu-needle {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 2px;
+            height: 70px;
+            background: red;
+            transform-origin: bottom center;
+            transform: rotate(-45deg);
+            transition: transform 0.5s ease-in-out;
+            z-index: 2;
+        }
+
+        .vu-bg {
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+            width: 80%;
+            height: 100%;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border: 1px dashed #555;
+            opacity: 0.3;
+        }
+
+        /* --- ALT MENÜ --- */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: #3e2723; /* Koyu kahve/ahşap tonu */
+            border-top: 3px solid #d35400;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-around;
+            z-index: 100;
+        }
+
+        .nav-item-custom {
+            color: #d4c59a;
+            text-align: center;
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: color 0.3s;
+        }
+
+        .nav-item-custom i {
+            display: block;
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .nav-item-custom:hover, .nav-item-custom.active {
+            color: white;
+            text-shadow: 0 0 8px #fff;
+        }
+
+        /* Yardımcı Sınıflar */
+        .section-title {
+            font-family: 'Righteous', cursive;
+            color: #d4c59a;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar top-navbar">
+        <div class="container">
+            <a class="navbar-brand brand-logo" href="#">Retro<span>Beat</span></a>
+
+            <div class="d-flex align-items-center w-50">
+                <div class="input-group">
+                    <span class="input-group-text bg-transparent border-0"><i class="fas fa-search"></i></span>
+                    <input type="text" class="form-control search-input" placeholder="Search...">
+                </div>
+            </div>
+
+            <div class="user-profile">
+                <i class="fas fa-user-circle fa-2x text-dark"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+
+        <div class="hero-section mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="card bg-dark text-white border-0 shadow-lg" style="max-width: 250px;">
+                        <img src="https://via.placeholder.com/250x250/111/fff?text=COSMIC+FUNK" class="card-img-top" alt="Album Art">
+                        <div class="card-body text-center" style="background: #333;">
+                            <h5 class="card-title" style="font-family: 'Righteous'; color: var(--neon-orange);">COSMIC FUNK</h5>
+                            <button class="btn btn-outline-light btn-sm mt-2 rounded-pill">
+                                <i class="fas fa-play"></i> PLAY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 text-end d-none d-md-block">
+                    <i class="fas fa-record-vinyl fa-10x" style="color: rgba(255,255,255,0.1); animation: spin 5s linear infinite;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="neon-line"></div>
+
+        <h4 class="section-title">Featured Mixtapes</h4>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="tape-card">
+                    <div class="tape-label">Disco Fever</div>
+                    <div class="tape-circles">
+                        <div class="tape-circle"></div>
+                        <div class="tape-circle"></div>
+                    </div>
+                    <div class="text-center mt-2">
+                        <i class="fas fa-play-circle text-info fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tape-card" style="border-color: var(--neon-pink);">
+                    <div class="tape-label">Synthwave Sunset</div>
+                    <div class="tape-circles">
+                        <div class="tape-circle"></div>
+                        <div class="tape-circle"></div>
+                    </div>
+                    <div class="text-center mt-2">
+                        <i class="fas fa-play-circle text-info fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tape-card" style="border-color: var(--neon-blue);">
+                    <div class="tape-label">Lo-Fi Beats</div>
+                    <div class="tape-circles">
+                        <div class="tape-circle"></div>
+                        <div class="tape-circle"></div>
+                    </div>
+                    <div class="text-center mt-2">
+                        <i class="fas fa-play-circle text-info fa-2x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="section-title">Trending Artists</h4>
+        <div class="row g-3 mb-5">
+            <div class="col-6 col-md-3">
+                <div class="vu-meter">
+                    <div class="vu-bg"></div>
+                    <div class="vu-needle" id="needle1"></div>
+                    <div class="text-center fw-bold mt-4 pt-4 small text-dark">ARTIST</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="vu-meter">
+                    <div class="vu-bg"></div>
+                    <div class="vu-needle" id="needle2" style="transform: rotate(20deg);"></div>
+                    <div class="text-center fw-bold mt-4 pt-4 small text-dark" style="background: var(--neon-orange); color: white !important;">LOVERVE</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="vu-meter">
+                    <div class="vu-bg"></div>
+                    <div class="vu-needle" id="needle3" style="transform: rotate(-10deg);"></div>
+                    <div class="text-center fw-bold mt-4 pt-4 small text-dark">ARTIST</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="vu-meter">
+                    <div class="vu-bg"></div>
+                    <div class="vu-needle" id="needle4" style="transform: rotate(40deg);"></div>
+                    <div class="text-center fw-bold mt-4 pt-4 small text-dark">ARTIST</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bottom-nav">
+        <a href="#" class="nav-item-custom active">
+            <i class="fas fa-radio"></i>
+            RADIO
+        </a>
+        <a href="#" class="nav-item-custom">
+            <i class="fas fa-book"></i>
+            LIBRARY
+        </a>
+        <a href="#" class="nav-item-custom">
+            <i class="fas fa-search"></i>
+            SEARCH
+        </a>
+        <a href="#" class="nav-item-custom">
+            <i class="fas fa-cog"></i>
+            SETTINGS
+        </a>
+    </div>
+
+    <script>
+        // İbrelerin rastgele hareket etmesi için küçük bir script
+        setInterval(() => {
+            const needles = document.querySelectorAll('.vu-needle');
+            needles.forEach(needle => {
+                const randomDeg = Math.floor(Math.random() * 90) - 45; // -45 ile +45 derece arası
+                needle.style.transform = `rotate(${randomDeg}deg)`;
+            });
+        }, 800);
+    </script>
+</body>
+</html>

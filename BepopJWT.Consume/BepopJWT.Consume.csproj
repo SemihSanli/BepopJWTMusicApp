@@ -17,4 +17,8 @@
     <ProjectReference Include="..\BepopJWT.API\BepopJWT.API.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Bebop\libs\plyrist\dist\" />
+  </ItemGroup>
+
 </Project>

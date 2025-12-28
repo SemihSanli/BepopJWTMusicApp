@@ -5,6 +5,1354 @@
       "PackagePath": "staticwebassets\\BepopJWT.Consume.nxofg0var0.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\Bebop\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\Bebop\\Gruntfile.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\api\\menu.json",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\api\\menu.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\api\\music.json",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\api\\music.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\css\\rtl.css",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\css\\rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\css\\theme.css",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\css\\theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a0.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a1.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a10.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a11.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a12.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a13.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a14.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a15.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a16.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a17.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a18.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a19.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a2.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a20.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a21.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a22.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a23.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a24.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a25.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a26.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a27.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a28.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a29.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a3.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a30.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a31.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a32.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a33.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a34.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a35.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a4.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a5.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a6.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a7.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a8.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\a9.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b0.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b1.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b10.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b11.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b12.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b13.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b14.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b15.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b16.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b17.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b18.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b19.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b2.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b20.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b21.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b22.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b23.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b24.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b25.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b26.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b27.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b28.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b29.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b3.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b30.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b31.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b32.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b33.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b34.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b35.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b4.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b5.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b6.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b7.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b8.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\b9.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\b9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c0.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c1.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c10.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c11.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c12.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c13.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c14.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c15.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c16.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c17.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c18.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c19.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c2.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c20.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c21.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c22.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c23.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c24.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c25.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c26.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c27.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c28.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c29.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c3.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c30.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c31.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c32.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c33.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c34.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c35.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c4.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c5.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c6.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c7.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c8.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\img\\c9.jpg",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\img\\c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\ajax.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\jstore.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\jstore.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\lazyload.config.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\lazyload.config.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\lazyload.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\lazyload.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\plugin.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\plugin.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\plugins\\fullscreen.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\plugins\\fullscreen.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\plugins\\list.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\plugins\\list.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\plugins\\plyr.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\plugins\\plyr.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\plugins\\typeahead.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\plugins\\typeahead.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\site.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\js\\theme.js",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.alert.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.badge.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.base.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.base.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.button.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.button.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.card.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.carousel.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.dropdown.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.form.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.form.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.list-group.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.modal.animation.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.modal.animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.modal.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.nav.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.navbar.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.pagination.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.popover.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.progress.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.row.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.row.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_bs.table.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_bs.table.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_md.check.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_md.check.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_md.color.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_md.color.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_md.input.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_md.input.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_md.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_md.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_md.switch.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_md.switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.animate.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.animate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.aside.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.aside.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.avatar.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.chat.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.chat.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.check.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.check.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.color.dark.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.color.dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.color.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.color.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.layout.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.list.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.list.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.loading.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.loading.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.media.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.media.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.nav.folded.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.nav.folded.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.nav.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.page.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.page.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.plugin.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.plugin.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.switch.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.switch.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_ui.timeline.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_ui.timeline.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_util.base.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_util.base.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_util.border.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_util.border.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_util.hover.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_util.hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_util.radius.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_util.radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_util.scroll.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_util.scroll.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_util.size.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_util.size.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_util.text.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_util.text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_utils.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_utils.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\rtl.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\rtl.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\assets\\scss\\theme.scss",
+      "PackagePath": "staticwebassets\\Bebop\\assets\\scss\\theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\build.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\build.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\changelog.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\changelog.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\component.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\component.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\file-structure.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\file-structure.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\index.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\introduction.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\introduction.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\plugin.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\plugin.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\rtl.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\rtl.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\docs\\scripts.html",
+      "PackagePath": "staticwebassets\\Bebop\\docs\\scripts.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\404.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\505.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\505.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\artist.detail.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\artist.detail.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\artists.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\artists.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\blog.detail.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\blog.detail.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\blog.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\charts.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\charts.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\discover.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\discover.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\forgot-password.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\forgot-password.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\genres.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\genres.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\index.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\item.detail.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\item.detail.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\lockme.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\lockme.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\page.about.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\page.about.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\rtl.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\rtl.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\signin.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\signin.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\html\\signup.html",
+      "PackagePath": "staticwebassets\\Bebop\\html\\signup.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\index.html",
+      "PackagePath": "staticwebassets\\Bebop\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_navbar-align.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_navbar-align.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\feather-icons\\dist\\feather.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\feather-icons\\dist\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\jquery-fullscreen-plugin\\jquery.fullscreen-min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\jquery-fullscreen-plugin\\jquery.fullscreen-min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\jscroll\\dist\\jquery.jscroll.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\jscroll\\dist\\jquery.jscroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\list.js\\dist\\list.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\list.js\\dist\\list.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\list.js\\dist\\list.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\list.js\\dist\\list.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\pjax\\pjax.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\pjax\\pjax.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\pjax\\pjax.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\pjax\\pjax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\blank.mp4",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\blank.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.css",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.js.map",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.min.js.map",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.polyfilled.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.polyfilled.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.polyfilled.js.map",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.polyfilled.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.polyfilled.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.polyfilled.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.polyfilled.min.js.map",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.polyfilled.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyr\\dist\\plyr.svg",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyr\\dist\\plyr.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyrist\\src\\plyrist-line.svg",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyrist\\src\\plyrist-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyrist\\src\\plyrist.css",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyrist\\src\\plyrist.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyrist\\src\\plyrist.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyrist\\src\\plyrist.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyrist\\src\\plyrist.scss",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyrist\\src\\plyrist.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\plyrist\\src\\plyrist.svg",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\plyrist\\src\\plyrist.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\popper.js\\dist\\umd\\popper.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\popper.js\\dist\\umd\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\scrollreveal\\dist\\scrollreveal.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\scrollreveal\\dist\\scrollreveal.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\slick-carousel\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\slick-carousel\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\slick-carousel\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\slick-carousel\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\slick-carousel\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\slick-carousel\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\libs\\typeahead.js\\dist\\typeahead.bundle.min.js",
+      "PackagePath": "staticwebassets\\Bebop\\libs\\typeahead.js\\dist\\typeahead.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\package.json",
+      "PackagePath": "staticwebassets\\Bebop\\package.json"
+    },
+    {
       "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
