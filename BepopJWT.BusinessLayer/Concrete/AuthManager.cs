@@ -2,11 +2,15 @@
 using BepopJWT.DTOLayer.AuthDTOs;
 using BepopJWT.DTOLayer.TokenDTOs;
 using BepopJWT.EntityLayer.Entities;
+using CloudinaryDotNet.Actions;
+using CloudinaryDotNet;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BepopJWT.DTOLayer.ArtistDTOs;
+using BepopJWT.DTOLayer.FileUploadDTOs;
 
 namespace BepopJWT.BusinessLayer.Concrete
 {
@@ -14,10 +18,12 @@ namespace BepopJWT.BusinessLayer.Concrete
     {
         private readonly IUserService _userService;
         private readonly ITokenService _tokenService;
-        public AuthManager(IUserService userService, ITokenService tokenService)
+        private readonly IFileUploadService _fileUploadService;
+        public AuthManager(IUserService userService, ITokenService tokenService, IFileUploadService fileUploadService)
         {
             _userService = userService;
             _tokenService = tokenService;
+            _fileUploadService = fileUploadService;
         }
 
         public async Task CreateUser(RegisterDTO registerDTO)
@@ -26,6 +32,16 @@ namespace BepopJWT.BusinessLayer.Concrete
             if (existingUser !=null)
             {
                 throw new Exception("Bu Email Adresi Zaten Kullanımda");
+            }
+
+            string imageUrl = "";
+
+            if (registerDTO.ProfileImage != null)
+            {
+                imageUrl = await _fileUploadService.UploadImageAsync(
+                    new UploadImageDTO { imageFile = registerDTO.ProfileImage },
+                    "bepop_profile_images"
+                );
             }
 
             string passwordHash = BCrypt.Net.BCrypt.HashPassword(registerDTO.PasswordHash);
@@ -37,7 +53,9 @@ namespace BepopJWT.BusinessLayer.Concrete
                 Username = registerDTO.Username,
                 PasswordHash = passwordHash,
                 Role = registerDTO.Role,
+                ProfileImage = imageUrl,
                 PackageId = null
+                
             };
             await _userService.TAddAsync(newUser);
         }

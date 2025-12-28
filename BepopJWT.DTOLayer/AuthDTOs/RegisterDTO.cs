@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,6 @@ namespace BepopJWT.DTOLayer.AuthDTOs
         public string PasswordHash { get; set; }
         public string Role { get; set; } = "Member";
         public int? PackageId { get; set; }
+        public IFormFile ProfileImage { get; set; }
     }
 }

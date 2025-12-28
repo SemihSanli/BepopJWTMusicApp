@@ -33,6 +33,7 @@ namespace BepopJWT.BusinessLayer.Concrete
                 new Claim(ClaimTypes.Name, userTokenDTO.Username ?? ""),
                 new Claim(ClaimTypes.Email, userTokenDTO.Email ?? ""),
                 new Claim(ClaimTypes.Role, userTokenDTO.Role ?? "Member")
+
             };
             if (userTokenDTO.PackageId.HasValue)
             {
