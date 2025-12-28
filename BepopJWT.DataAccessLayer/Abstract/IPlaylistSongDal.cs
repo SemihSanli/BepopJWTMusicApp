@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace BepopJWT.DataAccessLayer.Abstract
 {
-    public interface IPlaylistDal:IGenericDal<Playlist>
+    public interface IPlaylistSongDal:IGenericDal<PlaylistSong>
     {
-        Task<List<Playlist>> GetPlaylistWithUserAndSongsAsync(int userId);
     }
 }

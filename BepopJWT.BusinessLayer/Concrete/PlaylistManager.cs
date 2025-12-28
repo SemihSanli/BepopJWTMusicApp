@@ -1,4 +1,6 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
+using BepopJWT.DataAccessLayer.Abstract;
+using BepopJWT.DTOLayer.PlaylistDTOs;
 using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -10,29 +12,88 @@ namespace BepopJWT.BusinessLayer.Concrete
 {
     public class PlaylistManager : IPlayListService
     {
-        public Task TAddAsync(Playlist entity)
+        private readonly IPlaylistDal _playlistDal;
+        private readonly IPlaylistSongDal _playlistSongDal;
+        public PlaylistManager(IPlaylistDal playlistDal, IPlaylistSongDal playlistSongDal)
         {
-            throw new NotImplementedException();
+            _playlistDal = playlistDal;
+            _playlistSongDal = playlistSongDal;
         }
 
-        public Task TDeleteAsync(int id)
+        public async Task AddSongToPlaylistAsync(AddSongToPlaylistDTO addSongToPlaylistDto)
         {
-            throw new NotImplementedException();
+            var playlistSong = new PlaylistSong
+            {
+                PlaylistId = addSongToPlaylistDto.PlaylistId,
+                SongId = addSongToPlaylistDto.SongId,
+                AddedAt = DateTime.UtcNow 
+            };
+
+            await _playlistSongDal.AddAsync(playlistSong);
         }
 
-        public Task<List<Playlist>> TGetAllAsync()
+        public async Task CreatePlayListAsync(CreatePlaylistDTO createPlaylistDto)
         {
-            throw new NotImplementedException();
+            var playlist = new Playlist
+            {
+                PlaylistName = createPlaylistDto.PlaylistName,
+                UserId = createPlaylistDto.UserId
+                
+            };
+            await _playlistDal.AddAsync(playlist);
         }
 
-        public Task<Playlist> TGetByIdAsync(int id)
+        public async Task<List<ResultPlaylistWithSongsDTO>> GetPlaylistsByUserIdAsync(int userId)
         {
-            throw new NotImplementedException();
+            var playlistsEntity = await _playlistDal.GetPlaylistWithUserAndSongsAsync(userId);
+            var playlistDtos = playlistsEntity.Select(p => new ResultPlaylistWithSongsDTO
+            {
+                PlaylistId = p.PlaylistId,
+                PlaylistName = p.PlaylistName,
+
+                
+                UserId = p.UserId,
+                Username = p.User !=null ? $"{p.User.FullName} {p.User.Username}" : "Bilinmeyen Kullanıcı",
+                                                             
+
+                Songs = p.PlaylistSongs.Select(ps => new ResultsSongsForPlaylistDTO
+                {
+                    SongId = ps.Song.SongId,
+                    SongTitle = ps.Song.SongTitle,
+                    ArtistName = ps.Song.Artist.Name, 
+                    FileUrl = ps.Song.FileUrl,
+                    ImageUrl = ps.Song.ImageUrl,
+                    AddedAt = ps.AddedAt
+                }).OrderByDescending(x => x.AddedAt).ToList() 
+
+            }).ToList();
+
+            return playlistDtos;
+        }   
+
+        public async Task TAddAsync(Playlist entity)
+        {
+           await _playlistDal.AddAsync(entity);
         }
 
-        public Task TUpdateAsync(Playlist entity)
+        public async Task TDeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            await _playlistDal.DeleteAsync(id);
+        }
+
+        public async Task<List<Playlist>> TGetAllAsync()
+        {
+            return await _playlistDal.GetAllAsync();
+        }
+
+        public async Task<Playlist> TGetByIdAsync(int id)
+        {
+           return await _playlistDal.GetByIdAsync(id);
+        }
+
+        public async Task TUpdateAsync(Playlist entity)
+        {
+          await _playlistDal.UpdateAsync(entity);
         }
     }
 }

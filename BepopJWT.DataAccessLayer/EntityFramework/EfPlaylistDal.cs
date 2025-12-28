@@ -2,6 +2,7 @@
 using BepopJWT.DataAccessLayer.Context;
 using BepopJWT.DataAccessLayer.Repositories;
 using BepopJWT.EntityLayer.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,20 @@ namespace BepopJWT.DataAccessLayer.EntityFramework
 {
     public class EfPlaylistDal:GenericRepository<Playlist>, IPlaylistDal
     {
+        private readonly AppDbContext _appDbContext;
         public EfPlaylistDal(AppDbContext appDbContext) : base(appDbContext)
         {
+            _appDbContext = appDbContext;
+        }
+
+        public async Task<List<Playlist>> GetPlaylistWithUserAndSongsAsync(int userId)
+        {
+            return await _appDbContext.Playlists
+                .Include(u=>u.User)
+               .Include(x => x.PlaylistSongs)
+               .ThenInclude(y => y.Song)
+               .ThenInclude(v=>v.Artist)
+               .Where(z => z.UserId == userId).ToListAsync();
         }
     }
 }
