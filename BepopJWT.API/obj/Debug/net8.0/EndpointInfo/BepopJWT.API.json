@@ -20,21 +20,38 @@
         "tags": [
           "Artists"
         ],
+        "parameters": [
+          {
+            "name": "Name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Bio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/CreateArtistDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateArtistDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateArtistDTO"
+                "type": "object",
+                "properties": {
+                  "ImageUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "ImageUrl": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -49,21 +66,46 @@
         "tags": [
           "Artists"
         ],
+        "parameters": [
+          {
+            "name": "ArtistId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Bio",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateArtistDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateArtistDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateArtistDTO"
+                "type": "object",
+                "properties": {
+                  "ImageUrl": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "ImageUrl": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -481,6 +523,77 @@
             "description": "OK"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Songs"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "SongId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "SongTitle": {
+                    "type": "string"
+                  },
+                  "MinLevelRequired": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ArtistId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CategoryId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "SongFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "SongId": {
+                  "style": "form"
+                },
+                "SongTitle": {
+                  "style": "form"
+                },
+                "MinLevelRequired": {
+                  "style": "form"
+                },
+                "ArtistId": {
+                  "style": "form"
+                },
+                "CategoryId": {
+                  "style": "form"
+                },
+                "SongFile": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Songs/fileupload": {
@@ -549,6 +662,29 @@
         }
       }
     },
+    "/api/Songs/{id}": {
+      "delete": {
+        "tags": [
+          "Songs"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -591,24 +727,6 @@
   },
   "components": {
     "schemas": {
-      "CreateArtistDTO": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "bio": {
-            "type": "string",
-            "nullable": true
-          },
-          "imageUrl": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "CreateCategoryDTO": {
         "type": "object",
         "properties": {
@@ -705,28 +823,6 @@
           "packageId": {
             "type": "integer",
             "format": "int32",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateArtistDTO": {
-        "type": "object",
-        "properties": {
-          "artistId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "bio": {
-            "type": "string",
-            "nullable": true
-          },
-          "imageUrl": {
-            "type": "string",
             "nullable": true
           }
         },

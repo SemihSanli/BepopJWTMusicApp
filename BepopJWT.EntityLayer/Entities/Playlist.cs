@@ -12,7 +12,6 @@ namespace BepopJWT.EntityLayer.Entities
         public string PlaylistName { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
-        public ICollection<Song> Songs { get; set; }
         public ICollection<PlaylistSong>PlaylistSongs { get; set; }
     }
 }

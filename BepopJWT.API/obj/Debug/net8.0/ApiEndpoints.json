@@ -18,9 +18,19 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "createArtistDTO",
-        "Type": "BepopJWT.DTOLayer.ArtistDTOs.CreateArtistDTO",
-        "IsRequired": true
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -34,9 +44,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "updateArtistDTO",
-        "Type": "BepopJWT.DTOLayer.ArtistDTOs.UpdateArtistDTO",
-        "IsRequired": true
+        "Name": "ArtistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageUrl",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -293,6 +318,68 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "UpdateSong",
+    "RelativePath": "api/Songs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SongId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SongTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinLevelRequired",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArtistId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SongFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "DeleteSong",
+    "RelativePath": "api/Songs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

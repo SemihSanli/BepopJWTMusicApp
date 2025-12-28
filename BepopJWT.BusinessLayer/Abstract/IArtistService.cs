@@ -10,5 +10,8 @@ namespace BepopJWT.BusinessLayer.Abstract
 {
     public interface IArtistService:IGenericService<Artist>
     {
+        Task CreateArtistWithImageFileAsync(CreateArtistDTO createArtistDto);
+        Task UpdateArtistWithImageFileAsync(UpdateArtistDTO updateArtistDto);
+        Task DeleteArtistWithImageFileAsync(int id);
     }
 }

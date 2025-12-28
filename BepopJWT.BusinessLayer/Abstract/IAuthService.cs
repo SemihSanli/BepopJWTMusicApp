@@ -11,5 +11,6 @@ namespace BepopJWT.BusinessLayer.Abstract
     {
         Task CreateUser(RegisterDTO registerDTO);
         Task<string>LogIn(LoginDTO loginDTO);
+
     }
 }

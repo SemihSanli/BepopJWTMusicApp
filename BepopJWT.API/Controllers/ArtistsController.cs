@@ -21,20 +21,15 @@ namespace BepopJWT.API.Controllers
         public async Task<IActionResult> GetAllArtists()
         {
             var artists = await _artistService.TGetAllAsync();
-            return Ok(artists);
+            return StatusCode(201, artists);
         }
         [HttpPost]
         public async Task<IActionResult> CreateArtist(CreateArtistDTO createArtistDTO)
         {
             try
             {
-                var artist = new Artist
-                {
-                    Name = createArtistDTO.Name,
-                    Bio = createArtistDTO.Bio,
-                    ImageUrl = createArtistDTO.ImageUrl
-                };
-                await _artistService.TAddAsync(artist);
+               
+              await _artistService.CreateArtistWithImageFileAsync(createArtistDTO);
                 return StatusCode(201, new { Message = "Sanatçı Başarıyla Eklendi" });
             }
             catch (Exception ex)
@@ -48,20 +43,9 @@ namespace BepopJWT.API.Controllers
         {
             try
             {
-              
-                var artist = new Artist
-                {
-                    ArtistId = updateArtistDTO.ArtistId, 
-                    Name = updateArtistDTO.Name,
-                    Bio = updateArtistDTO.Bio,
-                    ImageUrl = updateArtistDTO.ImageUrl
-                   
-                };
+                await _artistService.UpdateArtistWithImageFileAsync(updateArtistDTO);
 
-            
-                await _artistService.TUpdateAsync(artist);
-
-                return Ok(new { Message = "Sanatçı başarıyla güncellendi." });
+                return StatusCode(201,new { Message = "Sanatçı başarıyla güncellendi." });
             }
             catch (Exception ex)
             {
@@ -75,10 +59,9 @@ namespace BepopJWT.API.Controllers
         {
             try
             {
-            
-                await _artistService.TDeleteAsync(id);
+                await _artistService.DeleteArtistWithImageFileAsync(id);
 
-                return Ok(new { Message = "Sanatçı başarıyla silindi." });
+                return StatusCode(201,new { Message = "Sanatçı başarıyla silindi." });
             }
             catch (Exception ex)
             {
@@ -97,7 +80,7 @@ namespace BepopJWT.API.Controllers
                 return NotFound(new { Message = "Böyle bir sanatçı bulunamadı." });
             }
 
-            return Ok(values);
+            return StatusCode(201,values);
         }
     }
 }
