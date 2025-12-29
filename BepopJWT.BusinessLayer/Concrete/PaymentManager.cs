@@ -58,44 +58,72 @@ namespace BepopJWT.BusinessLayer.Concrete
 
         public async Task<string> ProcessCallBack(IyzicoCallbackDTO iyzicoCallbackDto)
         {
-            var form = await _iyzicoService.GetPaymentResult(iyzicoCallbackDto.Token);
-            if (form.PaymentStatus != "SUCCESS") return "FAILED" + form.ErrorMessage;
-            var order = await _orderService.TGetByConversationId(form.ConversationId);
-            if (order == null) return "ORDER_NOT_FOUND";
+            if (iyzicoCallbackDto == null || string.IsNullOrEmpty(iyzicoCallbackDto.Token))
+                return "INVALID_CALLBACK_DATA";
 
-            if (order.Status == OrderStatus.Paid) return "ORDER_ALREADY_PAID";
+        
+            var form = await _iyzicoService.GetPaymentResult(iyzicoCallbackDto.Token);
+            if (form == null)
+                return "PAYMENT_FORM_NULL";
+
+            if (!string.Equals(form.PaymentStatus, "SUCCESS", StringComparison.OrdinalIgnoreCase))
+                return "FAILED: " + form.ErrorMessage;
+
+          
+            Order order = null;
+
+            if (!string.IsNullOrEmpty(form.ConversationId))
+            {
+                order = await _orderService.TGetByConversationId(form.ConversationId);
+            }
+
+            if (order == null && !string.IsNullOrEmpty(form.BasketId))
+            {
+                order = await _orderService.TGetByConversationId(form.BasketId);
+            }
+
+            if (order == null)
+                return "ORDER_NOT_FOUND";
+
+            if (order.Status == OrderStatus.Paid)
+                return "ORDER_ALREADY_PAID";
 
             try
             {
-                // A. Siparişi Güncelle (Enum ile)
+              
                 order.Status = OrderStatus.Paid;
                 await _orderService.TUpdateAsync(order);
 
-                // B. Ödeme Kaydı
+          
                 var payment = new Payment
                 {
                     OrderId = order.OrderId,
                     IyzicoPaymentId = form.PaymentId,
-                    ConversationId = form.ConversationId,
-                    PaidPrice = Convert.ToDecimal(form.PaidPrice),
-                    Status = PaymentStatus.Success, // Payment tablosundaki status int ise 1 kalabilir, enum ise onu da düzeltirsin.
+                    ConversationId = order.ConversationId,
+                    PaidPrice = decimal.TryParse(form.PaidPrice, out var price) ? price : 0m,
+                    Status = PaymentStatus.Success,
                     PaymentDate = DateTime.UtcNow
                 };
                 await _paymentDal.AddAsync(payment);
 
-                // C. Kullanıcı Paketini Güncelle
+                // 5. Kullanıcının paketini güncelliyoruz
                 var user = await _userService.TGetByIdAsync(order.UserId);
-                user.PackageId = order.PackageId;
-                await _userService.TUpdateAsync(user);
+                if (user != null)
+                {
+                    user.PackageId = order.PackageId;
+                    await _userService.TUpdateAsync(user);
+                }
 
                 return "SUCCESS";
             }
             catch (Exception ex)
             {
+                // Sistemde kopukluk veya hata olursa ödeme iadesi yapıyoruz
                 await _iyzicoService.RefundPayment(form.PaymentId, "127.0.0.1");
                 return "SYSTEM_ERROR_REFUNDED: " + ex.Message;
             }
         }
+
 
         public async Task TAddAsync(Payment entity)
         {
