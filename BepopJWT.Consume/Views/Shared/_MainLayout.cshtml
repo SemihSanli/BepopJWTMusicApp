@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] | Bepop - Music Web Application</title>
+    <meta name="description" content="Responsive, Bootstrap, BS4" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="~/Bebop/libs/slick-carousel/slick/slick.css" type="text/css" />
+    <link rel="stylesheet" href="~/Bebop/libs/slick-carousel/slick/slick-theme.css" type="text/css" />
+    <link rel="stylesheet" href="~/Bebop/assets/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="~/Bebop/assets/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="~/Bebop/assets/css/style.css" type="text/css" />
+
+ 
+</head>
+
+<body class="layout-column bg-dark">
+
+    <header id="header" class="page-header fixed">
+        <div class="navbar navbar-expand-lg">
+
+            <a href="/" class="navbar-brand text-white ">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1" fill="#000"></circle>
+                    <circle cx="12" cy="12" r="2" stroke="currentColor" stroke-width="1"></circle>
+                    <g class="loading-spin" stroke="currentColor" stroke-width="1" style="transform-origin: 12px 12px">
+                        <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
+                    </g>
+                </svg>
+                <span class="hidden-folded d-inline l-s-n-1x ">Bepop</span>
+            </a>
+
+            <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarCollapse">
+                <ul class="navbar-nav" data-nav>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">
+                            <span class="nav-text">Keşfet</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <span class="nav-text">Dokümantasyon</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="nav navbar-menu order-1 order-lg-2">
+                <li class="nav-item">
+                    <a class="nav-link no-ajax" href="/Account/Login">
+                        Giriş Yap
+                    </a>
+                </li>
+                <li class="d-flex align-items-center">
+                    <a class="btn btn-rounded btn-sm btn-primary no-ajax" href="/Account/Register">
+                        Kayıt Ol
+                    </a>
+                </li>
+                <li class="nav-item d-lg-none">
+                    <a href="#" class="nav-link px-2" data-toggle="collapse" data-target="#navbarCollapse">
+                        <i data-feather="menu"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+    <div id="main" class="layout-row flex">
+        <div id="content" class="flex ">
+            @RenderBody()
+        </div>
+    </div>
+    <footer id="footer" class="page-footer ">
+        <div class="padding bg-dark b-t">
+            <div class="page-container">
+                <div class="py-5 text-inherit text-hover-primary">
+                    <div class="row mb-5">
+                        <div class="col-6 col-md-4">
+                            <div class="mb-3">
+                                <a href="/" class="navbar-brand text-white ">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1" fill="#000"></circle>
+                                        <circle cx="12" cy="12" r="2" stroke="currentColor" stroke-width="1"></circle>
+                                        <g class="loading-spin" stroke="currentColor" stroke-width="1" style="transform-origin: 12px 12px">
+                                            <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
+                                        </g>
+                                    </svg>
+                                    <span class="hidden-folded d-inline l-s-n-1x ">Bepop</span>
+                                </a>
+                            </div>
+                            <div class="px-1">
+                                <div class="dropdown mt-5 ml-md-5">
+                                    <button class="btn w-sm btn-dark text-align-auto b-a sorting" data-toggle="dropdown">Türkçe</button>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">English</a>
+                                        <a href="#" class="dropdown-item">Türkçe</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <h5 class="mb-3 text-muted">Sayfalar</h5>
+                            <ul class="list-unstyled l-h-2x text-highlight">
+                                <li><a href="#">Sanatçılar</a></li>
+                                <li><a href="#">Listeler</a></li>
+                                <li><a href="#">Türler</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <h5 class="mb-3 text-muted">Senin Bepop'un</h5>
+                            <ul class="list-unstyled l-h-2x text-highlight">
+                                <li><a href="#">Profil</a></li>
+                                <li><a href="#">Beğenilenler</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <h5 class="mb-3 text-muted">Yardım</h5>
+                            <ul class="list-unstyled l-h-2x text-highlight">
+                                <li><a href="#">Dokümantasyon</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-2 text-md-right">
+                            <h5 class="mb-3 text-muted">Takip Et</h5>
+                            <a href="#">Fb</a> <a href="#">Tw</a> <a href="#">Ig</a>
+                        </div>
+                    </div>
+                    <div class="text-center py-5">
+                        <span class="text-muted text-sm">&copy; @DateTime.Now.Year Bepop - Music Web Application, Tüm hakları saklıdır.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/Bebop/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/Bebop/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="~/Bebop/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/Bebop/libs/pjax/pjax.min.js"></script>
+    <script src="~/Bebop/assets/js/ajax.js"></script>
+    <script src="~/Bebop/assets/js/lazyload.config.js"></script>
+    <script src="~/Bebop/assets/js/lazyload.js"></script>
+    <script src="~/Bebop/assets/js/plugin.js"></script>
+    <script src="~/Bebop/libs/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="~/Bebop/libs/slick-carousel/slick/slick.min.js"></script>
+    <script src="~/Bebop/libs/feather-icons/dist/feather.min.js"></script>
+    <script src="~/Bebop/assets/js/theme.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

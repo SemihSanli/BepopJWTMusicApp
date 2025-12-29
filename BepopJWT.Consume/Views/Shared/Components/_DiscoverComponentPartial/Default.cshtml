@@ -1,0 +1,324 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-content page-container" id="page-content">
+    <div class="padding sr">
+
+        <div class="page-hero">
+            <div class="media bg-media">
+                <div class="media-content" style="background-image:url('/Bebop/assets/img/b9.jpg')"></div>
+            </div>
+            <div class="slick" data-plugin="slick" data-option="{
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+                fade: true,
+                autoplay: false,
+                rtl: false
+            }">
+                <div data-bg="/Bebop/assets/img/b9.jpg">
+                    <div class="pos-rlt">
+                        <h2 class="display-3 font-weight-bold text-white">İnanılmaz Şarkılar</h2>
+                        <div class="col-6 px-0 py-3 text-muted">
+                            <p>En sevdiğin sanatçıları keşfet ve müziğin ritmine kendini kaptır.</p>
+                        </div>
+                        <a href="/Home/Discover" class="btn ajax btn-rounded gd-primary text-white">Keşfet</a>
+                        <a href="#" class="btn no-bg text-white">Paylaş</a>
+                    </div>
+                </div>
+                <div data-bg="/Bebop/assets/img/b0.jpg">
+                    <div class="pos-rlt">
+                        <h2 class="display-3 font-weight-bold text-white">En İyiler Listesi</h2>
+                        <div class="col-6 px-0 py-3 text-muted">
+                            <p>Bu haftanın en çok dinlenenlerini senin için derledik.</p>
+                        </div>
+                        <a href="/Home/Charts" class="btn ajax btn-rounded gd-primary text-white">Listeye Git</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading pt-5 pb-3 d-flex">
+            <div>
+                <div class="text-muted sr-item">Haftalık</div>
+                <h5 class="text-highlight sr-item">Popüler Şarkılar</h5>
+            </div>
+            <span class="flex"></span>
+        </div>
+
+        <div class="slick slick-visible slick-arrow-top row sr-item" data-plugin="slick" data-option="{
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            dots: false,
+            rtl: false,
+            responsive: [
+                { breakpoint: 1200, settings: { slidesToShow: 6 } },
+                { breakpoint: 920, settings: { slidesToShow: 4 } },
+                { breakpoint: 768, settings: { slidesToShow: 3 } },
+                { breakpoint: 576, settings: { slidesToShow: 2 } }
+            ]
+        }">
+            <div class="col-2">
+                <div class="list-item slick-item r list-hover mb-3">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c20.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Body</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">Loud Luxury</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="list-item slick-item r list-hover mb-3">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c21.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Wake Up In The Sky</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">Gucci Mane</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="list-item slick-item r list-hover mb-3">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c22.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Mo Bamba</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">Sheck Wes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="list-item slick-item r list-hover mb-3">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c23.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Say My Name</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">David Guetta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="list-item slick-item r list-hover mb-3">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c24.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Solo</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">Clean Bandit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="list-item slick-item r list-hover mb-3">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c25.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Shotgun</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">George Ezra</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="heading pt-5 pb-3 d-flex">
+            <div>
+                <div class="text-muted sr-item">Öne Çıkanlar</div>
+                <h5 class="text-highlight sr-item">Albümler</h5>
+            </div>
+            <span class="flex"></span>
+        </div>
+        <div class="row row-md">
+            <div class="col-4 col-md-3 col-lg-2 col-xl-1-8">
+                <div class="list-item r list-hover">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c0.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Shallow</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">Lady Gaga</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-md-3 col-lg-2 col-xl-1-8">
+                <div class="list-item r list-hover">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c1.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Taki Taki</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">DJ Snake</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-md-3 col-lg-2 col-xl-1-8">
+                <div class="list-item r list-hover">
+                    <div class="media">
+                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c2.jpg')"></a>
+                        <div class="media-action media-action-overlay">
+                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                        </div>
+                    </div>
+                    <div class="list-content text-center">
+                        <div class="list-body">
+                            <a href="#" class="list-title title ajax h-1x">Promises</a>
+                            <a href="#" class="list-subtitle d-block text-muted h-1x">Calvin Harris</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="heading pt-5 pb-3 d-flex">
+                    <div>
+                        <div class="text-muted sr-item">Kullanıcı</div>
+                        <h5 class="text-highlight sr-item">Son Eklenenler</h5>
+                    </div>
+                    <span class="flex"></span>
+                </div>
+                <div class="row list-row list-index">
+                    <div class="col-12">
+                        <div class="list-item r">
+                            <div class="media">
+                                <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c11.jpg')"></a>
+                                <div class="media-action media-action-overlay">
+                                    <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                                </div>
+                            </div>
+                            <div class="list-content text-center">
+                                <div class="list-body">
+                                    <a href="#" class="list-title title ajax h-1x">MIA</a>
+                                    <a href="#" class="list-subtitle d-block text-muted h-1x">Bad Bunny</a>
+                                </div>
+                            </div>
+                            <div class="list-action show-row">
+                                <div class="d-flex align-items-center">
+                                    <div class="px-3 text-sm text-muted d-none d-md-block">04:50</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="list-item r">
+                            <div class="media">
+                                <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c0.jpg')"></a>
+                                <div class="media-action media-action-overlay">
+                                    <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                                </div>
+                            </div>
+                            <div class="list-content text-center">
+                                <div class="list-body">
+                                    <a href="#" class="list-title title ajax h-1x">Shallow</a>
+                                    <a href="#" class="list-subtitle d-block text-muted h-1x">Lady Gaga</a>
+                                </div>
+                            </div>
+                            <div class="list-action show-row">
+                                <div class="d-flex align-items-center">
+                                    <div class="px-3 text-sm text-muted d-none d-md-block">03:36</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="heading pt-5 pb-3 d-flex">
+                    <div>
+                        <div class="text-muted sr-item">Yakında</div>
+                        <h5 class="text-highlight sr-item">Etkinlikler</h5>
+                    </div>
+                    <span class="flex"></span>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="list-item list-overlay r mb-3">
+                            <div class="media media-4x3 gd-primary">
+                                <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/b15.jpg')"></a>
+                            </div>
+                            <div class="list-content p-4">
+                                <div class="list-body">
+                                    <a href="#" class="list-title title ajax h5 font-weight-bold">Spring Festival</a>
+                                </div>
+                                <div class="list-footer">
+                                    <div class="text-muted text-sm">11 Şubat, 03:39</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="list-item list-overlay r mb-3">
+                            <div class="media media-4x3 gd-success">
+                                <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/b16.jpg')"></a>
+                            </div>
+                            <div class="list-content p-4">
+                                <div class="list-body">
+                                    <a href="#" class="list-title title ajax h5 font-weight-bold">Music Hub 2025</a>
+                                </div>
+                                <div class="list-footer">
+                                    <div class="text-muted text-sm">8 Şubat, 03:34</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

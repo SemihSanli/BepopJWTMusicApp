@@ -335,6 +335,7 @@ wwwroot\Bebop\libs\slick-carousel\slick\slick.min.js
 wwwroot\Bebop\libs\slick-carousel\slick\slick-theme.css
 wwwroot\Bebop\libs\typeahead.js\dist\typeahead.bundle.min.js
 wwwroot\Bebop\package.json
+wwwroot\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

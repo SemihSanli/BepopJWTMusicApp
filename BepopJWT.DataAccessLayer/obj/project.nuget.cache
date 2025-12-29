@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3WU5zjdsmWQ=",
+  "dgSpecHash": "GcBNdOY0UCg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.DataAccessLayer\\BepopJWT.DataAccessLayer.csproj",
   "expectedPackageFiles": [
@@ -16,9 +16,9 @@
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
-    "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.17\\microsoft.entityframeworkcore.8.0.17.nupkg.sha512",
-    "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.17\\microsoft.entityframeworkcore.abstractions.8.0.17.nupkg.sha512",
-    "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.17\\microsoft.entityframeworkcore.analyzers.8.0.17.nupkg.sha512",
+    "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.22\\microsoft.entityframeworkcore.8.0.22.nupkg.sha512",
+    "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.22\\microsoft.entityframeworkcore.abstractions.8.0.22.nupkg.sha512",
+    "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.22\\microsoft.entityframeworkcore.analyzers.8.0.22.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.17\\microsoft.entityframeworkcore.design.8.0.17.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.17\\microsoft.entityframeworkcore.relational.8.0.17.nupkg.sha512",
     "C:\\Users\\Semih\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.17\\microsoft.entityframeworkcore.sqlserver.8.0.17.nupkg.sha512",

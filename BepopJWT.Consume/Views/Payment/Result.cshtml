@@ -1,0 +1,95 @@
+﻿
+
+@{
+    Layout = null; // Sade bir sayfa olsun
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>İşlem Sonucu | Bepop</title>
+    <link rel="stylesheet" href="/Bebop/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        body {
+            background: #020617;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .result-card {
+            background: rgba(255,255,255,0.05);
+            padding: 40px;
+            border-radius: 24px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            max-width: 400px;
+        }
+
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .success {
+            color: #10b981;
+        }
+
+        .error {
+            color: #ef4444;
+        }
+
+        .btn-redirect {
+            margin-top: 20px;
+            background: #8b5cf6;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 25px;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="result-card">
+        @if (ViewBag.Status == "Success")
+        {
+            <i class="fas fa-check-circle icon success"></i>
+            <h2>Başarılı!</h2>
+            <p>@ViewBag.Message</p>
+            <p><small id="timer">5</small> saniye içinde giriş sayfasına yönlendiriliyorsunuz...</p>
+            <a href="/Auth/SignIn" class="btn-redirect">Hemen Git</a>
+        }
+        else
+        {
+            <i class="fas fa-times-circle icon error"></i>
+            <h2>Hata!</h2>
+            <p>@ViewBag.Message</p>
+            <a href="/Packages/Index" class="btn-redirect" style="background: #334155;">Paketlere Dön</a>
+        }
+    </div>
+
+    <script>
+        var status = '@ViewBag.Status';
+        if (status === "Success") {
+            var timeLeft = 5;
+            var timerElement = document.getElementById('timer');
+            var countdown = setInterval(function() {
+                timeLeft--;
+                timerElement.textContent = timeLeft;
+                if (timeLeft <= 0) {
+                    clearInterval(countdown);
+                    window.location.href = "/Auth/SignIn";
+                }
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
