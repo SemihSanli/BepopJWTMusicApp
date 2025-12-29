@@ -1,0 +1,249 @@
+﻿@using BepopJWT.Consume.PackageDTOs
+@model List<ResultPackageDTO>
+
+@{
+    ViewData["Title"] = "Paket Seçimi";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>Premium'a Geç | Bepop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/Bebop/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="/Bebop/assets/css/theme.css" />
+    <link rel="stylesheet" href="/Bebop/assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <style>
+        :root {
+            --neon-purple: #8b5cf6;
+            --neon-purple-dark: #6d28d9;
+            --neon-turquoise: #22d3ee;
+            --glass-bg: rgba(255,255,255,0.06);
+            --glass-border: rgba(255,255,255,0.14);
+            --overlay-dark: rgba(2, 6, 23, 0.75);
+        }
+
+        /* ================= BACKGROUND IMAGE ================= */
+        body {
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            /* ⬇️ BURAYI DEĞİŞTİR */
+            background-image: linear-gradient(var(--overlay-dark), var(--overlay-dark)), url('https://img.goodfon.com/wallpaper/big/9/9a/fon-temno-plastinka-vinil.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        /* ==================================================== */
+
+        .page-container {
+            padding: 60px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .header-title {
+            font-size: 3rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, var(--neon-purple), var(--neon-turquoise));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        /* ================= GLASS CARD ================= */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.4s ease;
+        }
+
+            .glass-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -60%;
+                width: 120%;
+                height: 100%;
+                background: linear-gradient( to right, transparent, rgba(139,92,246,0.25), rgba(34,211,238,0.25), transparent );
+                transform: skewX(-25deg);
+                transition: 0.7s;
+            }
+
+            .glass-card:hover::before {
+                left: 120%;
+            }
+
+            .glass-card:hover {
+                transform: translateY(-15px) scale(1.03);
+                box-shadow: 0 0 25px rgba(139,92,246,0.45), 0 0 50px rgba(34,211,238,0.4);
+                border-color: var(--neon-turquoise);
+            }
+        /* ================================================= */
+
+        .package-title {
+            font-size: 1.4rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: var(--neon-purple);
+            margin-bottom: 30px;
+            text-shadow: 0 0 12px rgba(139,92,246,0.7);
+        }
+
+        .price-container {
+            margin-bottom: 30px;
+        }
+
+        .price-currency {
+            font-size: 2rem;
+            vertical-align: super;
+        }
+
+        .price-amount {
+            font-size: 4.5rem;
+            font-weight: 900;
+            text-shadow: 0 0 15px rgba(34,211,238,0.6), 0 0 30px rgba(139,92,246,0.4);
+        }
+
+        .price-duration {
+            display: block;
+            font-size: 1.1rem;
+            color: rgba(255,255,255,0.65);
+            margin-top: 10px;
+        }
+
+        .package-description {
+            color: rgba(255,255,255,0.85);
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        /* ================= BUTTON ================= */
+        .btn-neon {
+            width: 100%;
+            padding: 18px;
+            border-radius: 50px;
+            border: none;
+            font-weight: 800;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            color: white;
+            background: linear-gradient( 45deg, var(--neon-purple), var(--neon-turquoise) );
+            background-size: 200% auto;
+            box-shadow: 0 0 20px rgba(139,92,246,0.45), 0 0 40px rgba(34,211,238,0.4);
+            transition: all 0.4s ease;
+        }
+
+            .btn-neon:hover {
+                background-position: right center;
+                transform: translateY(-4px);
+                box-shadow: 0 0 30px rgba(139,92,246,0.7), 0 0 60px rgba(34,211,238,0.6);
+            }
+        /* ================================================= */
+
+        .skip-link {
+            color: rgba(255,255,255,0.6);
+            font-size: 1rem;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+            .skip-link:hover {
+                color: var(--neon-turquoise);
+                text-decoration: underline;
+            }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-container align-items-center">
+
+        <div class="text-center mb-5">
+            <i class="fas fa-music fa-3x mb-3" style="color: var(--neon-turquoise);"></i>
+            <h1 class="header-title">Level Atlamaya Hazır Mısın?</h1>
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger shadow-lg border-0 mb-4 animate__animated animate__shakeX"
+                     style="background: rgba(220, 38, 38, 0.2); backdrop-filter: blur(10px); color: #fecaca; border: 1px solid rgba(220, 38, 38, 0.5) !important; border-radius: 15px;">
+                    <i class="fas fa-exclamation-triangle mr-2"></i> <strong>Hata:</strong> @TempData["Error"]
+                </div>
+            }
+            <p class="text-muted lead">Premium paketlerden birini seç, müziğin kontrolünü ele al.</p>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-center align-items-stretch">
+
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4 col-md-6 mb-5">
+                        <div class="glass-card">
+
+                            <div>
+                                <div class="package-title">
+                                    <i class="fas fa-gem mr-2"></i> @item.PackageTitle
+                                </div>
+
+                                <div class="price-container">
+                                    <span class="price-currency">₺</span>
+                                    <span class="price-amount">@item.Price.ToString("N0")</span>
+                                    <span class="price-duration">Aylık Ödeme</span>
+                                </div>
+
+                                <p class="package-description">
+                                    @item.PackageDescription
+                                </p>
+                            </div>
+
+                            <form asp-controller="Payment" asp-action="ProcessPayment" method="post">
+                                <input type="hidden" name="packageId" value="@item.PackageId" />
+                                <input type="hidden" name="email" value="@ViewBag.UserEmail" />
+                                <input type="hidden" name="level" value="@item.PackageLevel" />
+
+                                <button type="submit" class="btn-neon">
+                                    Paketi Seç <i class="fas fa-arrow-right ml-2"></i>
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+      
+        <div class="mt-5 text-center">
+            <a href="/Auth/SignIn" class="skip-link">
+                Hayır teşekkürler, ücretsiz devam edeceğim
+            </a>
+        </div>
+
+    </div>
+
+    <script src="/Bebop/libs/jquery/dist/jquery.min.js"></script>
+    <script src="/Bebop/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

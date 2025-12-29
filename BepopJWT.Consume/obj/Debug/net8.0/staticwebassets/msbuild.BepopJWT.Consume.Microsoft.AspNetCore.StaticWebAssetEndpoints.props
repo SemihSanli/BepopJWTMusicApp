@@ -2544,17 +2544,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vvhgcfgp0h"},{"Name":"integrity","Value":"sha256-iyaYV3NlVMZZnosONY3Td6B\u002B\u002BtnWGl74K460q2x0BNA="},{"Name":"label","Value":"_content/BepopJWT.Consume/Bebop/html/signup.html"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7409"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022iyaYV3NlVMZZnosONY3Td6B\u002B\u002BtnWGl74K460q2x0BNA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 27 Apr 2019 04:29:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/Bebop/index.ayrwd6bv9i.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Bebop\index.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ayrwd6bv9i"},{"Name":"integrity","Value":"sha256-gsoURmfvIvR7PzJyt0roGXhxRhZ7wq\u002BXQNEZYAOXL7M="},{"Name":"label","Value":"_content/BepopJWT.Consume/Bebop/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13516"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022gsoURmfvIvR7PzJyt0roGXhxRhZ7wq\u002BXQNEZYAOXL7M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 27 Apr 2019 04:29:22 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/Bebop/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Bebop\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gsoURmfvIvR7PzJyt0roGXhxRhZ7wq\u002BXQNEZYAOXL7M="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13516"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022gsoURmfvIvR7PzJyt0roGXhxRhZ7wq\u002BXQNEZYAOXL7M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 27 Apr 2019 04:29:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8189"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Dec 2025 09:50:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/Bebop/index.xckpk3aung.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Bebop\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xckpk3aung"},{"Name":"integrity","Value":"sha256-UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68="},{"Name":"label","Value":"_content/BepopJWT.Consume/Bebop/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8189"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Dec 2025 09:50:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/Bebop/libs/bootstrap/dist/css/bootstrap.min.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Bebop\libs\bootstrap\dist\css\bootstrap.min.css'))</AssetFile>
@@ -4044,17 +4044,29 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z7uh01m7e4"},{"Name":"integrity","Value":"sha256-wYgr08HmAQHXEVuWa1jt0gHHu5i1PoyuQQGC5owv2uk="},{"Name":"label","Value":"_content/BepopJWT.Consume/Bebop/package.json"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1654"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022wYgr08HmAQHXEVuWa1jt0gHHu5i1PoyuQQGC5owv2uk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 26 Apr 2019 07:51:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/bepop-non-stop-music-template-2025-03-31-00-57-13-utc.rbn1x5fl8k.zip">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rbn1x5fl8k"},{"Name":"integrity","Value":"sha256-qa4GACGfnz\u002BBpJg2NvjZgyBd651\u002BsGmgw69CVSHwke0="},{"Name":"label","Value":"_content/BepopJWT.Consume/bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6998966"},{"Name":"Content-Type","Value":"application/x-zip-compressed"},{"Name":"ETag","Value":"\u0022qa4GACGfnz\u002BBpJg2NvjZgyBd651\u002BsGmgw69CVSHwke0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Dec 2025 04:08:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qa4GACGfnz\u002BBpJg2NvjZgyBd651\u002BsGmgw69CVSHwke0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6998966"},{"Name":"Content-Type","Value":"application/x-zip-compressed"},{"Name":"ETag","Value":"\u0022qa4GACGfnz\u002BBpJg2NvjZgyBd651\u002BsGmgw69CVSHwke0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Dec 2025 04:08:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/BepopJWT.Consume.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BepopJWT.Consume.nxofg0var0.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BVR\u002B3uGjm/z8Ie7mVKS0UxgEOsWLr\u002Bot9/lNoe7WNJg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BVR\u002B3uGjm/z8Ie7mVKS0UxgEOsWLr\u002Bot9/lNoe7WNJg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 10 Dec 2025 10:47:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BVR\u002B3uGjm/z8Ie7mVKS0UxgEOsWLr\u002Bot9/lNoe7WNJg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Dec 2025 14:49:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/BepopJWT.Consume.nxofg0var0.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BepopJWT.Consume.nxofg0var0.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nxofg0var0"},{"Name":"integrity","Value":"sha256-BVR\u002B3uGjm/z8Ie7mVKS0UxgEOsWLr\u002Bot9/lNoe7WNJg="},{"Name":"label","Value":"_content/BepopJWT.Consume/BepopJWT.Consume.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BVR\u002B3uGjm/z8Ie7mVKS0UxgEOsWLr\u002Bot9/lNoe7WNJg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 10 Dec 2025 10:47:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1134"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BVR\u002B3uGjm/z8Ie7mVKS0UxgEOsWLr\u002Bot9/lNoe7WNJg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 29 Dec 2025 14:49:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BepopJWT.Consume/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

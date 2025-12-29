@@ -21,7 +21,8 @@ namespace BepopJWT.DataAccessLayer.EntityFramework
 
         public async Task<Order> GetByConversationId(string conversationId)
         {
-           var value = await _appDbContext.Orders.FirstOrDefaultAsync(o=>o.ConversationId == conversationId);
+            var value = await _appDbContext.Orders
+          .FirstOrDefaultAsync(o => o.ConversationId.Trim().ToLower() == conversationId.Trim().ToLower());
             return value;
         }
     }

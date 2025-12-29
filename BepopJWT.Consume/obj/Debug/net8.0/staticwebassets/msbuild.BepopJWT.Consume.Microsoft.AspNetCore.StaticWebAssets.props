@@ -3828,8 +3828,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ayrwd6bv9i</Fingerprint>
-      <Integrity>gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M=</Integrity>
+      <Fingerprint>xckpk3aung</Fingerprint>
+      <Integrity>UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Bebop\index.html'))</OriginalItemSpec>
@@ -6065,6 +6065,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Bebop\package.json'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BepopJWT.Consume</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BepopJWT.Consume</BasePath>
+      <RelativePath>bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rbn1x5fl8k</Fingerprint>
+      <Integrity>qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BepopJWT.Consume.nxofg0var0.bundle.scp.css'))">
       <SourceType>Package</SourceType>

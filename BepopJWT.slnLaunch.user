@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BepopJWT.API\\BepopJWT.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BepopJWT.Consume\\BepopJWT.Consume.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

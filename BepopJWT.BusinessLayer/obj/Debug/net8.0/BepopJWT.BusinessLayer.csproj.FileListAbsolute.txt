@@ -2,8 +2,10 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\Bep
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.BusinessLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.BusinessLayer.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DataAccessLayer.dll
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DTOLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DataAccessLayer.pdb
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DTOLayer.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.csproj.AssemblyReference.cache
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,5 +17,3 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\Bep
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\refint\BepopJWT.BusinessLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\BepopJWT.BusinessLayer.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\obj\Debug\net8.0\ref\BepopJWT.BusinessLayer.dll
-C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DTOLayer.dll
-C:\Users\Semih\source\repos\BepopJWT\BepopJWT.BusinessLayer\bin\Debug\net8.0\BepopJWT.DTOLayer.pdb

@@ -17387,51 +17387,6 @@
       ]
     },
     {
-      "Route": "Bebop/index.ayrwd6bv9i.html",
-      "AssetFile": "Bebop/index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13516"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 27 Apr 2019 04:29:22 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ayrwd6bv9i"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M="
-        },
-        {
-          "Name": "label",
-          "Value": "Bebop/index.html"
-        }
-      ]
-    },
-    {
       "Route": "Bebop/index.html",
       "AssetFile": "Bebop/index.html",
       "Selectors": [],
@@ -17446,7 +17401,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13516"
+          "Value": "8189"
         },
         {
           "Name": "Content-Type",
@@ -17454,17 +17409,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M=\""
+          "Value": "\"UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 27 Apr 2019 04:29:22 GMT"
+          "Value": "Mon, 29 Dec 2025 09:50:54 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M="
+          "Value": "sha256-UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68="
+        }
+      ]
+    },
+    {
+      "Route": "Bebop/index.xckpk3aung.html",
+      "AssetFile": "Bebop/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Dec 2025 09:50:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xckpk3aung"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68="
+        },
+        {
+          "Name": "label",
+          "Value": "Bebop/index.html"
         }
       ]
     },
@@ -27663,7 +27663,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 10:47:19 GMT"
+          "Value": "Mon, 29 Dec 2025 14:49:59 GMT"
         }
       ],
       "EndpointProperties": [
@@ -27708,13 +27708,95 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 10:47:19 GMT"
+          "Value": "Mon, 29 Dec 2025 14:49:59 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-BVR+3uGjm/z8Ie7mVKS0UxgEOsWLr+ot9/lNoe7WNJg="
+        }
+      ]
+    },
+    {
+      "Route": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc.rbn1x5fl8k.zip",
+      "AssetFile": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6998966"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Dec 2025 04:08:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbn1x5fl8k"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0="
+        },
+        {
+          "Name": "label",
+          "Value": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip"
+        }
+      ]
+    },
+    {
+      "Route": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip",
+      "AssetFile": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6998966"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Dec 2025 04:08:15 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0="
         }
       ]
     },

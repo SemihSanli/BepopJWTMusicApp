@@ -1353,6 +1353,10 @@
       "PackagePath": "staticwebassets\\Bebop\\package.json"
     },
     {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip",
+      "PackagePath": "staticwebassets\\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip"
+    },
+    {
       "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

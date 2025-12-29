@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P/UUnxQKhktuMy9ibjiFMU+uQVjs/MEUJmrE1LVhmUg=",
+  "Hash": "rslzR5Om+QWlm9j6B6kvPZGjuy9I3aBRm8B5cP62gTE=",
   "Source": "BepopJWT.Consume",
   "BasePath": "_content/BepopJWT.Consume",
   "Mode": "Default",
@@ -4537,8 +4537,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ayrwd6bv9i",
-      "Integrity": "gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M=",
+      "Fingerprint": "xckpk3aung",
+      "Integrity": "UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Bebop\\index.html"
@@ -7146,6 +7146,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Bebop\\package.json"
+    },
+    {
+      "Identity": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip",
+      "SourceId": "BepopJWT.Consume",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\",
+      "BasePath": "_content/BepopJWT.Consume",
+      "RelativePath": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc#[.{fingerprint}]?.zip",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rbn1x5fl8k",
+      "Integrity": "qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip"
     },
     {
       "Identity": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\css\\site.css",
@@ -25794,51 +25815,6 @@
       ]
     },
     {
-      "Route": "Bebop/index.ayrwd6bv9i.html",
-      "AssetFile": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13516"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 27 Apr 2019 04:29:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ayrwd6bv9i"
-        },
-        {
-          "Name": "label",
-          "Value": "Bebop/index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M="
-        }
-      ]
-    },
-    {
       "Route": "Bebop/index.html",
       "AssetFile": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\index.html",
       "Selectors": [],
@@ -25849,7 +25825,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13516"
+          "Value": "8189"
         },
         {
           "Name": "Content-Type",
@@ -25857,11 +25833,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M=\""
+          "Value": "\"UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 27 Apr 2019 04:29:22 GMT"
+          "Value": "Mon, 29 Dec 2025 09:50:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25871,7 +25847,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gsoURmfvIvR7PzJyt0roGXhxRhZ7wq+XQNEZYAOXL7M="
+          "Value": "sha256-UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68="
+        }
+      ]
+    },
+    {
+      "Route": "Bebop/index.xckpk3aung.html",
+      "AssetFile": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\Bebop\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Dec 2025 09:50:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xckpk3aung"
+        },
+        {
+          "Name": "label",
+          "Value": "Bebop/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UdPrQvroDy5wGZeWocY0kt7VTtTFSIPMWWKCLkIzM68="
         }
       ]
     },
@@ -36066,7 +36087,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 10:47:19 GMT"
+          "Value": "Mon, 29 Dec 2025 14:49:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36103,7 +36124,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 10:47:19 GMT"
+          "Value": "Mon, 29 Dec 2025 14:49:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36148,7 +36169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 10:47:19 GMT"
+          "Value": "Mon, 29 Dec 2025 14:49:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36193,7 +36214,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Dec 2025 10:47:19 GMT"
+          "Value": "Mon, 29 Dec 2025 14:49:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36204,6 +36225,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-BVR+3uGjm/z8Ie7mVKS0UxgEOsWLr+ot9/lNoe7WNJg="
+        }
+      ]
+    },
+    {
+      "Route": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc.rbn1x5fl8k.zip",
+      "AssetFile": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6998966"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Dec 2025 04:08:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbn1x5fl8k"
+        },
+        {
+          "Name": "label",
+          "Value": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0="
+        }
+      ]
+    },
+    {
+      "Route": "bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip",
+      "AssetFile": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\bepop-non-stop-music-template-2025-03-31-00-57-13-utc.zip",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6998966"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-zip-compressed"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 29 Dec 2025 04:08:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qa4GACGfnz+BpJg2NvjZgyBd651+sGmgw69CVSHwke0="
         }
       ]
     },

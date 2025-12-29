@@ -1,4 +1,5 @@
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.deps.json
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.runtimeconfig.json
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.pdb
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\obj\Debug\net8.0\BepopJWT.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
@@ -8,6 +9,5 @@ C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\obj\Debug\net8.0\Bepop
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\obj\Debug\net8.0\BepopJWT.EntityLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\obj\Debug\net8.0\refint\BepopJWT.EntityLayer.dll
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\obj\Debug\net8.0\BepopJWT.EntityLayer.pdb
-C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\obj\Debug\net8.0\ref\BepopJWT.EntityLayer.dll
-C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\bin\Debug\net8.0\BepopJWT.EntityLayer.runtimeconfig.json
 C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\obj\Debug\net8.0\BepopJWT.EntityLayer.genruntimeconfig.cache
+C:\Users\Semih\source\repos\BepopJWT\BepopJWT.EntityLayer\obj\Debug\net8.0\ref\BepopJWT.EntityLayer.dll

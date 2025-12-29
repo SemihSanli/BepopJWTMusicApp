@@ -512,6 +512,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BepopJWT.API.Controllers.UsersController",
+    "Method": "GetByEmail",
+    "RelativePath": "api/Users/getbyemail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BepopJWT.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
