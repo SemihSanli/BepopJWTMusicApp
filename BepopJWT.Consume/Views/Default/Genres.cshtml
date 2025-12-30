@@ -2,7 +2,8 @@
 @{
     ViewData["Title"] = "Genres";
     Layout = "~/Views/Shared/_MainLayout.cshtml";
+    var categoryId = ViewBag.CategoryId ?? 0;
 }
 
-@await Component.InvokeAsync("_GenresComponentPartial")
+@await Component.InvokeAsync("_GenresComponentPartial",new{categoryId=categoryId})
 

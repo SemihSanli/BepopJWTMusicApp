@@ -56,7 +56,7 @@ namespace BepopJWT.Consume.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                return RedirectToAction("Index","Packages",new {email = registerDto.Email});
+                return RedirectToAction("SignIn", "Auth",new {email = registerDto.Email});
             }
 
             var errorMsg = await response.Content.ReadAsStringAsync();
@@ -71,13 +71,9 @@ namespace BepopJWT.Consume.Controllers
         [HttpPost]
         public async Task<IActionResult> SignIn(LoginDTO loginDto)
         {
-           
             var client = _httpClientFactory.CreateClient();
-
-           
             var jsonContent = new StringContent(JsonConvert.SerializeObject(loginDto), Encoding.UTF8, "application/json");
 
-           
             var response = await client.PostAsync("https://localhost:7209/api/Auths/login", jsonContent);
 
             if (response.IsSuccessStatusCode)
@@ -88,34 +84,48 @@ namespace BepopJWT.Consume.Controllers
 
                 if (tokenModel != null && !string.IsNullOrEmpty(tokenModel.Token))
                 {
-                  
+                    JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
                     var handler = new JwtSecurityTokenHandler();
                     var jwtToken = handler.ReadJwtToken(tokenModel.Token);
 
-                   
+                    // Claims listesini oluşturuyoruz
                     var claims = new List<Claim>();
-                    claims.AddRange(jwtToken.Claims); 
-                    claims.Add(new Claim("AccessToken", tokenModel.Token)); 
+                    claims.AddRange(jwtToken.Claims);
 
-                    // 7. Kimlik Oluştur
+                  
+                    claims.Add(new Claim("AccessToken", tokenModel.Token));
+
+               
+                    HttpContext.Session.SetString("JWToken", tokenModel.Token);
+
+                   
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     var authProperties = new AuthenticationProperties
                     {
-                        IsPersistent = true, 
-                        ExpiresUtc = jwtToken.ValidTo 
+                        IsPersistent = true,
+                        ExpiresUtc = jwtToken.ValidTo
                     };
 
-                    // 8. SİSTEME GİRİŞ YAP (Cookie Bırak)
+                 
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
-                    // 9. Ana Sayfaya (Discover) Gönder
-                    return RedirectToAction("Discover", "Default");
+                  
+                    var packageIdClaim = claims.FirstOrDefault(x => x.Type == "PackageId")?.Value;
+
+                
+                    if (string.IsNullOrEmpty(packageIdClaim) || packageIdClaim == "0")
+                    {
+                        return RedirectToAction("Index", "Packages");
+                    }
+
+                   
+                    return RedirectToAction("Index", "Default");
                 }
             }
 
-            // Hata varsa
+        
             ViewBag.Error = "Email veya şifre hatalı!";
-            return View();
+            return View(loginDto);
         }
     }
 }

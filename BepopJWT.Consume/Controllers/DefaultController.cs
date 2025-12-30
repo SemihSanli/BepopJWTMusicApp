@@ -16,12 +16,14 @@ namespace BepopJWT.Consume.Controllers
         {
             return View();
         }
-        public IActionResult ArtistDetail()
+        public IActionResult ArtistDetail(int id)
         {
+            ViewBag.ArtistId = id;
             return View();
         }
-        public IActionResult Genres()
+        public IActionResult Genres(int categoryId=0)
         {
+            ViewBag.CategoryId = categoryId;
             return View();
         }
     }

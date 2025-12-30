@@ -1,10 +1,13 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.DTOLayer.SongDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace BepopJWT.API.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class SongsController : ControllerBase
@@ -21,6 +24,18 @@ namespace BepopJWT.API.Controllers
         {
             var songs = await _songService.TGetAllAsync();
             return Ok(songs);
+        }
+        [HttpGet("getsongwitharist")]
+        public async Task<IActionResult> GetSongWithArist()
+        {
+            var songs = await _songService.GetSongsWithArtistsAsync();
+            return StatusCode(201, songs);
+        }
+        [HttpGet("getsongswithcategory")]
+        public async Task<IActionResult> GetSongsWithCategory()
+        {
+            var songs = await _songService.GetSongsWithCategoryAsync();
+            return StatusCode(201, songs);
         }
         [HttpPost("fileupload")]
         public async Task<IActionResult> UploadSong([FromForm] CreateSongDTO createSongDto)
@@ -40,6 +55,30 @@ namespace BepopJWT.API.Controllers
         {
             await _songService.DeleteWithFileAsync(id);
             return Ok("Şarkı ve dosyaları başarıyla silindi.");
+        }
+        [Authorize]
+        [HttpGet("check-access/{songId}")]
+        public async Task<IActionResult> CheckAccess(int songId)
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+
+            if (userIdClaim == null)
+                return Unauthorized();
+
+            int userId = int.Parse(userIdClaim.Value);
+
+            var hasAccess = await _songService.CheckSongAccessAsync(songId, userId);
+
+            if (!hasAccess)
+            {
+                return Ok(new
+                {
+                    isSuccess = false,
+                    message = "Bu içeriği dinlemek için paket seviyeniz yetersizdir."
+                });
+            }
+
+            return Ok(new { isSuccess = true });
         }
     }
 }

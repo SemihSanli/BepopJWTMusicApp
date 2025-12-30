@@ -99,6 +99,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BepopJWT.API.Controllers.ArtistsController",
+    "Method": "GetArtistDetail",
+    "RelativePath": "api/Artists/GetArtistDetail/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BepopJWT.API.Controllers.AuthsController",
     "Method": "Login",
     "RelativePath": "api/Auths/login",
@@ -472,6 +488,22 @@
   },
   {
     "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "CheckAccess",
+    "RelativePath": "api/Songs/check-access/{songId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "songId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
     "Method": "UploadSong",
     "RelativePath": "api/Songs/fileupload",
     "HttpMethod": "POST",
@@ -509,6 +541,26 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "GetSongsWithCategory",
+    "RelativePath": "api/Songs/getsongswithcategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "GetSongWithArist",
+    "RelativePath": "api/Songs/getsongwitharist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
