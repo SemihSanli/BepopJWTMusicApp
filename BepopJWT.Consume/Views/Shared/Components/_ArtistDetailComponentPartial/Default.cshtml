@@ -1,34 +1,28 @@
-﻿@{
-    ViewData["Title"] = "Sanatçı Detayı";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@using BepopJWT.Consume.ArtistDTOs
+@model GetArtistDetailsDTO
+
+@{
+    var userToken = Context.User.FindFirst("AccessToken")?.Value;
 }
 
 <div class="page-content page-container" id="page-content">
     <div class="padding sr">
 
-        <div class="page-hero" data-id="2" data-source="">
+        <div class="page-hero" data-id="@Model.ArtistId">
             <div class="media bg-media">
-                <div class="media-content" style="background-image:url('/Bebop/assets/img/b10.jpg')"></div>
+                <div class="media-content" style="background-image:url('@Model.ImageUrl')"></div>
             </div>
             <div class="pos-rlt">
-                <h1 class="display-3 font-weight-bold text-white">Alan Hayes</h1>
-                <span class="hide title">Shallow</span>
-                <span class="hide subtitle">Lady Gaga & Bradley Cooper</span>
+                <h1 class="display-3 font-weight-bold text-white">@Model.Name</h1>
 
                 <div class="py-4 toolbar align-items-center">
                     <button class="btn btn-icon btn-play btn-rounded gd-primary"></button>
-                    <span class="text-muted">10 şarkı, 5 liste</span>
+                    <span class="text-muted">@(Model.resultSongs?.Count ?? 0) şarkı</span>
+
                     <button class="btn btn-sm btn-outline-light btn-rounded mx-3">
                         <span class="d-inline">Takip Et</span>
                     </button>
                     <span class="text-muted">502 Takipçi</span>
-                </div>
-
-                <div class="mb-2">
-                    <span class="text-muted">Sosyal: </span>
-                    <a href="#" class="text-highlight">Fb</a>,
-                    <a href="#" class="text-highlight">Tw</a>,
-                    <a href="#" class="text-highlight">Ig</a>
                 </div>
             </div>
         </div>
@@ -39,235 +33,155 @@
                 <div class="d-flex">
                     <ul class="nav nav-sm text-sm nav-pills nav-rounded py-4">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#overview" data-toggle="tab">Genel Bakış</a>
+                            <a class="nav-link active" href="#tracks" data-toggle="tab">Şarkılar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#tracks" data-toggle="tab">Şarkılar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#albums" data-toggle="tab">Albümler</a>
+                            <a class="nav-link" href="#overview" data-toggle="tab">Genel Bakış</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="tab-content">
 
-                    <div class="tab-pane fade show active" id="overview">
-
+                    <div class="tab-pane fade show active" id="tracks">
                         <div class="heading pt-5 pb-3 d-flex">
                             <div>
-                                <div class="text-muted sr-item">Popüler</div>
-                                <h5 class="text-highlight sr-item">Şarkılar</h5>
+                                <h5 class="text-highlight sr-item">Popüler Şarkılar</h5>
                             </div>
-                            <span class="flex"></span>
                         </div>
 
                         <div class="row list-row list-index">
+                            @if (Model.resultSongs != null && Model.resultSongs.Any())
+                            {
+                                foreach (var song in Model.resultSongs)
+                                {
+                                    <div class="col-12">
+                                        <div class="list-item r">
+                                            <div class="media">
+                                                <a href="javascript:void(0);" class="ajax media-content" style="background-image:url('@song.ImageUrl')"></a>
+                                                <div class="media-action media-action-overlay">
+                                                    <button class="btn btn-icon no-bg no-shadow hide-row"><i data-feather="heart"></i></button>
 
-                            <div class="col-12" data-id="434202110">
-                                <div class="list-item r">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c13.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-icon no-bg no-shadow hide-row"><i data-feather="heart"></i></button>
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
+                                                    <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"
+                                                            onclick="checkSongAccess(event, @song.SongId, '@song.FileUrl')">
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                            <div class="list-content text-center">
+                                                <div class="list-body">
+                                                    <a href="javascript:void(0);" class="list-title title ajax h-1x">@song.SongTitle</a>
+                                                    <a href="javascript:void(0);" class="list-subtitle d-block text-muted h-1x">@Model.Name</a>
+                                                </div>
+                                            </div>
+
+                                            <div class="list-action show-row">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="px-3 text-sm text-muted d-none d-md-block">03:45</div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">SICKO MODE</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">Travis Scott</a>
-                                        </div>
-                                    </div>
-                                    <div class="list-action show-row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="px-3 text-sm text-muted d-none d-md-block">03:24</div>
-                                        </div>
-                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <div class="col-12 text-center p-5 text-muted">
+                                    Sanatçıya ait şarkı bulunamadı.
                                 </div>
-                            </div>
-
-                            <div class="col-12" data-id="374705210">
-                                <div class="list-item r">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c22.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-icon no-bg no-shadow hide-row"><i data-feather="heart"></i></button>
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-                                        </div>
-                                    </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">Mo Bamba</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">Sheck Wes</a>
-                                        </div>
-                                    </div>
-                                    <div class="list-action show-row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="px-3 text-sm text-muted d-none d-md-block">03:25</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-id="438654695">
-                                <div class="list-item r">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c23.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-icon no-bg no-shadow hide-row"><i data-feather="heart"></i></button>
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-                                        </div>
-                                    </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">Taki Taki</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">DJ Snake</a>
-                                        </div>
-                                    </div>
-                                    <div class="list-action show-row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="px-3 text-sm text-muted d-none d-md-block">02:48</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-id="416888150">
-                                <div class="list-item r">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c24.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-icon no-bg no-shadow hide-row"><i data-feather="heart"></i></button>
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-                                        </div>
-                                    </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">Solo</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">Clean Bandit</a>
-                                        </div>
-                                    </div>
-                                    <div class="list-action show-row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="px-3 text-sm text-muted d-none d-md-block">03:48</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-id="408576846">
-                                <div class="list-item r">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c25.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-icon no-bg no-shadow hide-row"><i data-feather="heart"></i></button>
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-                                        </div>
-                                    </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">Shotgun</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">George Ezra</a>
-                                        </div>
-                                    </div>
-                                    <div class="list-action show-row">
-                                        <div class="d-flex align-items-center">
-                                            <div class="px-3 text-sm text-muted d-none d-md-block">05:23</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                            }
                         </div>
                     </div>
 
-                    <div class="tab-pane fade" id="tracks">
-                        <div class="row list-row">
-                            <div class="col-12 p-3 text-muted text-center">
-                                Daha fazla şarkı yakında...
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="albums">
-                        <div class="row list mb-4">
-
-                            <div class="col-4 col-sm-3">
-                                <div class="list-item list-hover r mb-4">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c15.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-                                        </div>
-                                    </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">Later Bitches</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">The Prince Karma</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-4 col-sm-3">
-                                <div class="list-item list-hover r mb-4">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c16.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-                                        </div>
-                                    </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">ZEZE</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">Kodak Black</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-4 col-sm-3">
-                                <div class="list-item list-hover r mb-4">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c22.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-                                        </div>
-                                    </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">Mo Bamba</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">Sheck Wes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-4 col-sm-3">
-                                <div class="list-item list-hover r mb-4">
-                                    <div class="media">
-                                        <a href="#" class="ajax media-content" style="background-image:url('/Bebop/assets/img/c28.jpg')"></a>
-                                        <div class="media-action media-action-overlay">
-                                            <button class="btn btn-raised btn-icon btn-rounded bg--white btn-play"></button>
-                                        </div>
-                                    </div>
-                                    <div class="list-content text-center">
-                                        <div class="list-body">
-                                            <a href="#" class="list-title title ajax h-1x">Love Someone</a>
-                                            <a href="#" class="list-subtitle d-block text-muted h-1x">Lukas Graham</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                    <div class="tab-pane fade" id="overview">
+                        <div class="py-5 text-center text-muted">
+                            <p>@Model.Bio</p>
                         </div>
                     </div>
 
                 </div>
             </div>
-
-            <div style="min-width: 4rem"></div>
         </div>
+
     </div>
 </div>
+<audio id="globalAudioPlayer" style="display: none;" controls>
+    <source id="audioSource" src="" type="audio/mpeg">
+</audio>
+<input type="hidden" id="userToken" value="@userToken" />
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    // Müzik Oynatma ve Yetki Kontrolü
+    function checkSongAccess(e, songId, songUrl) {
+        if(e) e.preventDefault();
+        var token = document.getElementById("userToken").value;
+
+        if (!token) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oturum Bulunamadı',
+                text: 'Müzik dinlemek için lütfen giriş yapın.',
+                background: '#1e1e2d',
+                color: '#fff'
+            });
+            return;
+        }
+
+        fetch(`https://localhost:7209/api/Songs/check-access/${songId}`, {
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + token,
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.status === 401) {
+                Swal.fire({icon: 'error', title: 'Yetkisiz Erişim', text: 'Oturum süreniz dolmuş.'});
+                return null;
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (!data) return;
+
+            if (data.isSuccess) {
+                playMusic(songUrl);
+                const Toast = Swal.mixin({
+                  toast: true,
+                  position: 'bottom-end',
+                  showConfirmButton: false,
+                  timer: 3000,
+                  timerProgressBar: true,
+                  background: '#1e1e2d',
+                  color: '#fff'
+                });
+                Toast.fire({ icon: 'success', title: 'Çalıyor 🎵' });
+            } else {
+                Swal.fire({
+                    title: 'Premium Gerekli',
+                    text: data.message,
+                    icon: 'warning',
+                    confirmButtonText: 'Paketlere Git',
+                    confirmButtonColor: '#a855f7',
+                    background: '#1e1e2d',
+                    color: '#fff'
+                }).then((res) => {
+                    if (res.isConfirmed) window.location.href = "/Packages/Index";
+                });
+            }
+        })
+        .catch(err => console.error("Hata:", err));
+    }
+
+    function playMusic(url) {
+        var player = document.getElementById("globalAudioPlayer");
+        player.src = url;
+        player.style.display = "block";
+        player.style.width = "100%";
+        player.style.position = "fixed";
+        player.style.bottom = "0";
+        player.style.left = "0";
+        player.style.zIndex = "9999";
+        player.play().catch(e => console.error(e));
+    }
+</script>

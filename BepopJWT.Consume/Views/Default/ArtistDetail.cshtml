@@ -2,7 +2,8 @@
 @{
     ViewData["Title"] = "ArtistDetail";
     Layout = "~/Views/Shared/_MainLayout.cshtml";
+    int id = ViewBag.ArtistId != null ? (int)ViewBag.ArtistId : 0;
 }
 
-@await Component.InvokeAsync("_ArtistDetailComponentPartial")
+@await Component.InvokeAsync("_ArtistDetailComponentPartial",new {id=id})
 

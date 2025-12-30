@@ -23,6 +23,19 @@ namespace BepopJWT.API.Controllers
             var artists = await _artistService.TGetAllAsync();
             return StatusCode(201, artists);
         }
+
+        [HttpGet("GetArtistDetail/{id}")]
+        public async Task<IActionResult> GetArtistDetail(int id)
+        {
+            var artistDetail = await _artistService.GetArtistWithSongsByIdAsync(id);
+
+            if (artistDetail == null)
+            {
+                return NotFound("Sanatçı bulunamadı.");
+            }
+
+            return Ok(artistDetail);
+        }
         [HttpPost]
         public async Task<IActionResult> CreateArtist(CreateArtistDTO createArtistDTO)
         {
