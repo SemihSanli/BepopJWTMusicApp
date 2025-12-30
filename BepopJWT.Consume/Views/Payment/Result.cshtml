@@ -64,8 +64,8 @@
             <i class="fas fa-check-circle icon success"></i>
             <h2>Başarılı!</h2>
             <p>@ViewBag.Message</p>
-            <p><small id="timer">5</small> saniye içinde giriş sayfasına yönlendiriliyorsunuz...</p>
-            <a href="/Auth/SignIn" class="btn-redirect">Hemen Git</a>
+            <p><small id="timer">5</small> saniye içinde anasayfaya yönlendiriliyorsunuz...</p>
+            <a href="/Default/Discovery" class="btn-redirect">Hemen Git</a>
         }
         else
         {
@@ -86,7 +86,7 @@
                 timerElement.textContent = timeLeft;
                 if (timeLeft <= 0) {
                     clearInterval(countdown);
-                    window.location.href = "/Auth/SignIn";
+                    window.location.href = "/Default/Discovery";
                 }
             }, 1000);
         }

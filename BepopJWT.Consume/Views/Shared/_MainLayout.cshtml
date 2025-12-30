@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="~/Bebop/assets/css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="~/Bebop/assets/css/theme.css" type="text/css" />
     <link rel="stylesheet" href="~/Bebop/assets/css/style.css" type="text/css" />
-
- 
 </head>
 
 <body class="layout-column bg-dark">
@@ -33,11 +31,31 @@
 
             <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarCollapse">
                 <ul class="navbar-nav" data-nav>
+
                     <li class="nav-item">
                         <a href="/" class="nav-link">
                             <span class="nav-text">Keşfet</span>
                         </a>
                     </li>
+
+                    <li class="nav-item">
+                        <a href="/Default/Genres" class="nav-link">
+                            <span class="nav-text">Müzikler</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Default/Artist" class="nav-link">
+                            <span class="nav-text">Sanatçılar</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/Packages/Index" class="nav-link">
+                            <span class="nav-text text-primary font-weight-bold">Paketler</span>
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <a href="#" class="nav-link">
                             <span class="nav-text">Dokümantasyon</span>
@@ -47,16 +65,36 @@
             </div>
 
             <ul class="nav navbar-menu order-1 order-lg-2">
-                <li class="nav-item">
-                    <a class="nav-link no-ajax" href="/Account/Login">
-                        Giriş Yap
-                    </a>
-                </li>
-                <li class="d-flex align-items-center">
-                    <a class="btn btn-rounded btn-sm btn-primary no-ajax" href="/Account/Register">
-                        Kayıt Ol
-                    </a>
-                </li>
+                @if (User.Identity != null && User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item">
+                        <span class="nav-link text-white">
+                            <i data-feather="user" style="width:16px; margin-right:5px;"></i>
+                            @User.Identity.Name
+                        </span>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link no-ajax" href="/Auth/SignOut">
+                            Çıkış Yap
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link no-ajax" href="/Auth/SignIn">
+                            Giriş Yap
+                        </a>
+                    </li>
+
+                    <li class="d-flex align-items-center">
+                        <a class="btn btn-rounded btn-sm btn-primary no-ajax" href="/Auth/SignUp">
+                            Kayıt Ol
+                        </a>
+                    </li>
+                }
+
                 <li class="nav-item d-lg-none">
                     <a href="#" class="nav-link px-2" data-toggle="collapse" data-target="#navbarCollapse">
                         <i data-feather="menu"></i>
@@ -66,11 +104,13 @@
 
         </div>
     </header>
+
     <div id="main" class="layout-row flex">
         <div id="content" class="flex ">
             @RenderBody()
         </div>
     </div>
+
     <footer id="footer" class="page-footer ">
         <div class="padding bg-dark b-t">
             <div class="page-container">
@@ -102,9 +142,9 @@
                         <div class="col-6 col-md-2">
                             <h5 class="mb-3 text-muted">Sayfalar</h5>
                             <ul class="list-unstyled l-h-2x text-highlight">
-                                <li><a href="#">Sanatçılar</a></li>
-                                <li><a href="#">Listeler</a></li>
-                                <li><a href="#">Türler</a></li>
+                                <li><a href="/Artists/Index">Sanatçılar</a></li>
+                                <li><a href="/Songs/Index">Müzikler</a></li>
+                                <li><a href="/Packages/Index">Paketler</a></li>
                             </ul>
                         </div>
                         <div class="col-6 col-md-2">

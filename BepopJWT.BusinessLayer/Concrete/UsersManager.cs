@@ -43,6 +43,11 @@ namespace BepopJWT.BusinessLayer.Concrete
            return await _userDal.GetByIdAsync(id);
         }
 
+        public async Task<User> TGetUserWithPackageAsync(int userId)
+        {
+            return await _userDal.GetUserWithPackageAsync(userId);
+        }
+
         public async Task TUpdateAsync(User entity)
         {
             await _userDal.UpdateAsync(entity);

@@ -9,5 +9,7 @@ namespace BepopJWT.DataAccessLayer.Abstract
 {
     public interface ISongDal:IGenericDal<Song>
     {
+        Task<List<Song>> GetSongWithArtist();
+        Task<List<Song>> GetSongsWithCategory();
     }
 }

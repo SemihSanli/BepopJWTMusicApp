@@ -23,5 +23,10 @@ namespace BepopJWT.DataAccessLayer.EntityFramework
         {
           return await _appDbContext.Users.FirstOrDefaultAsync(u=>u.Email == email);
         }
+
+        public async Task<User> GetUserWithPackageAsync(int userId)
+        {
+          return await _appDbContext.Users.Include(p=>p.Package).FirstOrDefaultAsync(u=>u.UserId == userId);
+        }
     }
 }

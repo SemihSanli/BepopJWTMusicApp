@@ -10,5 +10,6 @@ namespace BepopJWT.BusinessLayer.Abstract
     public interface IUserService:IGenericService<User>
     {
         Task<User?> TGetByEmailAsync(string email);
+        Task<User> TGetUserWithPackageAsync(int userId);
     }
 }

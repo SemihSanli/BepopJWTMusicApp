@@ -1,0 +1,33 @@
+﻿@using BepopJWT.Consume.CategoryDTOs
+@model List<ResultCategoryDTO>
+
+@{
+    // URL'den seçili kategoriyi alıyoruz, null ise 0 kabul et
+    int selectedCatId = 0;
+    if (Context.Request.Query.ContainsKey("categoryId"))
+    {
+        int.TryParse(Context.Request.Query["categoryId"], out selectedCatId);
+    }
+}
+
+<div class="py-2 d-flex sr-item" id="filter-category">
+    <div class="no-shrink my-2">Türler</div>
+    <div class="mx-3 d-flex flex-wrap">
+
+        <a href="/Default/Genres?categoryId=0"
+           class="btn btn-sm btn-white m-1 @(selectedCatId == 0 ? "active" : "")">
+            Tüm Türler
+        </a>
+
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <a href="/Default/Genres?categoryId=@item.CategoryId"
+                   class="btn btn-sm btn-white m-1 @(selectedCatId == item.CategoryId ? "active" : "")">
+                    @item.CategoryName
+                </a>
+            }
+        }
+    </div>
+</div>

@@ -1,8 +1,10 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.DataAccessLayer.Abstract;
+using BepopJWT.DTOLayer.DTOs.SongDTOs;
 using BepopJWT.DTOLayer.FileUploadDTOs;
 using BepopJWT.DTOLayer.SongDTOs;
 using BepopJWT.EntityLayer.Entities;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,10 +17,12 @@ namespace BepopJWT.BusinessLayer.Concrete
     {
         private readonly ISongDal _songDal;
         private readonly IFileUploadService _fileUploadService;
-        public SongManager(ISongDal songDal, IFileUploadService fileUploadService)
+        private readonly IUserService _userService;
+        public SongManager(ISongDal songDal, IFileUploadService fileUploadService, IUserService userService)
         {
             _songDal = songDal;
             _fileUploadService = fileUploadService;
+            _userService = userService;
         }
 
         public async Task AddSongWithFileAsync(CreateSongDTO createSongDto)
@@ -50,6 +54,17 @@ namespace BepopJWT.BusinessLayer.Concrete
             await _songDal.AddAsync(newSong);
         }
 
+        public async Task<bool> CheckSongAccessAsync(int songId, int userId)
+        {
+           var song = await _songDal.GetByIdAsync(songId);
+            if(song == null) return false;
+           var user = await _userService.TGetUserWithPackageAsync(userId);
+            if (user == null) return false;
+            int userLevel = user.Package?.PackageLevel ?? 0;
+
+            return userLevel >= song.MinLevelRequired;
+        }
+
         public async Task DeleteWithFileAsync(int id)
         {
             var song = await _songDal.GetByIdAsync(id);
@@ -59,6 +74,39 @@ namespace BepopJWT.BusinessLayer.Concrete
             await _fileUploadService.DeleteImageAsync(song.ImageUrl);
 
             await _songDal.DeleteAsync(id);
+        }
+
+        public async Task<List<ResultSongWithArtists>> GetSongsWithArtistsAsync()
+        {
+            var values = await _songDal.GetSongWithArtist();
+            var songDtos = values.Select(x => new ResultSongWithArtists
+            {
+                SongId = x.SongId,
+                SongTitle = x.SongTitle,
+                ImageUrl = x.ImageUrl,
+                FileUrl = x.FileUrl,
+               MinLevelRequired = x.MinLevelRequired,
+                CategoryId = x.CategoryId,
+                CategoryName = x.Category != null ? x.Category.CategoryName : "Bilinmeyen Kategori",
+                Name = x.Artist != null ? x.Artist.Name : "Bilinmeyen Sanatçı"
+
+            }).ToList();
+            return songDtos;
+        }
+
+        public async Task<List<GetSongsWithCategoryDTO>> GetSongsWithCategoryAsync()
+        {
+          var values = await _songDal.GetSongsWithCategory();
+            var songwithcategorydtos = values.Select(x => new GetSongsWithCategoryDTO
+            {
+                SongId = x.SongId,
+                SongTitle = x.SongTitle,
+                ImageUrl = x.ImageUrl,
+                FileUrl = x.FileUrl,
+                MinLevelRequired = x.MinLevelRequired,
+                CategoryName = x.Category != null ? x.Category.CategoryName : "Bilinmeyen Kategori"
+            }).ToList();
+            return songwithcategorydtos;
         }
 
         public async Task TAddAsync(Song entity)

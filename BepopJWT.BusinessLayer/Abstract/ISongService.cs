@@ -1,4 +1,5 @@
-﻿using BepopJWT.DTOLayer.SongDTOs;
+﻿using BepopJWT.DTOLayer.DTOs.SongDTOs;
+using BepopJWT.DTOLayer.SongDTOs;
 using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,9 @@ namespace BepopJWT.BusinessLayer.Abstract
         Task AddSongWithFileAsync(CreateSongDTO createSongDto);
         Task UpdateWithFileAsync(UpdateSongDTO updateSongDto);
         Task DeleteWithFileAsync(int id);
+        Task<bool> CheckSongAccessAsync(int songId, int userId);
        
+        Task <List<ResultSongWithArtists>> GetSongsWithArtistsAsync();
+        Task<List<GetSongsWithCategoryDTO>> GetSongsWithCategoryAsync();
     }
 }

@@ -9,5 +9,6 @@ namespace BepopJWT.BusinessLayer.Constants.CustomClaimTypes
     public static class CustomClaimType
     {
         public const string PackageId = "PackageId";
+        public const string PackageLevel = "PackageLevel";
     }
 }

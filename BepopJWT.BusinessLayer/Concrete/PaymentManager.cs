@@ -27,21 +27,34 @@ namespace BepopJWT.BusinessLayer.Concrete
             _packageService = packageService;
         }
 
+        // Dosya: BepopJWT.BusinessLayer.Concrete/PaymentManager.cs
+
         public async Task<string> InitializePayment(PaymentRequestDTO paymentRequestDto)
         {
             var user = await _userService.TGetByIdAsync(paymentRequestDto.UserId);
             var newPackage = await _packageService.TGetByIdAsync(paymentRequestDto.PackageId);
 
-            if(user==null || newPackage == null) throw new Exception("Kullanıcı veya paket bulunamadı");
+            if (user == null || newPackage == null)
+                throw new Exception("Kullanıcı veya paket bulunamadı");
 
-            if (user.PackageId != null && user.PackageId !=0)
+            // --- DÜZENLEME BURADA BAŞLIYOR ---
+
+            // Eğer kullanıcının zaten bir paketi varsa
+            if (user.PackageId != null && user.PackageId != 0)
             {
-                var currentPackage = await _packageService.TGetByIdAsync(user.PackageId.Value);
-                if(currentPackage !=null && currentPackage.PackageLevel >= newPackage.PackageLevel)
+                // 1. KURAL: Kullanıcı zaten sahip olduğu paketi tekrar alamaz.
+                if (user.PackageId == newPackage.PackageId)
                 {
-                    throw new Exception("Mevcut paketin seviyesi, seçilen paketin seviyesinden yüksek veya eşit.)");
+                    throw new Exception("Zaten şu anda bu paketi kullanıyorsunuz. Aynı paketi tekrar satın alamazsınız.");
                 }
+
+                // NOT: Senin eski kodunda "Level" kontrolü vardı ve düşürmeye izin vermiyordu.
+                // İsteğin üzerine "yükseltme veya düşürme" yapabilmesi için o kısıtlamayı kaldırdık.
+                // Artık sadece "Aynı paket mi?" kontrolü yapıyoruz.
             }
+
+            // --- DÜZENLEME BİTTİ ---
+
             var order = new Order
             {
                 ConversationId = Guid.NewGuid().ToString(),
@@ -52,8 +65,8 @@ namespace BepopJWT.BusinessLayer.Concrete
                 CreatedDate = DateTime.UtcNow
             };
             await _orderService.TAddAsync(order);
-            return await _iyzicoService.StartPaymentProcess(user, newPackage, order.ConversationId);
 
+            return await _iyzicoService.StartPaymentProcess(user, newPackage, order.ConversationId);
         }
 
         public async Task<string> ProcessCallBack(IyzicoCallbackDTO iyzicoCallbackDto)

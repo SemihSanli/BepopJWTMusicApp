@@ -2,6 +2,7 @@
 using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.DTOLayer.ArtistDTOs;
 using BepopJWT.DTOLayer.FileUploadDTOs;
+using BepopJWT.DTOLayer.SongDTOs;
 using BepopJWT.EntityLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -54,6 +55,34 @@ namespace BepopJWT.BusinessLayer.Concrete
 
             
             await _artistDal.DeleteAsync(id); 
+        }
+
+        public async Task<GetArtistDetailsDTO> GetArtistWithSongsByIdAsync(int id)
+        {
+            var artist = await _artistDal.GetArtistWithSongsByIdAsync(id);
+
+            if (artist == null) return null;
+
+          
+            var artistDto = new GetArtistDetailsDTO
+            {
+                ArtistId = artist.ArtistId,
+                Name = artist.Name,
+                ImageUrl = artist.ImageUrl,
+                Bio = artist.Bio, 
+
+              
+                resultSongs = artist.Songs.Select(s => new ResultSongWithArtists
+                {
+                    SongId = s.SongId,
+                    SongTitle = s.SongTitle,
+                    ImageUrl = s.ImageUrl, 
+                    FileUrl = s.FileUrl,
+                    Name = artist.Name 
+                }).ToList()
+            };
+
+            return artistDto;
         }
 
         public async Task TAddAsync(Artist entity)
