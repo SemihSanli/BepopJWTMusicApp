@@ -1,12 +1,18 @@
+
+
+using BepopJWT.Consume.Helpers;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.IdentityModel.Tokens.Jwt;
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 
+builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient();
 
+
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ApiClientHelper>();
 
 builder.Services.AddDistributedMemoryCache(); 
 builder.Services.AddSession(options =>        
@@ -41,7 +47,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
+app.UseStatusCodePagesWithReExecute("/Error/Page/{0}");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

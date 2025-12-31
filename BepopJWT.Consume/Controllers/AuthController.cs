@@ -119,13 +119,21 @@ namespace BepopJWT.Consume.Controllers
                     }
 
                    
-                    return RedirectToAction("Index", "Default");
+                    return RedirectToAction("Discovery", "Default");
                 }
             }
 
         
             ViewBag.Error = "Email veya şifre hatalı!";
             return View(loginDto);
+        }
+        [HttpGet]
+        public async Task<IActionResult> SignOut()
+        {
+           
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);  
+            HttpContext.Session.Clear();
+            return RedirectToAction("SignIn", "Auth");
         }
     }
 }

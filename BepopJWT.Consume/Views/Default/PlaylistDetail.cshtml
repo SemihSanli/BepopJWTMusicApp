@@ -1,0 +1,8 @@
+﻿
+@{
+    ViewData["Title"] = "PlaylistDetail";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@await Component.InvokeAsync("_PlaylistDetailComponentPartial", new { playlistId = ViewBag.PlaylistId })")
+

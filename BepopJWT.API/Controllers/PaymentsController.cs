@@ -1,9 +1,11 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.DTOLayer.PaymentDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BepopJWT.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PaymentsController : ControllerBase

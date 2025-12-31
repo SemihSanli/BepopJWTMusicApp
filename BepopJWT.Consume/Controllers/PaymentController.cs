@@ -6,15 +6,21 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Security.Claims;
 using System.Text;
+using BepopJWT.Consume.Helpers;
 
 namespace BepopJWT.Consume.Controllers
 {
     public class PaymentController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        public PaymentController(IHttpClientFactory httpClientFactory)
+        private readonly ApiClientHelper _apiClientHelper;
+
+
+
+        public PaymentController(IHttpClientFactory httpClientFactory, ApiClientHelper apiClientHelper)
         {
             _httpClientFactory = httpClientFactory;
+            _apiClientHelper = apiClientHelper;
         }
 
 
@@ -31,10 +37,9 @@ namespace BepopJWT.Consume.Controllers
                 return RedirectToAction("SignIn", "Login"); // Giriş yapmamışsa login sayfasına at
             }
 
-            // 2. Email'i Cookie/Token içindeki Claim'den çekiyoruz
-            // (Login olurken ClaimTypes.Email veya ClaimTypes.Name olarak kaydettiysen ona göre değiştir)
+           
             string email = User.Claims.FirstOrDefault(x => x.Type == System.Security.Claims.ClaimTypes.Email)?.Value;
-            // Veya ClaimTypes kullanıyorsan: User.Claims.FirstOrDefault(x => x.Type == System.Security.Claims.ClaimTypes.Email)?.Value;
+            
 
             if (string.IsNullOrEmpty(email))
             {
@@ -50,12 +55,13 @@ namespace BepopJWT.Consume.Controllers
                                $"Görünen Kullanıcı Adı: {User.Identity.Name} \n" +
                                $"Lütfen LoginController tarafında Claims eklerken 'ClaimTypes.Email' eklediğinden emin ol.");
             }
-            var client = _httpClientFactory.CreateClient();
+            var client = _apiClientHelper.GetClient();
+            var response = _httpClientFactory.CreateClient();
             string apiUrl = "https://localhost:7209";
 
             try
             {
-                // 3. API'ye Kullanıcıyı Sor (Email ile ID'sini bulmak için)
+               
                 var userResponse = await client.GetAsync($"{apiUrl}/api/Users/getbyemail?email={email}");
 
                 if (!userResponse.IsSuccessStatusCode)
@@ -71,7 +77,7 @@ namespace BepopJWT.Consume.Controllers
                     return Content("❌ HATA: Kullanıcı bulundu ama ID geçersiz.");
                 }
 
-                // 4. Ödemeyi Başlat
+               
                 var paymentRequest = new PaymentRequestDTO
                 {
                     UserId = userDetail.UserId,
@@ -80,7 +86,7 @@ namespace BepopJWT.Consume.Controllers
 
                 var jsonContent = new StringContent(JsonConvert.SerializeObject(paymentRequest), Encoding.UTF8, "application/json");
 
-                // Buradan dönen cevapta Manager katmanındaki hata mesajı (Zaten sahipsiniz vs.) olabilir.
+              
                 var paymentResponse = await client.PostAsync($"{apiUrl}/api/Payments/initialize", jsonContent);
                 var responseStr = await paymentResponse.Content.ReadAsStringAsync();
 
@@ -126,14 +132,13 @@ namespace BepopJWT.Consume.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                // --- BURASI YENİ EKLENEN KISIM: KİMLİK TAZELEME ---
 
-                // A) Şu anki kullanıcının Email'ini al (Hala eski cookie'den okuyoruz)
-                var currentEmail = User.Identity.Name; // veya User.Claims'den e-postayı çek
+               
+                var currentEmail = User.Identity.Name;
 
                 if (!string.IsNullOrEmpty(currentEmail))
                 {
-                    // B) API'den kullanıcının GÜNCEL halini çek (Artık PackageId dolu gelecek)
+                  
                     var userResponse = await client.GetAsync($"{apiUrl}/api/Users/getbyemail?email={currentEmail}");
 
                     if (userResponse.IsSuccessStatusCode)
@@ -141,16 +146,15 @@ namespace BepopJWT.Consume.Controllers
                         var userJson = await userResponse.Content.ReadAsStringAsync();
                         var updatedUser = JsonConvert.DeserializeObject<UserForPaymentDTO>(userJson);
 
-                        // C) Eğer MVC tarafında JWT'yi Session'da tutuyorsan, API'den yeni bir JWT de istemen gerekebilir.
-                        // Ancak sadece Cookie Claims üzerinden yetki kontrolü yapıyorsan aşağısı yeterlidir:
+                     
 
                         var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, updatedUser.Email),
                     new Claim(ClaimTypes.NameIdentifier, updatedUser.UserId.ToString()),
-                    // DİKKAT: Artık yeni PackageId'yi claim'e basıyoruz
+                 
                     new Claim("PackageId", updatedUser.PackageId.ToString()) 
-                    // Varsa rolünü de tekrar ekle
+                    
                 };
 
                         var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -160,15 +164,14 @@ namespace BepopJWT.Consume.Controllers
                             ExpiresUtc = DateTime.UtcNow.AddDays(7)
                         };
 
-                        // D) ESKİ COOKIE'Yİ SİLİP YENİSİNİ BASIYORUZ (Re-Sign In)
+                       
                         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
                         await HttpContext.SignInAsync(
                             CookieAuthenticationDefaults.AuthenticationScheme,
                             new ClaimsPrincipal(claimsIdentity),
                             authProperties);
 
-                        // Eğer token'ı Session'da tutuyorsan onu da güncellemen gerekebilir
-                        // HttpContext.Session.SetString("JWToken", "YENİ_TOKEN_VARSA_BURAYA");
+                    
                     }
                 }
                 // ---------------------------------------------------

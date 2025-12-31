@@ -1,10 +1,12 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.DTOLayer.PlaylistDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BepopJWT.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class PlaylistsController : ControllerBase
@@ -47,6 +49,18 @@ namespace BepopJWT.API.Controllers
         {
             var values = await _playlistService.TGetAllAsync();
             return Ok(values);
+        }
+        [HttpGet("GetPlaylistById/{id}")]
+        public async Task<IActionResult> GetPlaylistById(int id)
+        {
+            var value = await _playlistService.GetPlaylistWithSongsByIdAsync(id);
+
+            if (value == null)
+            {
+                return NotFound("Böyle bir çalma listesi bulunamadı.");
+            }
+
+            return Ok(value);
         }
     }
 }

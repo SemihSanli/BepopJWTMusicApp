@@ -1,11 +1,13 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.DTOLayer.CategoryDTOs;
 using BepopJWT.EntityLayer.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BepopJWT.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase

@@ -1,0 +1,118 @@
+﻿@model ErrorPageModel
+@{
+    ViewData["Title"] = "Hata " + Model.Code;
+    Layout = null; /* Layout kullanmıyoruz, tam ekran hata olsun */
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@Model.Title - Bepop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #09090b;
+            color: white;
+            font-family: 'Outfit', sans-serif;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Arka Plan Efekti */
+        .bg-glow {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(168, 85, 247, 0.2) 0%, transparent 70%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+            animation: pulse 5s infinite alternate;
+        }
+
+        @@keyframes pulse {
+            from
+
+        {
+            opacity: 0.5;
+            transform: translate(-50%, -50%) scale(0.8);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1.2);
+        }
+
+        }
+
+        .error-code {
+            font-size: 10rem;
+            font-weight: 900;
+            line-height: 1;
+            margin: 0;
+            background: linear-gradient(135deg, #fff 30%, #a855f7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 10px 30px rgba(168, 85, 247, 0.3);
+        }
+
+        .error-title {
+            font-size: 2.5rem;
+            margin: 10px 0;
+            font-weight: 700;
+        }
+
+        .error-msg {
+            font-size: 1.2rem;
+            color: #a1a1aa;
+            max-width: 500px;
+            margin: 0 auto 40px;
+        }
+
+        .btn-home {
+            padding: 15px 40px;
+            background: white;
+            color: black;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+            .btn-home:hover {
+                transform: scale(1.05);
+                background: #a855f7;
+                color: white;
+                box-shadow: 0 0 20px rgba(168,85,247,0.6);
+            }
+    </style>
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <div>
+        <h1 class="error-code">@Model.Code</h1>
+        <h2 class="error-title">@Model.Title</h2>
+        <p class="error-msg">@Model.Message</p>
+
+        <a href="/Default/Index" class="btn-home">Ana Sayfaya Dön</a>
+
+        @if (Model.Code == "403" || Model.Code == "401")
+        {
+            <a href="/Login/LogOut" class="btn-home" style="background:transparent; border:1px solid rgba(255,255,255,0.2); color:white; margin-left:10px;">Farklı Hesapla Gir</a>
+        }
+    </div>
+
+</body>
+</html>

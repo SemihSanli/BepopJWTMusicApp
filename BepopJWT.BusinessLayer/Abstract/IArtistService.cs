@@ -13,7 +13,7 @@ namespace BepopJWT.BusinessLayer.Abstract
         Task CreateArtistWithImageFileAsync(CreateArtistDTO createArtistDto);
         Task UpdateArtistWithImageFileAsync(UpdateArtistDTO updateArtistDto);
         Task DeleteArtistWithImageFileAsync(int id);
-
+        Task<int> GetArtistCountAsync();
         Task<GetArtistDetailsDTO> GetArtistWithSongsByIdAsync(int id);
     }
 }

@@ -1,0 +1,134 @@
+﻿﻿
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flexy Free Bootstrap Admin Template by WrapPixel</title>
+    <link rel="shortcut icon" type="image/png" href="~/flexy-bootstrap-lite-1.0.0/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/flexy-bootstrap-lite-1.0.0/assets/css/styles.min.css" />
+
+    <style>
+        /* Temanın ana içerik sarmalayıcısında (body-wrapper-inner)
+                                          olası bir 'max-width' kuralını ezer.
+                                        */
+        .body-wrapper-inner {
+            max-width: 100% !important;
+        }
+
+        /* @RenderBody içinden gelen .container sınıfını
+        tam genişliğe zorlar.
+        */
+        .body-wrapper-inner .container {
+            max-width: 100% !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+         data-sidebar-position="fixed" data-header-position="fixed">
+
+        <div class="app-topstrip bg-dark py-6 px-3 w-100 d-lg-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center justify-content-center gap-5 mb-2 mb-lg-0">
+                <a class="d-flex justify-content-center" href="#">
+                    <img src="~/flexy-bootstrap-lite-1.0.0/assets/images/logos/logo-wrappixel.svg" alt="" width="150">
+                </a>
+
+
+            </div>
+
+
+
+        </div>
+        <aside class="left-sidebar">
+            <div>
+                <div class="brand-logo d-flex align-items-center justify-content-between">
+                    <a href="./index.html" class="text-nowrap logo-img">
+                        <img src="assets/images/logos/logo.svg" alt="" />
+                    </a>
+                    <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
+                        <i class="ti ti-x fs-6"></i>
+                    </div>
+                </div>
+                <nav class="sidebar-nav scroll-sidebar" data-simplebar="">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap">
+                            <iconify-icon icon="solar:menu-dots-linear" class="nav-small-cap-icon fs-4"></iconify-icon>
+                            <span class="hide-menu">Home</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="/Dashboard/Index/" aria-expanded="false">
+                                <iconify-icon icon="mdi:view-dashboard-outline" class="fs-5 me-2"></iconify-icon>
+                                <span class="hide-menu">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="/CuisineRegion/Index/" aria-expanded="false">
+                                <iconify-icon icon="mdi:chef-hat" class="fs-5 me-2"></iconify-icon>
+                                <span class="hide-menu">Dünya Mutfakları</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="/Recipe/Index/" aria-expanded="false">
+                                <iconify-icon icon="mdi:food-fork-drink" class="fs-5 me-2"></iconify-icon>
+                                <span class="hide-menu">Tarifbaz</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="/Forecast/Index/" aria-expanded="false">
+                                <iconify-icon icon="mdi:chart-line" class="fs-5 me-2"></iconify-icon>
+                                <span class="hide-menu">Satış Analiz & Tahmini</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="/Customer/Index/" aria-expanded="false">
+                                <iconify-icon icon="mdi:account-group" class="fs-5 me-2"></iconify-icon>
+                                <span class="hide-menu">Müşteriler</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="/Order/Index/" aria-expanded="false">
+                                <iconify-icon icon="mdi:cart-outline" class="fs-5 me-2"></iconify-icon>
+                                <span class="hide-menu">Siparişler</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="/Product/Index/" aria-expanded="false">
+                                <iconify-icon icon="mdi:package-variant-closed" class="fs-5 me-2"></iconify-icon>
+                                <span class="hide-menu">Ürünler</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link" href="/Category/Index/" aria-expanded="false">
+                                <iconify-icon icon="mdi:shape-outline" class="fs-5 me-2"></iconify-icon>
+                                <span class="hide-menu">Kategoriler</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </aside>
+        <div class="body-wrapper">
+            <div class="container">
+                <div class="body-wrapper-inner">
+                    <div class="w-100">
+                        @RenderBody()
+                        @RenderSection("Scripts", required: false)
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="~/flexy-bootstrap-lite-1.0.0/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="~/flexy-bootstrap-lite-1.0.0/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/flexy-bootstrap-lite-1.0.0/assets/js/sidebarmenu.js"></script>
+    <script src="~/flexy-bootstrap-lite-1.0.0/assets/js/app.min.js"></script>
+    <script src="~/flexy-bootstrap-lite-1.0.0/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="~/flexy-bootstrap-lite-1.0.0/assets/libs/simplebar/dist/simplebar.js"></script>
+    <script src="~/flexy-bootstrap-lite-1.0.0/assets/js/dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+</body>
+
+</html>

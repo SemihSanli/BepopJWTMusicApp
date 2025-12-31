@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BepopJWT.DTOLayer.PackageDTOs
+namespace BepopJWT.Consume.PackageDTOs
 {
     public class UpdatePackageDTO
     {

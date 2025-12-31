@@ -2,6 +2,7 @@ using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.BusinessLayer.Concrete;
 using BepopJWT.BusinessLayer.Options.CloudinaryOptions;
 using BepopJWT.BusinessLayer.Options.IyzicoOptions;
+using BepopJWT.BusinessLayer.Options.OpenAIOptions;
 using BepopJWT.DataAccessLayer.Abstract;
 using BepopJWT.DataAccessLayer.Context;
 using BepopJWT.DataAccessLayer.EntityFramework;
@@ -17,7 +18,7 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 builder.Services.Configure<IyzicoSettings>(builder.Configuration.GetSection("Iyzipay"));
 builder.Services.Configure<PaymentSettings>(builder.Configuration.GetSection("PaymentSettings"));
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
-
+builder.Services.Configure<OpenAISettings>(builder.Configuration.GetSection(OpenAISettings.OpenAI));
 
 //JWT Kaydým buraya
 
@@ -71,6 +72,8 @@ builder.Services.AddScoped<IFileUploadService, FileUploadManager>();
 builder.Services.AddScoped<IPlaylistDal, EfPlaylistDal>();
 builder.Services.AddScoped<IPlaylistSongDal, EfPlaylistSongDal>();
 builder.Services.AddScoped<IPlayListService, PlaylistManager>();
+builder.Services.AddScoped<IMLRecommendationService,MLRecommendationManager>();
+builder.Services.AddHttpClient<IOpenAIService,OpenAIManager>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

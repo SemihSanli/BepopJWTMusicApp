@@ -13,5 +13,7 @@ namespace BepopJWT.BusinessLayer.Abstract
         Task<List<ResultPlaylistWithSongsDTO>> GetPlaylistsByUserIdAsync(int userId);
         Task CreatePlayListAsync(CreatePlaylistDTO createPlaylistDto);
         Task AddSongToPlaylistAsync(AddSongToPlaylistDTO addSongToPlaylistDto);
+        Task<ResultPlaylistWithSongsDTO> GetPlaylistWithSongsByIdAsync(int id);
+        Task<List<GetPlaylistByUserId>> GetPlaylistByUserId(int userId);
     }
 }

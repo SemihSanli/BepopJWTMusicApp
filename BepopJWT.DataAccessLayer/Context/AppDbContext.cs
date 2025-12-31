@@ -24,11 +24,23 @@ namespace BepopJWT.DataAccessLayer.Context
         public DbSet<Song> Songs { get; set; }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Favorite> Favorites { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Favorite>()
+                .HasOne(f => f.user)
+                .WithMany(u => u.Favorites)
+                .HasForeignKey(f => f.UserId)
+                .OnDelete(DeleteBehavior.Cascade); 
 
+         
+            modelBuilder.Entity<Favorite>()
+                .HasOne(f => f.Song)
+                .WithMany(s => s.Favorites)
+                .HasForeignKey(f => f.SongId)
+                .OnDelete(DeleteBehavior.Cascade); 
 
             modelBuilder.Entity<PlaylistSong>()
                 .HasKey(ps => new { ps.PlaylistId, ps.SongId });
@@ -47,6 +59,8 @@ namespace BepopJWT.DataAccessLayer.Context
             modelBuilder.Entity<Payment>()
         .Property(p => p.PaidPrice)
         .HasColumnType("decimal(18,2)");
+
+
         }
     }
 }

@@ -1,11 +1,13 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.DTOLayer.ArtistDTOs;
 using BepopJWT.EntityLayer.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BepopJWT.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ArtistsController : ControllerBase
@@ -16,7 +18,7 @@ namespace BepopJWT.API.Controllers
         {
             _artistService = artistService;
         }
-
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetAllArtists()
         {
@@ -94,6 +96,12 @@ namespace BepopJWT.API.Controllers
             }
 
             return StatusCode(201,values);
+        }
+        [HttpGet("GetArtistCount")]
+        public async Task<IActionResult> GetArtistCount()
+        {
+            var count = await _artistService.GetArtistCountAsync();
+            return StatusCode(201, new { ArtistCount = count });
         }
     }
 }

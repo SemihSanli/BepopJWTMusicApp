@@ -10,5 +10,7 @@ namespace BepopJWT.DataAccessLayer.Abstract
     public interface IPlaylistDal:IGenericDal<Playlist>
     {
         Task<List<Playlist>> GetPlaylistWithUserAndSongsAsync(int userId);
+        Task<List<Playlist>> GetPlaylistByUserId(int userId);
+        Task<Playlist> GetPlaylistWithSongsByIdAsync(int userId);
     }
 }

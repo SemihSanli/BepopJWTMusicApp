@@ -1,9 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Net.Http.Headers;
+using System.Net.Http;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BepopJWT.Consume.Controllers
 {
+    [Authorize]
     public class DefaultController : Controller
     {
+        [AllowAnonymous]
         public IActionResult Index()
         {
             return View();
@@ -26,5 +32,17 @@ namespace BepopJWT.Consume.Controllers
             ViewBag.CategoryId = categoryId;
             return View();
         }
+        public IActionResult Playlist()
+        {
+            
+            return View();
+        }
+        public IActionResult PlaylistDetail(int id)
+        {
+            ViewBag.PlaylistId = id;
+            return View();
+        }
+       
+        
     }
 }

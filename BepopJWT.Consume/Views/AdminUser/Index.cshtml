@@ -1,0 +1,196 @@
+﻿@using BepopJWT.Consume.DTOs.UserDTOs
+@model List<ResultUserDTOs>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    /* Genel Sayfa Stilleri */
+    .user-list-container {
+        padding: 30px;
+        background-color: #f8f9fa;
+        min-height: 100vh;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .page-title {
+        color: #2c3e50;
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    /* Tablo Kartı */
+    .card-box {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+        overflow: hidden; /* Köşelerin yuvarlak kalması için */
+        border: 1px solid #eee;
+    }
+
+    /* Tablo Stilleri */
+    .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0;
+    }
+
+        .custom-table thead {
+            /* Bepop temasına uygun mor/mavi bir başlık rengi */
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+        }
+
+        .custom-table th {
+            padding: 18px 15px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .custom-table td {
+            padding: 15px;
+            vertical-align: middle;
+            color: #555;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 15px;
+        }
+
+        /* Satır Efektleri */
+        .custom-table tbody tr:hover {
+            background-color: #fcfcfc;
+            transform: scale(1.005); /* Hafif bir büyüme efekti */
+            transition: all 0.2s ease;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+        }
+
+    /* Zebra Çizgiler (İsteğe bağlı, şu an kapalı)
+        .custom-table tbody tr:nth-child(even) {
+            background-color: #fcfcfc;
+        }
+        */
+
+    /* Profil Resmi Alanı */
+    .img-cell {
+        width: 80px;
+        text-align: center;
+    }
+
+    .profile-wrapper {
+        position: relative;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid #e9ecef;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        margin: 0 auto; /* Merkeze hizala */
+        background-color: #ddd; /* Resim yoksa gri arka plan */
+    }
+
+    .profile-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Resim kare olmasa bile dairenin içine düzgün sığdırır */
+    }
+
+    /* Resim yüklenemediğinde gösterilecek ikon */
+    .profile-wrapper::before {
+        content: '\f007'; /* FontAwesome user icon */
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #999;
+        font-size: 24px;
+        z-index: 0; /* Resmin altında kalsın */
+    }
+
+    .profile-img {
+        position: relative; /* Z-index'in çalışması için */
+        z-index: 1;
+    }
+
+
+    /* Metin Vurguları */
+    .username-text {
+        color: #764ba2;
+        font-weight: 600;
+    }
+
+    .email-text {
+        color: #888;
+        font-style: italic;
+    }
+
+    /* Boş Durum Mesajı */
+    .empty-state {
+        padding: 40px;
+        text-align: center;
+        color: #999;
+        font-size: 18px;
+    }
+</style>
+
+<div class="user-list-container">
+    <div class="page-header">
+        <h2 class="page-title"><i class="fas fa-users me-2"></i>Kayıtlı Kullanıcılar</h2>
+        <span class="badge bg-primary" style="font-size: 14px; padding: 10px 15px;">Toplam: @(Model?.Count ?? 0) Kullanıcı</span>
+    </div>
+
+    <div class="card-box">
+        @if (Model != null && Model.Any())
+        {
+            <div class="table-responsive">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+                            <th class="text-center" style="width: 100px;">Profil</th>
+                            <th>Ad Soyad</th>
+                            <th>Kullanıcı Adı</th>
+                            <th>Email Adresi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var user in Model)
+                        {
+                            <tr>
+                                <td class="img-cell">
+                                    <div class="profile-wrapper">
+                                        <img src="@user.ProfileImage"
+                                             alt="@user.Username"
+                                             class="profile-img"
+                                             onerror="this.style.display='none'" />
+                                    </div>
+                                </td>
+                                <td><strong>@user.FullName</strong></td>
+                                <td><span class="username-text">@user.Username</span></td>
+                                <td><span class="email-text">@user.Email</span></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="empty-state">
+                <i class="fas fa-user-slash fa-3x mb-3"></i>
+                <p>Sistemde kayıtlı kullanıcı bulunamadı veya bir hata oluştu.</p>
+            </div>
+        }
+    </div>
+</div>

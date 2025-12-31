@@ -1,0 +1,28 @@
+﻿@model BepopJWT.Consume.CategoryDTOs.CreateCategoryDTO
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Yeni Kategori Ekle";
+}
+
+<div class="page-container py-5">
+    <div class="container" style="max-width: 600px;">
+
+        <h2 class="mb-4">@ViewData["Title"]</h2>
+
+        <form asp-action="SaveCategory" asp-controller="Categories" method="post">
+            <div class="mb-4">
+                <label asp-for="CategoryName" class="form-label fw-bold">Kategori Adı</label>
+                <input asp-for="CategoryName" class="form-control form-control-lg" placeholder="Kategori adını girin" required />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-lg btn-primary px-5">Ekle</button>
+                <a asp-action="Index" asp-controller="Categories" class="btn btn-lg btn-outline-secondary px-4">İptal</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+

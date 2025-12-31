@@ -1,4 +1,5 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
+using BepopJWT.BusinessLayer.Constants.CustomClaimTypes;
 using BepopJWT.DTOLayer.SongDTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -7,7 +8,7 @@ using System.Security.Claims;
 
 namespace BepopJWT.API.Controllers
 {
-    
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class SongsController : ControllerBase
@@ -79,6 +80,28 @@ namespace BepopJWT.API.Controllers
             }
 
             return Ok(new { isSuccess = true });
+
+           
+        }
+        [HttpGet("recommend")]
+        public async Task<IActionResult> GetRecommend([FromQuery] string mood)
+        {
+           
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null) return Unauthorized();
+
+            int userId = int.Parse(userIdClaim.Value);
+
+            
+            var packageIdClaim = User.FindFirst(CustomClaimType.PackageId);
+
+         
+            int packageId = packageIdClaim != null ? int.Parse(packageIdClaim.Value) : 0;
+
+       
+            var result = await _songService.GetSongSuggestionByMoodAsync(userId, packageId, mood);
+
+            return Ok(result);
         }
     }
 }

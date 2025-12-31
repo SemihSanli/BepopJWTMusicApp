@@ -32,35 +32,43 @@
             <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarCollapse">
                 <ul class="navbar-nav" data-nav>
 
-                    <li class="nav-item">
-                        <a href="/" class="nav-link">
-                            <span class="nav-text">Keşfet</span>
-                        </a>
-                    </li>
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">
+                                <span class="nav-text">Keşfet</span>
+                            </a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a href="/Default/Genres" class="nav-link">
-                            <span class="nav-text">Müzikler</span>
-                        </a>
-                    </li>
+                        <li class="nav-item">
+                            <a href="/Default/Genres" class="nav-link">
+                                <span class="nav-text">Müzikler</span>
+                            </a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a href="/Default/Artist" class="nav-link">
-                            <span class="nav-text">Sanatçılar</span>
-                        </a>
-                    </li>
+                        <li class="nav-item">
+                            <a href="/Default/Artist" class="nav-link">
+                                <span class="nav-text">Sanatçılar</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Default/Playlist" class="nav-link">
+                                <span class="nav-text">Çalma Listelerim</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Packages/Index" class="nav-link">
+                                <span class="nav-text text-primary font-weight-bold">Paketler</span>
+                            </a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a href="/Packages/Index" class="nav-link">
-                            <span class="nav-text text-primary font-weight-bold">Paketler</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <span class="nav-text">Dokümantasyon</span>
-                        </a>
-                    </li>
+                        <li class="nav-item">
+                            <a href="/AİRecommend/SongRecommendation" class="nav-link">
+                                <span class="nav-text">BepopDJ</span>
+                            </a>
+                        </li>
+                    }
+                  
                 </ul>
             </div>
 

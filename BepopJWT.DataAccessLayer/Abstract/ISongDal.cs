@@ -11,5 +11,6 @@ namespace BepopJWT.DataAccessLayer.Abstract
     {
         Task<List<Song>> GetSongWithArtist();
         Task<List<Song>> GetSongsWithCategory();
+      
     }
 }

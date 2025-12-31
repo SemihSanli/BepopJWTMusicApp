@@ -17,7 +17,7 @@ namespace BepopJWT.DataAccessLayer.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.17")
+                .HasAnnotation("ProductVersion", "8.0.22")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -62,6 +62,29 @@ namespace BepopJWT.DataAccessLayer.Migrations
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Favorite", b =>
+                {
+                    b.Property<int>("FavoriteId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FavoriteId"));
+
+                    b.Property<int>("SongId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("FavoriteId");
+
+                    b.HasIndex("SongId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Favorites");
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Order", b =>
@@ -313,6 +336,25 @@ namespace BepopJWT.DataAccessLayer.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Favorite", b =>
+                {
+                    b.HasOne("BepopJWT.EntityLayer.Entities.Song", "Song")
+                        .WithMany("Favorites")
+                        .HasForeignKey("SongId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BepopJWT.EntityLayer.Entities.User", "user")
+                        .WithMany("Favorites")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Song");
+
+                    b.Navigation("user");
+                });
+
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Order", b =>
                 {
                     b.HasOne("BepopJWT.EntityLayer.Entities.Package", "Package")
@@ -428,11 +470,15 @@ namespace BepopJWT.DataAccessLayer.Migrations
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.Song", b =>
                 {
+                    b.Navigation("Favorites");
+
                     b.Navigation("PlaylistSongs");
                 });
 
             modelBuilder.Entity("BepopJWT.EntityLayer.Entities.User", b =>
                 {
+                    b.Navigation("Favorites");
+
                     b.Navigation("Playlists");
                 });
 #pragma warning restore 612, 618

@@ -10,5 +10,6 @@ namespace BepopJWT.DataAccessLayer.Abstract
     public interface IArtistDal:IGenericDal<Artist>
     {
         Task<Artist> GetArtistWithSongsByIdAsync(int id);
+        Task<int> GetArtistCountAsync();
     }
 }

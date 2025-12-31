@@ -15,8 +15,9 @@ namespace BepopJWT.BusinessLayer.Abstract
         Task UpdateWithFileAsync(UpdateSongDTO updateSongDto);
         Task DeleteWithFileAsync(int id);
         Task<bool> CheckSongAccessAsync(int songId, int userId);
-       
+        Task<List<ResultSongWithArtists>> GetSongsByIdsAsync(List<int> ids);
         Task <List<ResultSongWithArtists>> GetSongsWithArtistsAsync();
         Task<List<GetSongsWithCategoryDTO>> GetSongsWithCategoryAsync();
+        Task<List<ResultSongWithArtists>> GetSongSuggestionByMoodAsync(int userId, int userLevel, string userMood);
     }
 }
