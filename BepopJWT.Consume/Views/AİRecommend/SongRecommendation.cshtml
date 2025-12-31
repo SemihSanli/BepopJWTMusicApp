@@ -1,0 +1,430 @@
+﻿@using BepopJWT.Consume.SongDTOs
+@model List<ResultSongWithArtists>
+
+@{
+    ViewData["Title"] = "AI DJ Future";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    /* --- 1. CANLI ARKA PLAN (Gradient Animasyonu) --- */
+    body {
+        background: #0f0c29;
+        /* Alttaki gradient resmin altında bir katman olarak kalır */
+        background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #4c1d95);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        overflow-x: hidden;
+    }
+
+    @@keyframes gradientBG {
+        0%
+
+    {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+    }
+
+    /* --- 2. RESİM KATMANI (BURAYA RESMİNİ EKLE) --- */
+    .bg-image-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0; /* İçeriklerin arkasında kalır */
+        pointer-events: none; /* Tıklamayı engellemez */
+        /* ↓↓↓ RESİM YOLUNU BURAYA YAZ ↓↓↓ */
+        background-image: url('https://i.hizliresim.com/17b8utc.png');
+        /* Örnek olarak bir DJ görseli koydum, kendi resmini /img/resim.jpg olarak değiştir */
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* --- GÖRÜNÜRLÜK AYARLARI --- */
+        opacity: 0.3; /* Resmin şeffaflığı (0.1 ile 1 arası) */
+        mix-blend-mode: overlay; /* Resmi arka plan rengiyle harmanlar (Çok şık durur) */
+        filter: grayscale(40%) contrast(1.2); /* Hafif siyah beyaz yapıp netleştirir */
+    }
+
+    /* --- GLASSMORPHISM CARD --- */
+    .ai-glass-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 24px;
+        padding: 50px;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        max-width: 900px;
+        margin: 40px auto;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        z-index: 10; /* Resmin üstüne çıkar */
+    }
+
+    /* --- DİĞER CSS AYARLARI (AYNEN KALDI) --- */
+    .neon-title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #fff;
+        text-shadow: 0 0 10px #a855f7, 0 0 20px #a855f7, 0 0 40px #a855f7;
+        margin-bottom: 10px;
+        z-index: 2;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 40px;
+        z-index: 2;
+    }
+
+    .input-group-neon {
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        z-index: 2;
+    }
+
+    .mood-input {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        border: 2px solid rgba(168, 85, 247, 0.5);
+        padding: 18px 30px;
+        border-radius: 50px;
+        color: white;
+        font-size: 1.2rem;
+        outline: none;
+        text-align: center;
+        transition: 0.4s;
+        box-shadow: 0 0 15px rgba(168, 85, 247, 0.1);
+    }
+
+        .mood-input:focus {
+            border-color: #d8b4fe;
+            box-shadow: 0 0 25px rgba(168, 85, 247, 0.6), inset 0 0 10px rgba(168, 85, 247, 0.2);
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+    .btn-neon-submit {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        bottom: 5px;
+        background: linear-gradient(90deg, #a855f7, #ec4899);
+        border: none;
+        border-radius: 40px;
+        padding: 0 25px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 0 10px rgba(236, 72, 153, 0.4);
+    }
+
+        .btn-neon-submit:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(236, 72, 153, 0.8);
+        }
+
+    .tags-container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        z-index: 2;
+    }
+
+    .neon-tag {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 10px 25px;
+        border-radius: 15px;
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 0.9rem;
+    }
+
+        .neon-tag:hover {
+            background: white;
+            color: #4c1d95;
+            box-shadow: 0 0 15px white;
+            transform: translateY(-3px) scale(1.05);
+            border-color: white;
+        }
+
+    .result-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        padding-bottom: 15px;
+        z-index: 2;
+    }
+
+    .song-card {
+        display: flex;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
+    }
+
+        .song-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: #a855f7;
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .song-card:hover {
+            transform: translateX(10px) scale(1.01);
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+            .song-card:hover::before {
+                opacity: 1;
+            }
+
+    .song-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-right: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+
+    .play-icon-wrapper {
+        width: 45px;
+        height: 45px;
+        background: rgba(255,255,255,0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+
+    .song-card:hover .play-icon-wrapper {
+        background: #a855f7;
+        color: white;
+        transform: rotate(360deg);
+    }
+
+    .floating-player {
+        position: fixed;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 800px;
+        height: 80px;
+        background: rgba(18, 18, 18, 0.85);
+        backdrop-filter: blur(20px);
+        border-radius: 50px;
+        border: 1px solid rgba(255,255,255,0.1);
+        display: none;
+        align-items: center;
+        padding: 0 25px;
+        z-index: 10000;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+        animation: slideUp 0.5s;
+    }
+
+    @@keyframes slideUp {
+        from {
+            bottom: -100px;
+            opacity: 0;
+        }
+
+        to {
+            bottom: 30px;
+            opacity: 1;
+        }
+    }
+
+    .btn-close-player {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        margin-left: 20px;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+        .btn-close-player:hover {
+            opacity: 1;
+            color: #ef4444;
+        }
+</style>
+
+<div class="bg-image-overlay"></div>
+
+<div class="container-fluid">
+    <div class="ai-glass-card">
+        @if (Model == null)
+        {
+            <div style="text-align: center; width: 100%;">
+                <div class="mb-4" style="animation: float 3s ease-in-out infinite;">
+                    <i class="fa fa-robot" style="font-size: 5rem; background: -webkit-linear-gradient(#a855f7, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"></i>
+                </div>
+
+                <h1 class="neon-title">BEPOP DJ</h1>
+                <p class="subtitle">Ruh halini analiz etmem için bana bir ipucu ver.</p>
+
+                <form method="post" action="/AİRecommend/SongRecommendation" class="d-flex justify-content-center w-100">
+                    <div class="input-group-neon">
+                        <input type="text" name="mood" class="mood-input" placeholder="Bugün nasıl hissediyorsun?" required autocomplete="off">
+                        <button type="submit" class="btn-neon-submit">BAŞLAT</button>
+                    </div>
+                </form>
+
+                <div class="tags-container">
+                    <form method="post" action="/AİRecommend/SongRecommendation"><input type="hidden" name="mood" value="Mutlu"><button class="neon-tag">😊 Mutlu</button></form>
+                    <form method="post" action="/AİRecommend/SongRecommendation"><input type="hidden" name="mood" value="Melankolik"><button class="neon-tag">🌧️ Melankolik</button></form>
+                    <form method="post" action="/AİRecommend/SongRecommendation"><input type="hidden" name="mood" value="Spor"><button class="neon-tag">💪 Spor</button></form>
+                    <form method="post" action="/AİRecommend/SongRecommendation"><input type="hidden" name="mood" value="Parti"><button class="neon-tag">🎉 Parti</button></form>
+                    <form method="post" action="/AİRecommend/SongRecommendation"><input type="hidden" name="mood" value="Odaklan"><button class="neon-tag">🧠 Odaklan</button></form>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="w-100 fade-in" style="max-width: 800px; z-index: 2;">
+                <div class="result-header">
+                    <div>
+                        <small class="text-uppercase text-white-50" style="letter-spacing: 2px;">Analiz Tamamlandı</small>
+                        <h2 class="font-weight-bold text-white mb-0">Mood: <span style="color: #d8b4fe;">@ViewBag.SelectedMood</span></h2>
+                    </div>
+                    <a href="/AİRecommend/SongRecommendation" class="neon-tag" style="text-decoration:none;">
+                        <i class="fa fa-sync-alt mr-2"></i>Sıfırla
+                    </a>
+                </div>
+
+                @if (Model.Any())
+                {
+                    <div class="song-list-wrapper">
+                        @foreach (var song in Model)
+                        {
+                            var img = string.IsNullOrEmpty(song.ImageUrl) ? "/img/default.png" : song.ImageUrl;
+                            var safeTitle = song.SongTitle.Replace("'", "\\'");
+                            var safeName = song.Name.Replace("'", "\\'");
+
+                            <div class="song-card" onclick="playSuperAudio('@song.FileUrl', '@safeTitle', '@safeName', '@img')">
+                                <img src="@img" class="song-img">
+                                <div class="flex-grow-1">
+                                    <h5 class="mb-1 font-weight-bold text-white">@song.SongTitle</h5>
+                                    <small class="text-white-50" style="font-size: 0.9rem;">@song.Name</small>
+                                </div>
+                                <div class="play-icon-wrapper">
+                                    <i class="fa fa-play"></i>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center py-5">
+                        <i class="fa fa-search fa-3x mb-3 text-white-50"></i>
+                        <p class="text-muted">Bu frekansta sinyal alınamadı. Başka bir mod dene.</p>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<div id="superPlayer" class="floating-player">
+    <img id="sp-cover" src="/img/default.png" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; animation: spin 10s linear infinite;">
+    <div class="ml-3 flex-grow-1" style="overflow: hidden;">
+        <div id="sp-title" class="font-weight-bold text-white text-truncate">...</div>
+        <div id="sp-artist" class="small text-white-50">...</div>
+    </div>
+    <audio id="sp-audio" controls style="height: 30px; outline: none; opacity: 0.8; filter: invert(1);"></audio>
+    <button class="btn-close-player" onclick="closePlayer()"><i class="fa fa-times"></i></button>
+</div>
+
+<style>
+    @@keyframes spin {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @@keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-15px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+</style>
+
+<script>
+    function playSuperAudio(url, title, artist, image) {
+        var player = document.getElementById('superPlayer');
+        var audio = document.getElementById('sp-audio');
+        player.style.display = 'flex';
+        document.getElementById('sp-title').innerText = title;
+        document.getElementById('sp-artist').innerText = artist;
+        document.getElementById('sp-cover').src = image;
+        audio.src = url;
+        audio.play();
+    }
+
+    function closePlayer() {
+        var player = document.getElementById('superPlayer');
+        var audio = document.getElementById('sp-audio');
+        audio.pause();
+        player.style.display = 'none';
+    }
+</script>

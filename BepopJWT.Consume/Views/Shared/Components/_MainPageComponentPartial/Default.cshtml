@@ -1,163 +1,244 @@
-﻿@{
+﻿@using BepopJWT.Consume.ArtistDTOs
+@model List<ResultArtistDTO>
+
+@{
     ViewData["Title"] = "Ana Sayfa";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+
+    // --- GÖRSEL YARDIMCISI ---
+    // DB'den görsel gelmezse veya liste boşsa placeholder kullanmak için.
+    var images = Model != null && Model.Any() ? Model.Select(x => x.ImageUrl).Where(x => !string.IsNullOrEmpty(x)).ToList() : new List<string>();
+
+    // Eğer hiç resim yoksa, placeholder resimlerden bir havuz oluşturalım ki döngü çalışsın.
+    if (images.Count == 0)
+    {
+        for (int i = 0; i < 5; i++) images.Add($"/Bebop/assets/img/b{i}.jpg");
+        // NOT: Projende bu yolda varsayılan resimlerin olduğundan emin ol yoksa kırık link görünür.
+        // Yoksa buraya "/img/default-artist.png" gibi tek bir statik resim de verebilirsin.
+    }
+
+    // Modulo (%) kullanarak sonsuz döngü illüzyonu yaratan fonksiyon
+    string GetArtistImage(int index)
+    {
+        return images[index % images.Count];
+    }
 }
 
-<div class="page-content page-container" id="page-content">
-    <div class="padding sr">
+<style>
+    /* Sayfa genelini karanlık yapalım */
+    body, html {
+        background-color: #121212 !important; /* Koyu arka plan */
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
-        <div class="page-hero page-container">
-            <div class="media bg-media">
-                <div class="media-content" style="background-image:url('/Bebop/assets/img/b2.jpg')"></div>
-            </div>
-            <div class="p-5 pos-rlt text-center">
-                <h1 class="display-3 font-weight-bold text-white mb-5 mx-5">Sanatçılar için müzik platformu.</h1>
-                <a href="/Home/Discover" class="btn btn-md gd-primary text-white no-ajax m-2">Yeni Müzikler Keşfet</a>
-                <a href="#" class="btn btn-md btn-outline-light m-2">Satın Al</a>
-            </div>
+    /* Layout'tan gelen paddingleri sıfırlayalım */
+    .padding.sr {
+        padding: 0 !important;
+    }
+
+    .page-content {
+        background: transparent !important;
+    }
+
+    /* --- 1. HERO BÖLÜMÜ (KAPAK) --- */
+    .hero-section {
+        position: relative;
+        height: 75vh; /* Ekranın %75'i yükseklik */
+        min-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    /* Kapak Görseli ve Katman */
+    .hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* Buraya istediğin ana kapak görselini koy */
+        background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop');
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+        filter: brightness(0.5); /* Resmi karart */
+    }
+
+    /* Resmin üzerine gelen degrade (daha iyi okunurluk için) */
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom, rgba(18,18,18,0.4) 0%, rgba(18,18,18,1) 100%);
+        z-index: 1;
+    }
+
+    /* Hero İçerik (Başlık ve Butonlar) */
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        padding: 20px;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        font-weight: 800;
+        letter-spacing: -1px;
+        margin-bottom: 30px;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    /* Modern Butonlar */
+    .btn-hero {
+        padding: 15px 40px;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+        border: none;
+        margin: 10px;
+    }
+
+    .btn-primary-hero {
+        background: #1db954; /* Spotify Yeşili veya senin marka rengin */
+        color: white;
+        box-shadow: 0 4px 15px rgba(29, 185, 84, 0.4);
+    }
+
+        .btn-primary-hero:hover {
+            background: #1ed760;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(29, 185, 84, 0.6);
+            color: white;
+        }
+
+    .btn-outline-hero {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+
+        .btn-outline-hero:hover {
+            background: white;
+            color: #121212;
+            transform: translateY(-3px);
+        }
+
+
+    /* --- 2. SANATÇI VİTRİNİ (YATAY KAYDIRMA) --- */
+    .artist-showcase {
+        position: relative;
+        z-index: 3;
+        margin-top: -80px; /* Hero'nun içine hafifçe girsin */
+        padding-bottom: 50px;
+        background: transparent;
+    }
+
+    .artist-header {
+        padding-left: 40px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        opacity: 0.9;
+    }
+
+    /* Yatay Kaydırma Konteynerı */
+    .scrolling-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* Mobilde akıcı kaydırma */
+        padding: 10px 40px; /* Kenar boşlukları */
+        scrollbar-width: none; /* Firefox scrollbar gizle */
+    }
+
+        .scrolling-wrapper::-webkit-scrollbar {
+            display: none; /* Chrome/Safari scrollbar gizle */
+        }
+
+    /* Sanatçı Kartı */
+    .artist-card {
+        flex: 0 0 auto; /* Kartların büzülmesini engeller */
+        width: 200px;
+        height: 280px;
+        margin-right: 25px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+        .artist-card:hover {
+            transform: scale(1.05); /* Üzerine gelince büyüt */
+            z-index: 4;
+        }
+
+    .artist-card-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Resmi bozmadan doldur */
+        transition: filter 0.3s;
+    }
+
+    .artist-card:hover .artist-card-img {
+        filter: brightness(1.1);
+    }
+
+    /* Kartın altındaki gölge efekti */
+    .artist-card-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50%;
+        background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    }
+
+</style>
+
+
+<div class="page-content" id="page-content">
+
+    <div class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1 class="hero-title display-3">Sınırları Aşan Müzik Deneyimi.</h1>
         </div>
-
-        <div class="page-container p-5 pos-rlt">
-            <div class="py-5 text-center">
-                <h2 class="display-4 font-weight-bold text-white mb-5">Bepop'taki Sanatçılar</h2>
-                <p>En popüler sanatçıları bul, Bepop'ta müziklerini dinle. Onları dinlerken kendi çalma listeni oluştur.</p>
-                <div class="py-4">
-                    <a href="/Home/Artists" class="btn btn-md btn-outline-primary no-ajax m-2">Sanatçıları Keşfet</a>
-                    <a href="#" class="btn btn-md btn-outline-primary m-2">Satın Al</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="row no-gutters flex align-items-end">
-            <div class="col-2">
-                <div class="row no-gutters align-items-end">
-                    <div class="col-2">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b0.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-10"></div>
-                    <div class="col-8">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b1.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b2.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b3.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b4.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b5.jpg');"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="row no-gutters align-items-end">
-                    <div class="col-3">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b6.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b7.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-7"></div>
-                    <div class="col-12">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b8.jpg');"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="row no-gutters align-items-end">
-                    <div class="col-7">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b9.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-5">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b10.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b11.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b12.jpg');"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="row no-gutters align-items-end">
-                    <div class="col-5">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b13.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b14.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b15.jpg');"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="row no-gutters align-items-end">
-                    <div class="col-2"></div>
-                    <div class="col-4">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b18.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b17.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b20.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b17.jpg');"></a>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="media">
-                            <a class="media-content" style="background-image: url('/Bebop/assets/img/b19.jpg');"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
+
+    <div class="artist-showcase">
+        <h3 class="artist-header">Sanatçılarımız</h3>
+
+        <div class="scrolling-wrapper">
+            @if (images.Count > 0)
+            {
+                // 15 tane kart gösterelim, görüntüyü doldursun.
+                // Veri azsa bile başa dönerek dolduracak.
+                for (int i = 0; i < 12; i++)
+                {
+                    var imgUrl = GetArtistImage(i);
+                    <div class="artist-card">
+                        <img src="@imgUrl" class="artist-card-img" alt="Sanatçı">
+                        <div class="artist-card-overlay"></div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="text-muted ml-5">Henüz görsel bulunmuyor.</div>
+            }
+        </div>
+    </div>
+
 </div>

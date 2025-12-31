@@ -1,4 +1,5 @@
 ﻿using BepopJWT.Consume.CategoryDTOs;
+using BepopJWT.Consume.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -7,15 +8,17 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
     public class _GenresCategoryComponentPartial:ViewComponent
     {
         private readonly IHttpClientFactory _httpClientFactory;
-
-        public _GenresCategoryComponentPartial(IHttpClientFactory httpClientFactory)
+        private readonly ApiClientHelper _apiClientHelper;
+        public _GenresCategoryComponentPartial(IHttpClientFactory httpClientFactory, ApiClientHelper apiClientHelper)
         {
             _httpClientFactory = httpClientFactory;
+            _apiClientHelper = apiClientHelper;
         }
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var client = _httpClientFactory.CreateClient();
+            var client = _apiClientHelper.GetClient();
+            var client2 = _httpClientFactory.CreateClient();
 
             // API'den Kategorileri çekiyoruz
             var response = await client.GetAsync("https://localhost:7209/api/Categories"); 

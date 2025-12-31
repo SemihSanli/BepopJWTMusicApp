@@ -1,0 +1,207 @@
+﻿@using Newtonsoft.Json
+@using BepopJWT.Consume.SongDTOs
+@using BepopJWT.Consume.ArtistDTOs
+@using BepopJWT.Consume.PackageDTOs
+@using BepopJWT.Consume.DTOs.OrderDTOs
+
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    // 1. Verileri Güvenli Şekilde Çekme (Null check ve tip dönüşümü)
+    var songsList = ViewBag.SongWithArtist as List<ResultSongWithArtists> ?? new List<ResultSongWithArtists>();
+    var artistList = ViewBag.ArtistList as List<ResultArtistDTO> ?? new List<ResultArtistDTO>();
+    var packageList = ViewBag.PackageCount as List<ResultPackageDTO> ?? new List<ResultPackageDTO>();
+    var orderList = ViewBag.OrderCount as List<ResultOrderDTO> ?? new List<ResultOrderDTO>();
+
+    // 2. Temel Hesaplamalar (Null değerlere karşı ?? 0 koruması eklendi)
+    var totalRevenue = orderList.Sum(x => x.PaidAmount ?? 0);
+    var totalOrders = orderList.Count;
+    var totalSongs = songsList.Count;
+    var totalArtists = artistList.Count;
+
+    // ---------------------------------------------------------
+    // 3. ANALİZLER (İÇGÖRÜLER)
+    // ---------------------------------------------------------
+
+    // A. En Üretken Sanatçı
+    var topArtist = songsList.GroupBy(s => s.Name)
+                             .OrderByDescending(g => g.Count())
+                             .Select(g => new { Name = g.Key, Count = g.Count() })
+                             .FirstOrDefault();
+
+    // B. Ortalama Sepet Tutarı
+    decimal avgOrderValue = totalOrders > 0 ? (decimal)totalRevenue / totalOrders : 0;
+
+    // C. En Pahalı Paket
+    var premiumPackage = packageList.OrderByDescending(p => p.Price).FirstOrDefault();
+
+    // D. Son Sipariş Tarihi
+    var lastOrder = orderList.OrderByDescending(o => o.CreatedDate).FirstOrDefault();
+
+    // E. En Son Eklenen 5 Sipariş
+    var recentOrders = orderList.OrderByDescending(o => o.CreatedDate).Take(5).ToList();
+}
+
+<style>
+    .dashboard-container { font-family: 'Segoe UI', sans-serif; padding: 20px; background-color: #f4f6f9; }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-bottom: 30px; }
+    .stat-card { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.03); border-left: 5px solid; transition: transform 0.2s; }
+    .stat-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+    .stat-title { font-size: 13px; color: #8898aa; text-transform: uppercase; font-weight: 700; letter-spacing: 0.8px; }
+    .stat-value { font-size: 24px; font-weight: 700; color: #32325d; margin-top: 5px; display: block; }
+    .analysis-section { display: grid; grid-template-columns: 1fr 2fr; gap: 30px; margin-bottom: 30px; }
+    @media (max-width: 992px) { .analysis-section { grid-template-columns: 1fr; } }
+    .analysis-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 25px; border-radius: 15px; }
+    .analysis-item { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid rgba(255,255,255,0.2); }
+    .table-box { background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); }
+    .custom-table { width: 100%; border-collapse: collapse; }
+    .custom-table th { text-align: left; padding: 12px; border-bottom: 2px solid #f1f1f1; color: #8898aa; font-size: 13px; }
+    .custom-table td { padding: 12px; border-bottom: 1px solid #f1f1f1; color: #525f7f; font-size: 14px; }
+    .charts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 30px; }
+    .chart-box { background: #fff; padding: 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); }
+</style>
+
+<div class="dashboard-container">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:25px;">
+        <h2 style="color:#32325d; font-weight:600;">Admin Dashboard</h2>
+        <span style="font-size:14px; color:#8898aa;">Son Güncelleme: @DateTime.Now.ToString("dd.MM.yyyy HH:mm")</span>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card" style="border-left-color: #5e72e4;">
+            <span class="stat-title">Toplam Ciro</span>
+            <span class="stat-value">₺@totalRevenue.ToString("N2")</span>
+        </div>
+        <div class="stat-card" style="border-left-color: #2dce89;">
+            <span class="stat-title">Toplam Sipariş</span>
+            <span class="stat-value">@totalOrders</span>
+        </div>
+        <div class="stat-card" style="border-left-color: #11cdef;">
+            <span class="stat-title">Toplam Şarkı</span>
+            <span class="stat-value">@totalSongs</span>
+        </div>
+        <div class="stat-card" style="border-left-color: #f5365c;">
+            <span class="stat-title">Sanatçı Sayısı</span>
+            <span class="stat-value">@totalArtists</span>
+        </div>
+    </div>
+
+    <div class="analysis-section">
+        <div class="analysis-card">
+            <h3 style="margin-top:0; margin-bottom:20px; font-size:18px;">📢 Sistem Analizi & İçgörüler</h3>
+            <div class="analysis-item">
+                <div class="analysis-label">Ortalama Sepet Tutarı</div>
+                <div class="analysis-data">₺@avgOrderValue.ToString("N2")</div>
+            </div>
+            <div class="analysis-item">
+                <div class="analysis-label">En Üretken Sanatçı</div>
+                <div class="analysis-data">@(topArtist?.Name ?? "-") <small>(@(topArtist?.Count ?? 0) Şarkı)</small></div>
+            </div>
+            <div class="analysis-item">
+                <div class="analysis-label">En Değerli Paket</div>
+                <div class="analysis-data">@(premiumPackage?.PackageTitle ?? "-") <small>(₺@(premiumPackage?.Price.ToString("N2") ?? "0"))</small></div>
+            </div>
+            <div class="analysis-item">
+                <div class="analysis-label">Son Aktivite</div>
+                <div class="analysis-data">@(lastOrder != null ? lastOrder.CreatedDate.ToString("dd MMM yyyy, HH:mm") : "Henüz sipariş yok")</div>
+            </div>
+        </div>
+
+        <div class="table-box">
+            <h3 style="margin:0 0 15px 0; font-size:16px; color:#333;">🛒 Son 5 Sipariş</h3>
+            @if (recentOrders.Any())
+            {
+                <table class="custom-table">
+                    <thead>
+                        <tr><th>Sipariş No</th><th>Tarih</th><th>Tutar</th><th>Durum</th></tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in recentOrders)
+                        {
+                            <tr>
+                                <td>#@order.OrderId</td>
+                                <td>@order.CreatedDate.ToString("dd.MM.yyyy")</td>
+                                <td style="font-weight:600; color:#2dce89;">₺@((order.PaidAmount ?? 0).ToString("N2"))</td>
+                                <td><span style="background:#d4edda; color:#155724; padding:5px 10px; border-radius:20px; font-size:12px;">Onaylandı</span></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p style="color:#999; text-align:center; padding:20px;">Kayıt bulunamadı.</p>
+            }
+        </div>
+    </div>
+
+    <div class="charts-grid">
+        <div class="chart-box"><h3>🎵 Şarkı Dağılımı</h3><canvas id="songsChart"></canvas></div>
+        <div class="chart-box"><h3>🎤 Sanatçılar</h3><canvas id="artistsChart"></canvas></div>
+        <div class="chart-box"><h3>📦 Paketler</h3><canvas id="packagesChart"></canvas></div>
+        <div class="chart-box"><h3>💰 Ciro (Zaman Bazlı)</h3><canvas id="ordersChart"></canvas></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // --- VERİ HAZIRLIĞI ---
+    // 1. ŞARKILAR (Case-insensitive matching)
+    var rawSongs = @Html.Raw(JsonConvert.SerializeObject(songsList));
+    var artistSongCounts = rawSongs.reduce(function (acc, curr) {
+        var artistName = curr.Name || curr.name || "Bilinmiyor";
+        acc[artistName] = (acc[artistName] || 0) + 1;
+        return acc;
+    }, {});
+
+    // 2. SİPARİŞLER (PaidAmount null koruması eklendi)
+    var rawOrders = @Html.Raw(JsonConvert.SerializeObject(orderList));
+    rawOrders.sort((a, b) => new Date(a.CreatedDate || a.createdDate) - new Date(b.CreatedDate || b.createdDate));
+
+    // --- GRAFİKLER ---
+    // Bar Chart
+    new Chart(document.getElementById('songsChart'), {
+        type: 'bar',
+        data: {
+            labels: Object.keys(artistSongCounts),
+            datasets: [{ label: 'Şarkı Sayısı', data: Object.values(artistSongCounts), backgroundColor: '#5e72e4' }]
+        },
+        options: { responsive: true, scales: { y: { beginAtZero: true } } }
+    });
+
+    // Pie Chart
+    new Chart(document.getElementById('artistsChart'), {
+        type: 'pie',
+        data: {
+            labels: @Html.Raw(JsonConvert.SerializeObject(artistList.Select(a => a.Name))),
+            datasets: [{ data: @Html.Raw(JsonConvert.SerializeObject(artistList.Select(a => 1))), backgroundColor: ['#5e72e4', '#2dce89', '#11cdef', '#f5365c', '#fb6340', '#ffd600'] }]
+        }
+    });
+
+    // Doughnut Chart
+    new Chart(document.getElementById('packagesChart'), {
+        type: 'doughnut',
+        data: {
+            labels: @Html.Raw(JsonConvert.SerializeObject(packageList.Select(p => p.PackageTitle))),
+            datasets: [{ data: @Html.Raw(JsonConvert.SerializeObject(packageList.Select(p => 1))), backgroundColor: ['#fb6340', '#f5365c', '#ffd600'] }]
+        }
+    });
+
+    // Line Chart
+    new Chart(document.getElementById('ordersChart'), {
+        type: 'line',
+        data: {
+            labels: rawOrders.map(o => new Date(o.CreatedDate || o.createdDate).toLocaleDateString("tr-TR")),
+            datasets: [{ 
+                label: 'Ciro (₺)', 
+                data: rawOrders.map(o => o.PaidAmount || o.paidAmount || 0), 
+                borderColor: '#f5365c', 
+                backgroundColor: 'rgba(245, 54, 92, 0.1)', 
+                fill: true,
+                tension: 0.4
+            }]
+        }
+    });
+</script>

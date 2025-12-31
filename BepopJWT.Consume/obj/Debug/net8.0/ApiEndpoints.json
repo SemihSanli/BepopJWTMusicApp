@@ -100,6 +100,16 @@
   },
   {
     "ContainingType": "BepopJWT.API.Controllers.ArtistsController",
+    "Method": "GetArtistCount",
+    "RelativePath": "api/Artists/GetArtistCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.ArtistsController",
     "Method": "GetArtistDetail",
     "RelativePath": "api/Artists/GetArtistDetail/{id}",
     "HttpMethod": "GET",
@@ -251,6 +261,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BepopJWT.API.Controllers.MLSongSuggestionsController",
+    "Method": "GetRecommendations",
+    "RelativePath": "api/MLSongSuggestions/GetRecommendations/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BepopJWT.API.Controllers.PackageController",
     "Method": "GetAllPackage",
     "RelativePath": "api/Package",
@@ -393,6 +419,22 @@
       {
         "Name": "createPlaylistDto",
         "Type": "BepopJWT.DTOLayer.PlaylistDTOs.CreatePlaylistDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.PlaylistsController",
+    "Method": "GetPlaylistById",
+    "RelativePath": "api/Playlists/GetPlaylistById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -557,6 +599,32 @@
     "ContainingType": "BepopJWT.API.Controllers.SongsController",
     "Method": "GetSongWithArist",
     "RelativePath": "api/Songs/getsongwitharist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.SongsController",
+    "Method": "GetRecommend",
+    "RelativePath": "api/Songs/recommend",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mood",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BepopJWT.API.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users/getAllUsers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

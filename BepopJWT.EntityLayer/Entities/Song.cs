@@ -20,5 +20,6 @@ namespace BepopJWT.EntityLayer.Entities
         public Category Category { get; set; }
 
         public ICollection<PlaylistSong> PlaylistSongs { get; set; }
+        public ICollection<Favorite> Favorites { get; set; }
     }
 }

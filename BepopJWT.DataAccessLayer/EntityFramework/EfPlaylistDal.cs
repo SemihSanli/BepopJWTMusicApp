@@ -19,6 +19,25 @@ namespace BepopJWT.DataAccessLayer.EntityFramework
             _appDbContext = appDbContext;
         }
 
+        public async Task<List<Playlist>> GetPlaylistByUserId(int userId)
+        {
+            return await _appDbContext.Playlists
+             .Where(x => x.UserId == userId)
+             .Include(x => x.PlaylistSongs)
+                 .ThenInclude(x => x.Song)
+                 .ThenInclude(x => x.Artist)
+             .ToListAsync(); 
+        }
+
+        public async Task<Playlist> GetPlaylistWithSongsByIdAsync(int userId)
+        {
+            return await _appDbContext.Playlists
+           .Include(x => x.PlaylistSongs)
+               .ThenInclude(x => x.Song)
+                   .ThenInclude(x => x.Artist)
+           .FirstOrDefaultAsync(x => x.PlaylistId == userId);
+        }
+
         public async Task<List<Playlist>> GetPlaylistWithUserAndSongsAsync(int userId)
         {
             return await _appDbContext.Playlists

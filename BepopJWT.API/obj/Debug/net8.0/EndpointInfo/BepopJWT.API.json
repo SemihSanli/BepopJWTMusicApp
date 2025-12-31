@@ -184,6 +184,18 @@
         }
       }
     },
+    "/api/Artists/GetArtistCount": {
+      "get": {
+        "tags": [
+          "Artists"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Auths/register": {
       "post": {
         "tags": [
@@ -383,6 +395,29 @@
         "parameters": [
           {
             "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MLSongSuggestions/GetRecommendations/{userId}": {
+      "get": {
+        "tags": [
+          "MLSongSuggestions"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
             "in": "path",
             "required": true,
             "schema": {
@@ -671,6 +706,29 @@
         }
       }
     },
+    "/api/Playlists/GetPlaylistById/{id}": {
+      "get": {
+        "tags": [
+          "Playlists"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Songs": {
       "get": {
         "tags": [
@@ -882,6 +940,39 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Songs/recommend": {
+      "get": {
+        "tags": [
+          "Songs"
+        ],
+        "parameters": [
+          {
+            "name": "mood",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/getAllUsers": {
+      "get": {
+        "tags": [
+          "Users"
         ],
         "responses": {
           "200": {

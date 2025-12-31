@@ -19,6 +19,11 @@ namespace BepopJWT.DataAccessLayer.EntityFramework
             _appDbContext = appDbContext;
         }
 
+        public async Task<int> GetArtistCountAsync()
+        {
+           return await _appDbContext.Artists.CountAsync();
+        }
+
         public async Task<Artist> GetArtistWithSongsByIdAsync(int id)
         {
           return await _appDbContext.Artists.Include(x=>x.Songs).FirstOrDefaultAsync(y=>y.ArtistId == id);

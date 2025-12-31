@@ -1,0 +1,260 @@
+﻿@using BepopJWT.Consume.PlaylistDTOs
+
+@model List<GetPlaylistByUserId>
+
+
+
+<style>
+
+    .playlist-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 25px;
+        padding: 20px 0;
+    }
+
+
+
+    .playlist-card {
+        background: #181818;
+        padding: 16px;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        border: 1px solid rgba(255,255,255,0.05);
+        position: relative;
+    }
+
+
+
+        .playlist-card:hover {
+            background: #282828;
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+
+
+    .playlist-img-container {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 8px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        background: #222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+        .playlist-img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+
+        .playlist-img-container i {
+            font-size: 3rem;
+            color: #444;
+        }
+
+
+
+    .playlist-title {
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+
+    .playlist-subtitle {
+        color: #b3b3b3;
+        font-size: 0.85rem;
+    }
+
+
+
+    .play-button-hover {
+        position: absolute;
+        right: 25px;
+        bottom: 75px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: #a855f7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: all 0.3s ease;
+        box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    }
+
+
+
+    .playlist-card:hover .play-button-hover {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+</style>
+
+
+
+<div class="padding sr">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="text-white font-weight-bold">Çalma Listelerim</h2>
+
+        <button class="btn btn-primary btn-rounded px-4" onclick="createNewPlaylist()">
+
+            <i class="fa fa-plus mr-2"></i> Yeni Liste
+
+        </button>
+
+    </div>
+
+
+
+    @if (Model != null && Model.Any())
+
+    {
+
+        <div class="playlist-grid">
+
+            @foreach (var playlist in Model)
+
+            {
+
+                <div class="playlist-card" onclick="location.href='/Default/PlaylistDetail/@playlist.PlaylistId'">
+
+                    <div class="playlist-img-container">
+
+                        @if (playlist.Songs != null && playlist.Songs.Any())
+
+                        {
+
+                            @* Listedeki ilk şarkının kapak fotoğrafını basıyoruz *@
+
+                            <img src="@playlist.Songs.First().ImageUrl" alt="@playlist.PlaylistName">
+
+                        }
+
+                        else
+
+                        {
+
+                            @* Liste boşsa müzik ikonu gösteriyoruz *@
+
+                            <i class="fa fa-music"></i>
+
+                        }
+
+                    </div>
+
+
+
+                    <div class="play-button-hover">
+
+                        <i class="fa fa-play"></i>
+
+                    </div>
+
+
+
+                    <div class="playlist-title">@playlist.PlaylistName</div>
+
+                    <div class="playlist-subtitle">@playlist.Songs.Count() Şarkı</div>
+
+                </div>
+
+            }
+
+        </div>
+
+    }
+
+    else
+
+    {
+
+        <div class="py-5 text-center">
+
+            <h4 class="text-white-50">Henüz bir çalma listen yok.</h4>
+
+            <button class="btn btn-primary btn-rounded mt-3" onclick="createNewPlaylist()">İlk Listeni Oluştur</button>
+
+        </div>
+
+    }
+
+</div>
+
+
+
+<script>
+
+    $(document).ready(function() {
+
+        setTimeout(function() {
+
+            $('.loader, #preloader, .preloader').fadeOut('slow');
+
+            $('body').css({'overflow':'visible'});
+
+        }, 500);
+
+    });
+
+
+
+    function createNewPlaylist() {
+
+        Swal.fire({
+
+            title: 'Yeni Liste Adı',
+
+            input: 'text',
+
+            inputPlaceholder: 'Örn: Spor Müzikleri',
+
+            showCancelButton: true,
+
+            confirmButtonColor: '#a855f7',
+
+            background: '#181818',
+
+            color: '#fff',
+
+            confirmButtonText: 'Oluştur',
+
+            cancelButtonText: 'İptal'
+
+        }).then((result) => {
+
+            if (result.value) {
+
+                // Buraya API POST isteğini çakarsın
+
+                console.log("Oluşturuluyor: " + result.value);
+
+            }
+
+        });
+
+    }
+
+</script> 

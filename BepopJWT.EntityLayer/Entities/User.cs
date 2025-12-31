@@ -18,5 +18,6 @@ namespace BepopJWT.EntityLayer.Entities
         public int? PackageId { get; set; }
         public Package Package { get; set; }
         public ICollection<Playlist> Playlists { get; set; }
+        public ICollection<Favorite> Favorites { get; set; }
     }
 }

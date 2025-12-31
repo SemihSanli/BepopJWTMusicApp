@@ -43,6 +43,30 @@ namespace BepopJWT.BusinessLayer.Concrete
             await _playlistDal.AddAsync(playlist);
         }
 
+        public async Task<List<GetPlaylistByUserId>> GetPlaylistByUserId(int userId)
+        {
+            var playlists = await _playlistDal.GetPlaylistByUserId(userId);
+
+            var result = playlists.Select(x => new GetPlaylistByUserId
+            {
+                PlaylistId = x.PlaylistId,
+                PlaylistName = x.PlaylistName,
+                UserId = x.UserId,
+
+                // Alt component'e gidecek olan şarkılar
+                Songs = x.PlaylistSongs.Select(ps => new ResultsSongsForPlaylistDTO
+                {
+                    SongId = ps.Song.SongId,
+                    SongTitle = ps.Song.SongTitle,
+                    ArtistName = ps.Song.Artist?.Name,
+                    ImageUrl = ps.Song.ImageUrl,
+                    FileUrl = ps.Song.FileUrl
+                }).ToList()
+            }).ToList();
+
+            return result;
+        }
+
         public async Task<List<ResultPlaylistWithSongsDTO>> GetPlaylistsByUserIdAsync(int userId)
         {
             var playlistsEntity = await _playlistDal.GetPlaylistWithUserAndSongsAsync(userId);
@@ -69,7 +93,30 @@ namespace BepopJWT.BusinessLayer.Concrete
             }).ToList();
 
             return playlistDtos;
-        }   
+        }
+
+        public async Task<ResultPlaylistWithSongsDTO> GetPlaylistWithSongsByIdAsync(int id)
+        {
+            var playlist = await _playlistDal.GetPlaylistWithSongsByIdAsync(id);
+
+            if (playlist == null) return null;
+
+            // 2. Entity -> DTO Dönüşümü (Mapping)
+            return new ResultPlaylistWithSongsDTO
+            {
+                PlaylistId = playlist.PlaylistId,
+                PlaylistName = playlist.PlaylistName,
+                Username = playlist.User?.Username, // İstersen User'ı da Include edebilirsin
+                Songs = playlist.PlaylistSongs.Select(ps => new ResultsSongsForPlaylistDTO
+                {
+                    SongId = ps.Song.SongId,
+                    SongTitle = ps.Song.SongTitle,
+                    ArtistName = ps.Song.Artist?.Name,
+                    ImageUrl = ps.Song.ImageUrl,
+                    FileUrl = ps.Song.FileUrl
+                }).ToList()
+            };
+        }
 
         public async Task TAddAsync(Playlist entity)
         {

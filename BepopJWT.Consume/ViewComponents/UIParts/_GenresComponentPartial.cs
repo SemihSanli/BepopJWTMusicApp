@@ -4,21 +4,24 @@ using System.Net.Http.Headers;
 using System.Net.Http;
 using Microsoft.IdentityModel.Tokens;
 using BepopJWT.Consume.SongDTOs;
+using BepopJWT.Consume.Helpers;
 
 namespace BepopJWT.Consume.ViewComponents.UIParts
 {
     public class _GenresComponentPartial:ViewComponent
     {
         private readonly IHttpClientFactory _httpClientFactory;
-
-        public _GenresComponentPartial(IHttpClientFactory httpClientFactory)
+        private readonly ApiClientHelper _apiClientHelper;
+        public _GenresComponentPartial(IHttpClientFactory httpClientFactory, ApiClientHelper apiClientHelper)
         {
             _httpClientFactory = httpClientFactory;
+            _apiClientHelper = apiClientHelper;
         }
 
         public async Task<IViewComponentResult> InvokeAsync(int categoryId = 0)
         {
-            var client = _httpClientFactory.CreateClient();
+            var client = _apiClientHelper.GetClient();
+            var client2 = _httpClientFactory.CreateClient();
 
             var token = HttpContext.User.FindFirst("AccessToken")?.Value;
             if (!string.IsNullOrEmpty(token))

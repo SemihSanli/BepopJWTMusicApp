@@ -57,6 +57,11 @@ namespace BepopJWT.BusinessLayer.Concrete
             await _artistDal.DeleteAsync(id); 
         }
 
+        public async Task<int> GetArtistCountAsync()
+        {
+           return await _artistDal.GetArtistCountAsync();
+        }
+
         public async Task<GetArtistDetailsDTO> GetArtistWithSongsByIdAsync(int id)
         {
             var artist = await _artistDal.GetArtistWithSongsByIdAsync(id);

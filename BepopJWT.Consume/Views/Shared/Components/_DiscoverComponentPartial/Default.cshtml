@@ -1,440 +1,381 @@
-﻿
+﻿@using BepopJWT.Consume.SongDTOs
 @model List<ResultSongWithArtists>
 
 @{
     var userToken = Context.User.FindFirst("AccessToken")?.Value;
+    var recommendedSongs = ViewBag.RecommendedSongs as List<ResultSongWithArtists>;
 }
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
 
 <style>
     :root {
-        --primary-color: #a855f7; /* Modern Mor */
-        --bg-dark: #121212;
-        --card-bg: #181818;
-        --card-hover: #282828;
-        --text-main: #ffffff;
-        --text-sub: #b3b3b3;
+        --primary-color: #8b5cf6;
+        --secondary-color: #d946ef;
+        --glass-bg: rgba(255, 255, 255, 0.05);
+        --glass-border: rgba(255, 255, 255, 0.12);
+        --bg-dark: #0f0f13;
+        --text-light: #f5f5f7;
+        --text-muted: #a1a1aa;
+        --hover-glow: rgba(139, 92, 246, 0.2);
     }
 
-    /* Genel Sayfa Yapısı */
-    .page-container {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
         background-color: var(--bg-dark);
-        color: var(--text-main);
-        font-family: 'Inter', sans-serif; /* Varsa fontunu buraya ekle */
+        color: var(--text-light);
     }
 
-    /* Hero Section (Banner) */
+    .container-fluid {
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    /* --- Hero Section --- */
     .hero-section {
         position: relative;
-        border-radius: 12px;
+        padding: 100px 20px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: url('/Bebop/assets/img/b9.jpg') no-repeat center/cover;
+        border-radius: 32px;
+        margin-bottom: 60px;
         overflow: hidden;
-        margin-bottom: 40px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     }
 
-    .hero-content {
-        padding: 60px 40px;
-        background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, transparent 100%);
-        position: relative;
-        z-index: 2;
-    }
-
-    .hero-bg {
+    .hero-overlay {
         position: absolute;
         top: 0;
         left: 0;
-        right: 0;
-        bottom: 0;
-        background-size: cover;
-        background-position: center;
-        transition: transform 0.5s;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.6);
+        backdrop-filter: blur(4px);
+        z-index: 1;
+        border-radius: 32px;
     }
 
-    .hero-section:hover .hero-bg {
-        transform: scale(1.05);
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 600px;
     }
 
-    /* Kart Tasarımları (Card) */
+        .hero-content h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(90deg, #fff, #a1a1aa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+        }
+
+    .hero-btn {
+        padding: 16px 40px;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 1rem;
+        border: none;
+        cursor: pointer;
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        color: white;
+        transition: transform 0.3s;
+    }
+
+        .hero-btn:hover {
+            transform: scale(1.05);
+        }
+
+    /* --- Music Card Grid --- */
+    .music-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 24px;
+        margin-bottom: 60px;
+    }
+
     .music-card {
-        background-color: var(--card-bg);
-        padding: 16px;
-        border-radius: 8px;
-        transition: background-color 0.3s ease, transform 0.3s ease;
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 24px;
+        overflow: hidden;
         cursor: pointer;
         position: relative;
-        height: 100%;
-        margin-bottom: 20px;
+        transition: all 0.4s ease;
     }
 
         .music-card:hover {
-            background-color: var(--card-hover);
-            transform: translateY(-5px);
+            transform: translateY(-8px);
+            border-color: var(--hover-glow);
+            box-shadow: 0 12px 24px var(--hover-glow);
         }
 
-    /* Resim Alanı */
-    .card-image-wrapper {
-        position: relative;
-        width: 100%;
-        aspect-ratio: 1/1; /* Kare resim */
-        border-radius: 6px;
-        overflow: hidden;
-        margin-bottom: 12px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        .music-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .music-card:hover img {
+            transform: scale(1.1);
+        }
+
+    .music-card-body {
+        padding: 16px;
     }
 
-    .card-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+        .music-card-body h6 {
+            font-weight: 700;
+            font-size: 1rem;
+            margin: 0 0 4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
-    /* Play Butonu (Hover Efekti) */
-    .play-overlay {
+        .music-card-body p {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+    .floating-play {
         position: absolute;
-        bottom: 10px;
-        right: 10px;
+        bottom: 12px;
+        right: 12px;
         width: 48px;
         height: 48px;
-        background-color: var(--primary-color);
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        box-shadow: 0 6px 20px var(--hover-glow);
         opacity: 0;
         transform: translateY(10px);
         transition: all 0.3s ease;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
     }
 
-        .play-overlay i {
-            color: white;
-            font-size: 18px;
-            margin-left: 3px; /* İkonu ortalamak için */
-        }
-
-    .music-card:hover .play-overlay {
+    .music-card:hover .floating-play {
         opacity: 1;
         transform: translateY(0);
     }
 
-    .play-overlay:hover {
-        transform: scale(1.1) !important;
-        background-color: #9333ea;
+    /* --- Track List --- */
+    .track-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 
-    /* Metin Alanları */
-    .card-title {
-        color: var(--text-main);
-        font-weight: 700;
-        font-size: 1rem;
-        margin-bottom: 4px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .card-subtitle {
-        color: var(--text-sub);
-        font-size: 0.85rem;
-        font-weight: 400;
-    }
-
-    /* Liste Görünümü (Track Row) */
-    .track-row {
+    .track-item {
         display: flex;
         align-items: center;
-        padding: 10px 15px;
-        border-radius: 6px;
-        transition: background-color 0.2s;
-        border-bottom: 1px solid rgba(255,255,255,0.05);
+        padding: 12px 16px;
+        border-radius: 16px;
+        transition: background 0.3s;
     }
 
-        .track-row:hover {
-            background-color: rgba(255,255,255,0.1);
+        .track-item:hover {
+            background: rgba(255,255,255,0.06);
         }
 
-    .track-img {
-        width: 40px;
-        height: 40px;
-        border-radius: 4px;
-        object-fit: cover;
-        margin-right: 15px;
+        .track-item img {
+            width: 48px;
+            height: 48px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-right: 16px;
+        }
+
+    .track-rank {
+        width: 30px;
+        font-weight: 600;
+        color: var(--text-muted);
     }
 
-    .track-info {
-        flex-grow: 1;
+    .ai-badge {
+        background: rgba(139, 92, 246, 0.1);
+        color: #a855f7;
+        padding: 4px 10px;
+        border-radius: 8px;
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin-bottom: 6px;
+        display: inline-block;
     }
 
-    .track-duration {
-        color: var(--text-sub);
-        font-size: 0.8rem;
-    }
-
-    .mini-play-btn {
-        width: 32px;
-        height: 32px;
-        border-radius: 50%;
-        background: transparent;
-        border: 1px solid var(--text-sub);
-        color: var(--text-main);
+    /* --- Event Card --- */
+    .event-card {
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        border-radius: 32px;
+        padding: 24px;
+        color: #fff;
         display: flex;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-        margin-right: 15px;
-        transition: all 0.2s;
-        cursor: pointer;
+        min-height: 240px;
     }
 
-    .track-row:hover .mini-play-btn {
-        background: var(--primary-color);
-        border-color: var(--primary-color);
-    }
+        .event-card h4 {
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
 
-    /* Global Player Stili */
-    #globalAudioPlayer {
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        z-index: 9999;
-        background: rgba(24, 24, 24, 0.95);
-        backdrop-filter: blur(10px);
-        border-top: 1px solid #333;
-    }
+        .event-card p {
+            font-size: 0.875rem;
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 16px;
+        }
 
-    .section-title {
-        font-size: 1.5rem;
-        font-weight: 700;
-        margin-bottom: 20px;
-        color: white;
-        letter-spacing: -0.5px;
-    }
-
-    .section-subtitle {
-        text-transform: uppercase;
-        font-size: 0.75rem;
-        letter-spacing: 1px;
-        color: var(--text-sub);
-        margin-bottom: 5px;
-        display: block;
-    }
+        .event-card .btn {
+            border-radius: 16px;
+            padding: 10px;
+            font-weight: 700;
+        }
 
 </style>
 
-<div class="page-content page-container" id="page-content">
-    <div class="padding sr">
+<div class="container-fluid">
 
-        <div class="hero-section">
-            <div class="hero-bg" style="background-image:url('/Bebop/assets/img/b9.jpg')"></div>
-            <div class="hero-content">
-                <h2 class="display-4 font-weight-bold text-white mb-3">İnanılmaz Şarkılar</h2>
-                <p class="text-white-50 mb-4" style="max-width: 500px;">
-                    En sevdiğin sanatçıları keşfet, özel çalma listeleri oluştur ve müziğin ritmine kendini kaptır. Sınırsız müzik keyfi seni bekliyor.
-                </p>
-                <div>
-                    <a href="/Home/Discover" class="btn btn-rounded shadow-lg" style="background: var(--primary-color); color: white; padding: 10px 30px; border:none;">Keşfetmeye Başla</a>
-                    <a href="#" class="btn btn-rounded ml-3" style="background: rgba(255,255,255,0.1); color: white; backdrop-filter: blur(5px);">Daha Fazla</a>
+    @* --- Hero Section --- *@
+    <div class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Sesin Geleceğini Keşfet</h1>
+            <p>Zevkine göre şekillenen algoritma ile sınırsız müzik deneyimi burada başlar.</p>
+            <button class="hero-btn">Hemen Dinle</button>
+        </div>
+    </div>
+
+    @* --- Trendler --- *@
+    <h2 class="fw-bold mb-3">Trendler</h2>
+    <div class="music-grid">
+        @if (Model != null)
+        {
+            foreach (var item in Model.Take(6))
+            {
+                <div class="music-card" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
+                    <img src="@item.ImageUrl" alt="@item.SongTitle" />
+                    <div class="music-card-body">
+                        <h6>@item.SongTitle</h6>
+                        <p>@item.Name</p>
+                    </div>
+                    <div class="floating-play"><i class="fa fa-play text-white"></i></div>
                 </div>
-            </div>
-        </div>
+            }
+        }
+    </div>
 
-        <div class="mb-5">
-            <span class="section-subtitle">Haftalık</span>
-            <h3 class="section-title">Popüler Şarkılar</h3>
+    @* --- Önerilen Şarkılar --- *@
+    <h2 class="fw-bold mb-3 mt-5">Senin İçin Özelleştirildi ✨</h2>
+    <div class="music-grid">
+        @if (recommendedSongs != null && recommendedSongs.Any())
+        {
+            foreach (var item in recommendedSongs.Take(6))
+            {
+                <div class="music-card" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
+                    <img src="@item.ImageUrl" alt="@item.SongTitle" />
+                    <div class="music-card-body">
+                        <div class="ai-badge">AI Match @Random.Shared.Next(85, 99)%</div>
+                        <h6>@item.SongTitle</h6>
+                        <p>@item.Name</p>
+                    </div>
+                    <div class="floating-play"><i class="fa fa-play text-white"></i></div>
+                </div>
+            }
+        }
+    </div>
 
-            <div class="row">
-                @if (Model != null && Model.Any())
-                {
-                    foreach (var item in Model.Take(6))
-                    {
-                        <div class="col-6 col-md-4 col-lg-2 mb-4">
-                            <div class="music-card" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
-                                <div class="card-image-wrapper">
-                                    <img src="@item.ImageUrl" class="card-image" alt="@item.SongTitle">
-                                    <div class="play-overlay">
-                                        <i class="fa fa-play"></i>
-                                    </div>
-                                </div>
-                                <div class="card-title">@item.SongTitle</div>
-                                <div class="card-subtitle">@item.Name</div>
-                            </div>
-                        </div>
-                    }
-                }
-            </div>
-        </div>
-
-        <div class="mb-5">
-            <span class="section-subtitle">Öne Çıkanlar</span>
-            <h3 class="section-title">Albümler & Hit'ler</h3>
-
-            <div class="row">
+    @* --- Yeni Çıkanlar ve Etkinlik --- *@
+    <div class="row mt-5">
+        <div class="col-lg-8">
+            <h3 class="fw-bold mb-4">Yeni Çıkanlar</h3>
+            <div class="track-list">
                 @if (Model != null)
                 {
-                    foreach (var item in Model.Take(6)) // Sayıyı biraz arttırdım, tasarım boş kalmasın
+                    int rank = 1;
+                    foreach (var item in Model.OrderByDescending(x => x.SongId).Take(5))
                     {
-                        <div class="col-6 col-md-4 col-lg-2 mb-4">
-                            <div class="music-card" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
-                                <div class="card-image-wrapper">
-                                    <img src="@item.ImageUrl" class="card-image" alt="@item.SongTitle">
-                                    <div class="play-overlay">
-                                        <i class="fa fa-play"></i>
-                                    </div>
-                                </div>
-                                <div class="card-title">@item.SongTitle</div>
+                        <div class="track-item" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
+                            <span class="track-rank">@rank</span>
+                            <img src="@item.ImageUrl" />
+                            <div class="flex-grow-1">
+                                <div class="fw-bold">@item.SongTitle</div>
+                                <div class="text-muted small">@item.Name</div>
                             </div>
+                            <div class="text-muted small me-4">03:45</div>
+                            <button class="btn btn-link text-white-50 p-0"><i class="fa fa-heart-o"></i></button>
                         </div>
+                        rank++;
                     }
                 }
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-8">
-                <span class="section-subtitle">Senin İçin</span>
-                <h3 class="section-title">Son Eklenenler</h3>
-
-                <div class="list-wrapper">
-                    @if (Model != null)
-                    {
-                        foreach (var item in Model.OrderByDescending(x => x.SongId).Take(5))
-                        {
-                            <div class="track-row" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
-                                <button class="mini-play-btn">
-                                    <i class="fa fa-play" style="font-size: 12px;"></i>
-                                </button>
-                                <img src="@item.ImageUrl" class="track-img" alt="Cover">
-                                <div class="track-info">
-                                    <div style="color: white; font-weight: 600;">@item.SongTitle</div>
-                                    <div style="color: var(--text-sub); font-size: 0.85rem;">@item.Name</div>
-                                </div>
-                                <div class="track-duration">03:45</div> <div style="margin-left: 20px; color: var(--text-sub);">
-                                    <i class="fa fa-heart-o hover-heart"></i>
-                                </div>
-                            </div>
-                        }
-                    }
-                </div>
-            </div>
-
-            <div class="col-lg-4 mt-5 mt-lg-0">
-                <span class="section-subtitle">Yakında</span>
-                <h3 class="section-title">Etkinlikler</h3>
-
-                <div style="background: linear-gradient(135deg, #4c1d95 0%, #a855f7 100%); border-radius: 12px; padding: 25px; color: white; position: relative; overflow: hidden;">
-                    <div style="position: relative; z-index: 2;">
-                        <span style="background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 20px; font-size: 0.8rem;">Konser</span>
-                        <h4 class="mt-3 font-weight-bold">Spring Music Festival</h4>
-                        <p style="opacity: 0.8; font-size: 0.9rem;">En sevdiğin sanatçılarla dolu unutulmaz bir geceye hazır mısın?</p>
-                        <button class="btn btn-sm btn-white mt-2" style="color: #4c1d95; font-weight: bold;">Bilet Al</button>
-                    </div>
-                    <div style="position: absolute; top: -20px; right: -20px; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
-                </div>
-
-                <div class="mt-4" style="background: #1e1e2d; border-radius: 12px; padding: 25px;">
-                    <h5 style="color: white;">Music Hub 2025</h5>
-                    <p style="color: var(--text-sub); font-size: 0.9rem;">İstanbul, Türkiye</p>
-                    <div style="color: var(--primary-color); font-size: 0.8rem;">8 Şubat, 20:00</div>
-                </div>
-
+        <div class="col-lg-4">
+            <h3 class="fw-bold mb-4">Sıradaki Etkinlik</h3>
+            <div class="event-card">
+                <span class="badge bg-white text-dark mb-2 align-self-start">Live Event</span>
+                <h4>Spring Music Festival</h4>
+                <p>İstanbul'un kalbinde unutulmaz bir geceye davetlisiniz.</p>
+                <button class="btn btn-white fw-bold">Biletleri İncele</button>
             </div>
         </div>
     </div>
+
 </div>
-
-<audio id="globalAudioPlayer" style="display: none;" controls>
-    <source id="audioSource" src="" type="audio/mpeg">
-</audio>
-
-<input type="hidden" id="userToken" value="@userToken" />
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
     function checkSongAccess(e, songId, songUrl) {
         if(e) e.preventDefault();
-
         var token = document.getElementById("userToken").value;
 
         if (!token) {
-            Swal.fire({
-                icon: 'error',
-                title: 'Oturum Bulunamadı',
-                text: 'Müzik dinlemek için lütfen giriş yapın.',
-                background: '#1e1e2d',
-                color: '#fff',
-                confirmButtonColor: '#a855f7'
-            });
+            Swal.fire({ icon: 'error', title: 'Giriş Gerekli', text: 'Lütfen önce giriş yapın.', background: '#1e1e2d', color: '#fff', confirmButtonColor: '#a855f7' });
             return;
         }
 
         fetch(`https://localhost:7209/api/Songs/check-access/${songId}`, {
             method: 'GET',
-            headers: {
-                'Authorization': 'Bearer ' + token,
-                'Content-Type': 'application/json'
-            }
+            headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' }
         })
-        .then(response => {
-            if (response.status === 401) {
-                Swal.fire({icon: 'error', title: 'Yetkisiz Erişim', text: 'Oturum süreniz dolmuş.', background: '#1e1e2d', color: '#fff'});
-                return null;
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
-            if (!data) return;
-
             if (data.isSuccess) {
                 playMusic(songUrl);
-
-                const Toast = Swal.mixin({
-                  toast: true,
-                  position: 'bottom-end',
-                  showConfirmButton: false,
-                  timer: 3000,
-                  timerProgressBar: true,
-                  background: '#1e1e2d',
-                  color: '#fff'
-                });
+                const Toast = Swal.mixin({ toast: true, position: 'bottom-end', showConfirmButton: false, timer: 2000, background: '#1e1e2d', color: '#fff' });
                 Toast.fire({ icon: 'success', title: 'Çalıyor 🎵' });
-
             } else {
                 Swal.fire({
                     title: 'Premium Gerekli 💎',
-                    html: `<p style="color: #b3b3b3;">${data.message}</p>`,
-                    imageUrl: '/Bebop/assets/img/premium-icon.png', // Varsa bir ikon
-                    imageWidth: 80,
-                    imageHeight: 80,
+                    text: data.message,
                     background: '#1e1e2d',
                     color: '#fff',
                     showCancelButton: true,
                     confirmButtonText: 'Paketlere Git',
-                    cancelButtonText: 'Kapat',
-                    confirmButtonColor: '#a855f7',
-                    cancelButtonColor: '#d33'
-                }).then((res) => {
-                    if (res.isConfirmed) window.location.href = "/Packages/Index";
-                });
+                    confirmButtonColor: '#a855f7'
+                }).then((res) => { if (res.isConfirmed) window.location.href = "/Packages/Index"; });
             }
-        })
-        .catch(err => console.error("Hata:", err));
+        });
     }
 
     function playMusic(url) {
         var player = document.getElementById("globalAudioPlayer");
         player.src = url;
-        // Player tasarımı için stil
         player.style.display = "block";
-        player.style.width = "100%";
-        player.style.position = "fixed";
-        player.style.bottom = "0";
-        player.style.left = "0";
-        player.style.zIndex = "9999";
-        player.style.borderRadius = "0";
-        player.style.backgroundColor = "#181818";
-
-        player.play().catch(e => {
-            console.error(e);
-            Swal.fire({icon: 'error', title: 'Oynatma Hatası', text: 'Tarayıcı izni gerekiyor.', background: '#1e1e2d', color: '#fff'});
-        });
+        player.play().catch(e => console.error("Oynatma hatası:", e));
     }
 </script>

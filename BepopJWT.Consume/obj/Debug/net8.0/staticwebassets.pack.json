@@ -1365,6 +1365,2442 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\.vscode\\settings.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\.vscode\\settings.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff2",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\tabler-icons.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\css\\icons\\tabler-icons\\tabler-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\css\\styles.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\css\\styles.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\css\\styles.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\css\\styles.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\backgrounds\\sidebar-buynow.png",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\backgrounds\\sidebar-buynow.png"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\logos\\favicon.png",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\logos\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\logos\\logo-wrappixel.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\logos\\logo-wrappixel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\logos\\logo.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\logos\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s1.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s2.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s3.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s4.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s5.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\products\\s5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-1.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-2.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-3.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-4.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-5.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-6.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-7.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-8.jpg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\images\\profile\\user-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\js\\app.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\js\\sidebarmenu.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\js\\sidebarmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\LICENSE",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\README.md",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.common.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.common.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.esm.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ar.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ar.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\be-cyrl.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\be-cyrl.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\be-latn.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\be-latn.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ca.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\cs.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\da.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\da.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\de.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\de.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\el.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\el.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\en.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\en.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\es.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\es.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\et.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\et.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\fa.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\fa.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\fi.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\fr.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\he.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\he.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\hi.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\hr.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\hu.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\hu.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\hy.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\id.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\id.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\it.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\it.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ja.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ja.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ka.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ka.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ko.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\lt.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\lv.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\lv.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ms.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ms.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\nb.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\nl.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\pl.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\pt-br.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\pt.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\rs.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\rs.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ru.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\se.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\se.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\sk.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\sl.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\sq.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\sq.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\th.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\th.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\tr.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\ua.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\vi.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\vi.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\zh-cn.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\zh-cn.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\zh-tw.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\dist\\locales\\zh-tw.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\package.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\apexcharts.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\apexcharts.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\apexcharts.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-camera.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-camera.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-home.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-home.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-menu.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-minus-square.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-minus-square.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-minus.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-pan-hand.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-pan-hand.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-pan.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-pan.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-plus-square.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-plus-square.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-plus.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-refresh.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-refresh.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-reset.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-reset.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-select.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-select.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-select1.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-select1.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom-in.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom-in.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom-out.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom-out.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom.svg",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom.svg"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Bar.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Bar.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\BarStacked.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\BarStacked.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\BoxCandleStick.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\BoxCandleStick.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\HeatMap.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\HeatMap.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Line.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Line.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Pie.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Radar.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Radar.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Radial.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Radial.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\RangeBar.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\RangeBar.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Scatter.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Scatter.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Treemap.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\Treemap.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\bar\\DataLabels.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\bar\\DataLabels.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\bar\\Helpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\bar\\Helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\circle\\Helpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\circle\\Helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\line\\Helpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\line\\Helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\treemap\\Helpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\charts\\common\\treemap\\Helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\libs\\Treemap-squared.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\libs\\Treemap-squared.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\libs\\monotone-cubic.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\libs\\monotone-cubic.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ar.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ar.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\be-cyrl.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\be-cyrl.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\be-latn.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\be-latn.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ca.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\cs.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\da.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\da.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\de.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\de.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\el.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\el.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\en.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\en.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\es.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\es.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\et.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\et.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\fa.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\fa.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\fi.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\fr.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\he.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\he.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\hi.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\hr.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\hu.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\hu.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\hy.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\id.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\id.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\it.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\it.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ja.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ja.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ka.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ka.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ko.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\lt.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\lv.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\lv.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ms.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ms.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\nb.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\nl.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\pl.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\pt-br.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\pt.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\rs.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\rs.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ru.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\se.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\se.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\sk.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\sl.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\sq.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\sq.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\th.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\th.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\tr.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\ua.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\vi.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\vi.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\zh-cn.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\zh-cn.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\zh-tw.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\locales\\zh-tw.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Animations.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Animations.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Base.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Base.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Core.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Core.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\CoreUtils.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\CoreUtils.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Crosshairs.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Crosshairs.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Data.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Data.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\DataLabels.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\DataLabels.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Events.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Events.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Exports.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Exports.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Fill.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Fill.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Filters.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Filters.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Formatters.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Formatters.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Graphics.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Graphics.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Markers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Markers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Range.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Range.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Responsive.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Responsive.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Scales.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Scales.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Series.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Series.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Theme.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\TimeScale.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\TimeScale.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\TitleSubtitle.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\TitleSubtitle.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Toolbar.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\Toolbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\ZoomPanSelection.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\ZoomPanSelection.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\Annotations.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\Annotations.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\Helpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\Helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\PointsAnnotations.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\PointsAnnotations.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\XAxisAnnotations.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\XAxisAnnotations.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\YAxisAnnotations.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\annotations\\YAxisAnnotations.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\Axes.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\Axes.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\AxesUtils.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\AxesUtils.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\Grid.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\Grid.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\XAxis.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\XAxis.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\YAxis.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\axes\\YAxis.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Dimensions.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Dimensions.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Grid.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Grid.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Helpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\XAxis.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\XAxis.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\YAxis.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\YAxis.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\helpers\\Destroy.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\helpers\\Destroy.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\helpers\\InitCtxVariables.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\helpers\\InitCtxVariables.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\helpers\\Localization.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\helpers\\Localization.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\helpers\\UpdateHelpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\helpers\\UpdateHelpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\legend\\Helpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\legend\\Helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\legend\\Legend.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\legend\\Legend.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\settings\\Config.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\settings\\Config.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\settings\\Defaults.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\settings\\Defaults.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\settings\\Globals.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\settings\\Globals.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\settings\\Options.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\settings\\Options.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\AxesTooltip.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\AxesTooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Intersect.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Intersect.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Labels.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Labels.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Marker.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Marker.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Position.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Position.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\README.md",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Tooltip.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Utils.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\svgjs\\svg.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\svgjs\\svg.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\utils\\DateTime.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\utils\\DateTime.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\utils\\Resize.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\utils\\Resize.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\utils\\Utils.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\src\\utils\\Utils.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\types\\apexcharts.d.ts",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\apexcharts\\types\\apexcharts.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\alert.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\alert.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\alert.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\alert.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\base-component.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\base-component.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\base-component.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\base-component.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\button.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\button.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\button.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\button.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\carousel.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\carousel.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\carousel.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\collapse.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\collapse.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\collapse.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\data.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\data.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\data.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dropdown.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dropdown.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\dropdown.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\modal.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\modal.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\modal.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\offcanvas.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\offcanvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\offcanvas.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\offcanvas.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\popover.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\popover.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\popover.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\popover.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\scrollspy.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\scrollspy.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\scrollspy.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\tab.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\tab.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\tab.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\toast.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\toast.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\toast.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\toast.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\tooltip.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\tooltip.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\tooltip.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\backdrop.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\backdrop.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\backdrop.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\component-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\component-functions.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\component-functions.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\config.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\config.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\config.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\focustrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\focustrap.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\focustrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\index.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\index.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\index.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\swipe.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\swipe.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\swipe.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\template-factory.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\template-factory.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\dist\\util\\template-factory.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\index.esm.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\index.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\index.umd.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\index.umd.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\alert.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\alert.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\base-component.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\base-component.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\button.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\button.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\carousel.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\collapse.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dom\\data.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dom\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dom\\event-handler.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dom\\manipulator.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dropdown.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\dropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\modal.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\modal.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\offcanvas.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\offcanvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\popover.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\popover.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\scrollspy.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\tab.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\toast.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\toast.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\tooltip.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\backdrop.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\component-functions.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\config.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\focustrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\index.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\sanitizer.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\swipe.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\js\\src\\util\\template-factory.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_focus-ring.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_focus-ring.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_icon-link.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_icon-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\AUTHORS.txt"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\README.md",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\bower.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\package.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\jsonp.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\jsonp.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\load.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\load.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\script.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\var\\location.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\var\\location.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\var\\nonce.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\var\\nonce.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\var\\rquery.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\var\\rquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\xhr.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\ajax\\xhr.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\attr.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\attr.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\classes.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\classes.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\prop.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\prop.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\support.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\support.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\val.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\attributes\\val.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\callbacks.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\callbacks.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\DOMEval.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\DOMEval.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\access.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\access.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\camelCase.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\camelCase.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\init.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\init.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\isAttached.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\isAttached.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\nodeName.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\nodeName.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\parseHTML.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\parseHTML.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\parseXML.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\parseXML.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\ready-no-deferred.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\ready-no-deferred.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\ready.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\ready.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\readyException.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\readyException.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\stripAndCollapse.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\stripAndCollapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\support.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\support.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\toType.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\toType.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\var\\rhtml.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\var\\rhtml.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\var\\rsingleTag.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\core\\var\\rsingleTag.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\addGetHookIf.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\addGetHookIf.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\adjustCSS.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\adjustCSS.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\curCSS.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\curCSS.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\finalPropName.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\finalPropName.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\hiddenVisibleSelectors.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\hiddenVisibleSelectors.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\showHide.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\showHide.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\support.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\support.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\cssExpand.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\cssExpand.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\getStyles.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\getStyles.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\isHiddenWithinTree.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\isHiddenWithinTree.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\rboxStyle.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\rboxStyle.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\rcustomProp.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\rcustomProp.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\rnumnonpx.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\rnumnonpx.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\swap.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\css\\var\\swap.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data\\Data.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data\\Data.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data\\var\\acceptData.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data\\var\\acceptData.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data\\var\\dataPriv.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data\\var\\dataPriv.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data\\var\\dataUser.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\data\\var\\dataUser.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deferred.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deferred.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deferred\\exceptionHook.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deferred\\exceptionHook.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deprecated.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deprecated.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deprecated\\ajax-event-alias.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deprecated\\ajax-event-alias.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deprecated\\event.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\deprecated\\event.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\dimensions.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\dimensions.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\effects.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\effects.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\effects\\Tween.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\effects\\Tween.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\effects\\animatedSelector.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\effects\\animatedSelector.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\event.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\event.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\event\\trigger.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\event\\trigger.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\exports\\amd.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\exports\\amd.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\exports\\global.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\exports\\global.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\jquery.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\_evalUrl.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\_evalUrl.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\buildFragment.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\buildFragment.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\getAll.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\getAll.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\setGlobalEval.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\setGlobalEval.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\support.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\support.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\var\\rscriptType.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\var\\rscriptType.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\var\\rtagName.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\var\\rtagName.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\wrapMap.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\manipulation\\wrapMap.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\offset.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\offset.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\queue.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\queue.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\queue\\delay.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\queue\\delay.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\selector-native.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\selector-native.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\selector.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\selector.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\selector\\contains.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\selector\\contains.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\selector\\escapeSelector.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\selector\\escapeSelector.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\serialize.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\serialize.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing\\findFilter.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing\\findFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing\\var\\dir.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing\\var\\dir.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing\\var\\rneedsContext.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing\\var\\rneedsContext.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing\\var\\siblings.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\traversing\\var\\siblings.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\ObjectFunctionString.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\ObjectFunctionString.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\arr.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\arr.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\class2type.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\class2type.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\document.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\document.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\documentElement.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\documentElement.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\flat.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\flat.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\fnToString.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\fnToString.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\getProto.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\getProto.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\hasOwn.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\hasOwn.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\indexOf.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\indexOf.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\isFunction.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\isFunction.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\isWindow.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\isWindow.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\pnum.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\pnum.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\pop.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\pop.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\push.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\push.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\rcheckableType.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\rcheckableType.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\rcssNum.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\rcssNum.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\rnothtmlwhite.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\rnothtmlwhite.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\rtrimCSS.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\rtrimCSS.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\slice.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\slice.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\sort.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\sort.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\splice.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\splice.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\support.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\support.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\toString.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\toString.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\whitespace.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\var\\whitespace.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\wrap.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\jquery\\src\\wrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\LICENSE",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\README.md",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar-core.esm.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar-core.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar-core.esm.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar-core.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.d.ts",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.esm.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.esm.js.map",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.umd.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\dist\\simplebar.umd.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\package.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\helpers.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\index.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\scrollbar-width.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\scrollbar-width.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\simplebar.css",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\simplebar.js",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\libs\\simplebar\\src\\simplebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\component\\_card.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\component\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\component\\_reboot.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\component\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\layouts\\_header.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\layouts\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\layouts\\_layouts.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\layouts\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\layouts\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\layouts\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\pages\\_dashboard1.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\pages\\_dashboard1.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\styles.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\utilities\\_icon-size.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\utilities\\_icon-size.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\variables\\_theme-variables.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\variables\\_theme-variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\variables\\_variables.scss",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\assets\\scss\\variables\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\authentication-login.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\authentication-login.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\authentication-register.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\authentication-register.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\discount-code.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\discount-code.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\docs.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\docs.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\icon-tabler.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\icon-tabler.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\index.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\package-lock.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\package.json",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\sample-page.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\sample-page.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\ui-alerts.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\ui-alerts.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\ui-buttons.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\ui-buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\ui-card.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\ui-card.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\ui-forms.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\ui-forms.html"
+    },
+    {
+      "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\flexy-bootstrap-lite-1.0.0\\ui-typography.html",
+      "PackagePath": "staticwebassets\\flexy-bootstrap-lite-1.0.0\\ui-typography.html"
+    },
+    {
       "Id": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
