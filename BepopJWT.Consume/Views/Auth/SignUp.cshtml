@@ -5,104 +5,228 @@
 }
 
 <!DOCTYPE html>
-<html lang="en-US" dir="ltr">
+<html lang="tr">
 <head>
     <meta charset="utf-8" />
-    <title>Signup | Bepop - Music Web Application</title>
-    <meta name="description" content="Responsive, Bootstrap, BS4" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <!-- style -->
-    <!-- build:css ../assets/css/site.min.css -->
-    <link rel="stylesheet" href="/Bebop/libs/slick-carousel/slick/slick.css" type="text/css" />
-    <link rel="stylesheet" href="/Bebop/libs/slick-carousel/slick/slick-theme.css" type="text/css" />
-    <link rel="stylesheet" href="/Bebop/assets/css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="/Bebop/assets/css/theme.css" type="text/css" />
-    <link rel="stylesheet" href="/Bebop/assets/css/style.css" type="text/css" />
-    <!-- endbuild -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bebop | Aramıza Katıl</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0f0c29; /* Fallback */
+            background: linear-gradient(135deg, #24243e, #302b63, #0f0c29);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Arka plan süslemeleri (Yuvarlak ışıklar) */
+        .circle {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            z-index: 0;
+            opacity: 0.6;
+        }
+
+        .circle-1 {
+            width: 300px;
+            height: 300px;
+            background: #ff00cc;
+            top: -50px;
+            left: -50px;
+        }
+
+        .circle-2 {
+            width: 400px;
+            height: 400px;
+            background: #333399;
+            bottom: -100px;
+            right: -100px;
+        }
+
+        /* Cam Efektli Kart */
+        .register-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            width: 400px;
+            max-width: 90%;
+            z-index: 1;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            color: #fff;
+        }
+
+            .register-card h2 {
+                text-align: center;
+                margin-bottom: 10px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                color: #fff;
+            }
+
+        .sub-text {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #ccc;
+            margin-bottom: 30px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+            .input-group label {
+                display: block;
+                margin-bottom: 5px;
+                font-size: 0.8rem;
+                color: #aaa;
+                margin-left: 5px;
+            }
+
+            .input-group input {
+                width: 100%;
+                padding: 12px 15px;
+                background: rgba(255, 255, 255, 0.07);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+                color: #fff;
+                outline: none;
+                transition: 0.3s;
+            }
+
+                .input-group input:focus {
+                    border-color: #ff00cc;
+                    background: rgba(255, 255, 255, 0.15);
+                    box-shadow: 0 0 10px rgba(255, 0, 204, 0.2);
+                }
+
+        /* Dosya Yükleme Alanı Özelleştirme */
+        .file-upload {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+            .file-upload input[type="file"] {
+                padding: 10px;
+                font-size: 0.8rem;
+                background: rgba(255, 255, 255, 0.05);
+            }
+
+        .btn-submit {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(90deg, #ff00cc, #333399);
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+            box-shadow: 0 5px 15px rgba(255, 0, 204, 0.3);
+        }
+
+            .btn-submit:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(255, 0, 204, 0.5);
+                background: linear-gradient(90deg, #d600ad, #28287a);
+            }
+
+        .login-link {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: #ccc;
+        }
+
+            .login-link a {
+                color: #ff00cc;
+                text-decoration: none;
+                font-weight: 600;
+                margin-left: 5px;
+            }
+
+                .login-link a:hover {
+                    text-decoration: underline;
+                }
+
+        /* Responsive Ayar */
+        @@media (max-width: 480px) {
+            .register-card
+
+        {
+            padding: 30px 20px;
+        }
+
+        }
+    </style>
 </head>
-<body class="layout-row bg-dark">
-    <div class="d-flex flex-column flex">
-        <div class="row no-gutters h-100">
-            <div class="col-md-6 bg-dark bg-img" style="background-image:url(/Bebop/assets/img/b7.jpg)">
-                <div class="p-3 p-md-5 d-flex flex-column h-100">
-                    <h4 class="mb-3 text-white">Bepop</h4>
-                    <div class="text-fade">Music Web Application</div>
-                    <div class="d-flex flex align-items-center justify-content-center">
-                    </div>
-                    <div class="d-flex text-sm text-fade">
-                        <a href="index.html" class="text-white">About</a>
-                        <span class="flex"></span>
-                        <a href="#" class="text-white mx-1">Terms</a>
-                        <a href="#" class="text-white mx-1">Policy</a>
-                    </div>
+<body>
+
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+
+    <div class="register-card">
+        <h2>BEPOP</h2>
+        <p class="sub-text">Müzik dünyasına adım at.</p>
+
+        <form asp-controller="Auth" asp-action="SignUp" method="post" enctype="multipart/form-data">
+
+            <div class="input-group">
+                <label><i class="fas fa-user"></i> Kullanıcı Adı</label>
+                <input asp-for="Username" type="text" placeholder="Örn: muziksever" required autocomplete="off" />
+            </div>
+
+            <div class="input-group">
+                <label><i class="fas fa-id-card"></i> Ad Soyad</label>
+                <input asp-for="FullName" type="text" placeholder="Adınız Soyadınız" required autocomplete="off" />
+            </div>
+
+            <div class="input-group">
+                <label><i class="fas fa-envelope"></i> Email</label>
+                <input asp-for="Email" type="email" placeholder="ornek@email.com" required autocomplete="off" />
+            </div>
+
+            <div class="input-group">
+                <label><i class="fas fa-lock"></i> Şifre</label>
+                <input asp-for="PasswordHash" type="password" placeholder="********" required />
+            </div>
+
+            <div class="input-group">
+                <label><i class="fas fa-camera"></i> Profil Resmi</label>
+                <div class="file-upload">
+                    <input asp-for="ProfileImage" type="file" accept="image/*" />
                 </div>
             </div>
-            <div class="col-md-6" id="content-body">
-                <div class="p-3 p-md-5">
-                    <h5>Welcome to Bepop</h5>
-                    <p>
-                        <small class="text-muted">Sign up with your social network</small>
-                    </p>
-                    <div class="">
-                        <form asp-controller="Auth" asp-action="SignUp" method="post" enctype="multipart/form-data">
 
-                            <div class="form-group">
-                                <label>Kullanıcı Adı</label>
-                                <input asp-for="Username" type="text" class="form-control" required />
-                            </div>
+            <button type="submit" class="btn-submit">Kayıt Ol</button>
 
-                            <div class="form-group">
-                                <label>Ad Soyad</label>
-                                <input asp-for="FullName" type="text" class="form-control" required />
-                            </div>
-
-                            <div class="form-group">
-                                <label>Email</label>
-                                <input asp-for="Email" type="email" class="form-control" required />
-                            </div>
-
-                            <div class="form-group">
-                                <label>Şifre</label>
-                                <input asp-for="PasswordHash" type="password" class="form-control" required />
-                            </div>
-
-                            <div class="form-group">
-                                <label>Profil Resmi</label>
-                                <input asp-for="ProfileImage" type="file" class="form-control border-0 p-0" />
-                            </div>
-
-                            <button type="submit" class="btn btn-primary mb-4 btn-block">Kayıt Ol</button>
-
-                            <div>
-                                Zaten üye misin? <a href="/Auth/SignIn" class="text-primary">Giriş Yap</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+            <div class="login-link">
+                Zaten hesabın var mı? <a href="/Auth/SignIn">Giriş Yap</a>
             </div>
-        </div>
+        </form>
     </div>
-    <!-- build:js ../assets/js/site.min.js -->
-    <!-- jQuery -->
-    <script src="/Bebop/libs/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="/Bebop/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="/Bebop/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- ajax page -->
-@*     <script src="/Bebop/libs/pjax/pjax.min.js"></script>
-    <script src="/Bebop/assets/js/ajax.js"></script> *@
-    <!-- lazyload plugin -->
-    <script src="/Bebop/assets/js/lazyload.config.js"></script>
-    <script src="/Bebop/assets/js/lazyload.js"></script>
-    <script src="/Bebop/assets/js/plugin.js"></script>
-    <!-- scrollreveal -->
-    <script src="/Bebop/libs/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script src="/Bebop/libs/slick-carousel/slick/slick.min.js"></script>
-    <!-- feather icons -->
-    <script src="/Bebop/libs/feather-icons/dist/feather.min.js"></script>
-    <!-- theme -->
-    <script src="/Bebop/assets/js/theme.js"></script>
-    <!-- endbuild -->
+
 </body>
+</html>
 </html>
 

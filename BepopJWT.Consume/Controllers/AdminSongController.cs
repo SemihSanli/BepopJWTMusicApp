@@ -1,10 +1,12 @@
 ﻿using BepopJWT.Consume.SongDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
 
 namespace BepopJWT.Consume.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminSongController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

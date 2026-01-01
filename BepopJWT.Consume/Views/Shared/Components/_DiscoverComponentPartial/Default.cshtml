@@ -2,11 +2,15 @@
 @model List<ResultSongWithArtists>
 
 @{
-    var userToken = Context.User.FindFirst("AccessToken")?.Value;
+    // Token null gelirse boş string ata ki JS hatası almayalım
+    var userToken = Context.User.FindFirst("AccessToken")?.Value ?? "";
     var recommendedSongs = ViewBag.RecommendedSongs as List<ResultSongWithArtists>;
 }
 
+<input type="hidden" id="AccessToken" value="@userToken" />
+
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <style>
     :root {
@@ -26,6 +30,7 @@
         font-family: 'Inter', sans-serif;
         background-color: var(--bg-dark);
         color: var(--text-light);
+        padding-bottom: 100px; /* Player için alt boşluk */
     }
 
     .container-fluid {
@@ -55,7 +60,6 @@
         background: rgba(0,0,0,0.6);
         backdrop-filter: blur(4px);
         z-index: 1;
-        border-radius: 32px;
     }
 
     .hero-content {
@@ -165,6 +169,7 @@
         opacity: 0;
         transform: translateY(10px);
         transition: all 0.3s ease;
+        z-index: 5;
     }
 
     .music-card:hover .floating-play {
@@ -185,6 +190,7 @@
         padding: 12px 16px;
         border-radius: 16px;
         transition: background 0.3s;
+        cursor: pointer;
     }
 
         .track-item:hover {
@@ -245,6 +251,55 @@
             font-weight: 700;
         }
 
+    /* --- Fixed Audio Player --- */
+    .fixed-player-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(15, 15, 19, 0.95);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid var(--glass-border);
+        padding: 15px 20px;
+        z-index: 1000;
+        display: none; /* Başlangıçta gizli */
+        align-items: center;
+        box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
+    }
+
+    .player-content {
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .now-playing-info {
+        display: flex;
+        align-items: center;
+        width: 250px;
+    }
+
+    .now-playing-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+
+    .audio-wrapper {
+        flex-grow: 1;
+    }
+
+    /* Varsayılan audio player stilini biraz daha karanlık temaya uydurmak zor olsa da width:100% veriyoruz */
+    audio {
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+    }
 </style>
 
 <div class="container-fluid">
@@ -266,7 +321,7 @@
         {
             foreach (var item in Model.Take(6))
             {
-                <div class="music-card" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
+                <div class="music-card" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl', '@item.SongTitle', '@item.ImageUrl', '@item.Name')">
                     <img src="@item.ImageUrl" alt="@item.SongTitle" />
                     <div class="music-card-body">
                         <h6>@item.SongTitle</h6>
@@ -285,7 +340,7 @@
         {
             foreach (var item in recommendedSongs.Take(6))
             {
-                <div class="music-card" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
+                <div class="music-card" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl', '@item.SongTitle', '@item.ImageUrl', '@item.Name')">
                     <img src="@item.ImageUrl" alt="@item.SongTitle" />
                     <div class="music-card-body">
                         <div class="ai-badge">AI Match @Random.Shared.Next(85, 99)%</div>
@@ -308,7 +363,7 @@
                     int rank = 1;
                     foreach (var item in Model.OrderByDescending(x => x.SongId).Take(5))
                     {
-                        <div class="track-item" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl')">
+                        <div class="track-item" onclick="checkSongAccess(event, @item.SongId, '@item.FileUrl', '@item.SongTitle', '@item.ImageUrl', '@item.Name')">
                             <span class="track-rank">@rank</span>
                             <img src="@item.ImageUrl" />
                             <div class="flex-grow-1">
@@ -316,7 +371,7 @@
                                 <div class="text-muted small">@item.Name</div>
                             </div>
                             <div class="text-muted small me-4">03:45</div>
-                            <button class="btn btn-link text-white-50 p-0"><i class="fa fa-heart-o"></i></button>
+                            <button class="btn btn-link text-white-50 p-0"><i class="fa-regular fa-heart"></i></button>
                         </div>
                         rank++;
                     }
@@ -330,52 +385,129 @@
                 <span class="badge bg-white text-dark mb-2 align-self-start">Live Event</span>
                 <h4>Spring Music Festival</h4>
                 <p>İstanbul'un kalbinde unutulmaz bir geceye davetlisiniz.</p>
-                <button class="btn btn-white fw-bold">Biletleri İncele</button>
+                <button class="btn btn-light fw-bold text-primary">Biletleri İncele</button>
             </div>
         </div>
     </div>
 
 </div>
 
+<div class="fixed-player-bar" id="musicPlayerBar">
+    <div class="player-content">
+        <div class="now-playing-info">
+            <img src="" id="playerImage" class="now-playing-img" alt="Album Art">
+            <div>
+                <h6 id="playerTitle" class="mb-0 fw-bold text-white">Song Title</h6>
+                <small id="playerArtist" class="text-muted">Artist</small>
+            </div>
+        </div>
+
+        <div class="audio-wrapper">
+            <audio id="globalAudioPlayer" controls autoplay>
+                <source src="" type="audio/mpeg">
+                Tarayıcınız audio elementini desteklemiyor.
+            </audio>
+        </div>
+
+        <button class="btn btn-sm btn-link text-white" onclick="closePlayer()"><i class="fa fa-times"></i></button>
+    </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
-    function checkSongAccess(e, songId, songUrl) {
+    // Şarkı erişimini kontrol et ve çal
+    function checkSongAccess(e, songId, songUrl, songTitle, imageUrl, artistName) {
         if(e) e.preventDefault();
-        var token = document.getElementById("userToken").value;
+
+        // 1. DÜZELTME: Token'ı hidden inputtan alıyoruz.
+        var tokenInput = document.getElementById("AccessToken");
+        var token = tokenInput ? tokenInput.value : null;
 
         if (!token) {
-            Swal.fire({ icon: 'error', title: 'Giriş Gerekli', text: 'Lütfen önce giriş yapın.', background: '#1e1e2d', color: '#fff', confirmButtonColor: '#a855f7' });
+            Swal.fire({
+                icon: 'error',
+                title: 'Giriş Gerekli',
+                text: 'Müzik dinlemek için lütfen giriş yapın.',
+                background: '#1e1e2d',
+                color: '#fff',
+                confirmButtonColor: '#a855f7'
+            });
             return;
         }
 
+        // Fetch isteği
         fetch(`https://localhost:7209/api/Songs/check-access/${songId}`, {
             method: 'GET',
-            headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' }
+            headers: {
+                'Authorization': 'Bearer ' + token,
+                'Content-Type': 'application/json'
+            }
         })
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) throw new Error("API Hatası");
+            return response.json();
+        })
         .then(data => {
             if (data.isSuccess) {
-                playMusic(songUrl);
-                const Toast = Swal.mixin({ toast: true, position: 'bottom-end', showConfirmButton: false, timer: 2000, background: '#1e1e2d', color: '#fff' });
-                Toast.fire({ icon: 'success', title: 'Çalıyor 🎵' });
+                // Başarılıysa player'ı hazırla ve çal
+                playMusic(songUrl, songTitle, imageUrl, artistName);
+
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: 'bottom-end',
+                    showConfirmButton: false,
+                    timer: 3000,
+                    background: '#1e1e2d',
+                    color: '#fff',
+                    didOpen: (toast) => {
+                        toast.style.marginBottom = '80px'; // Player'ın üstünde çıksın
+                    }
+                });
+                Toast.fire({ icon: 'success', title: 'Çalıyor: ' + songTitle });
             } else {
+                // Başarısız (Premium yok vs.)
                 Swal.fire({
                     title: 'Premium Gerekli 💎',
-                    text: data.message,
+                    text: data.message || 'Bu içeriğe erişmek için premium üye olmalısınız.',
                     background: '#1e1e2d',
                     color: '#fff',
                     showCancelButton: true,
                     confirmButtonText: 'Paketlere Git',
+                    cancelButtonText: 'Kapat',
                     confirmButtonColor: '#a855f7'
-                }).then((res) => { if (res.isConfirmed) window.location.href = "/Packages/Index"; });
+                }).then((res) => {
+                    if (res.isConfirmed) window.location.href = "/Packages/Index";
+                });
             }
+        })
+        .catch(err => {
+            console.error(err);
+            Swal.fire({ icon: 'error', title: 'Hata', text: 'Bir sorun oluştu.', background: '#1e1e2d', color: '#fff' });
         });
     }
 
-    function playMusic(url) {
-        var player = document.getElementById("globalAudioPlayer");
-        player.src = url;
-        player.style.display = "block";
-        player.play().catch(e => console.error("Oynatma hatası:", e));
+    // 2. DÜZELTME VE GELİŞTİRME: Player fonksiyonu
+    function playMusic(url, title, img, artist) {
+        var playerBar = document.getElementById("musicPlayerBar");
+        var audio = document.getElementById("globalAudioPlayer");
+
+        // Player UI güncelleme
+        document.getElementById("playerTitle").innerText = title;
+        document.getElementById("playerImage").src = img;
+        document.getElementById("playerArtist").innerText = artist;
+
+        // Player Bar'ı göster
+        playerBar.style.display = "flex";
+
+        // Kaynağı ata ve oynat
+        audio.src = url;
+        audio.play().catch(e => console.error("Oynatma hatası:", e));
+    }
+
+    function closePlayer() {
+        var playerBar = document.getElementById("musicPlayerBar");
+        var audio = document.getElementById("globalAudioPlayer");
+        audio.pause();
+        playerBar.style.display = "none";
     }
 </script>

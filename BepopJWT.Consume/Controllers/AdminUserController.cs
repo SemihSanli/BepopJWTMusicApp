@@ -1,10 +1,12 @@
 ﻿using BepopJWT.Consume.DTOs.UserDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
 
 namespace BepopJWT.Consume.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminUserController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

@@ -13,6 +13,7 @@ namespace BepopJWT.Consume.PlaylistDTOs
         public string ArtistName { get; set; }
         public string ImageUrl { get; set; }
         public string FileUrl { get; set; }
+        public int MinLevelRequired { get; set; }
         public DateTime AddedAt { get; set; }
     }
 }

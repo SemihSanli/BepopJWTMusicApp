@@ -17,7 +17,7 @@ namespace BepopJWT.WebApi.Controllers
             _paymentService = paymentService;
         }
 
-     
+        
         [HttpPost("initialize")]
         public async Task<IActionResult> InitializePayment([FromBody] PaymentRequestDTO paymentRequestDto)
         {
@@ -38,6 +38,7 @@ namespace BepopJWT.WebApi.Controllers
 
        
         [HttpPost("callback")]
+        [AllowAnonymous]
         public async Task<IActionResult> ProcessCallback([FromBody] IyzicoCallbackDTO callbackDto)
         {
             try

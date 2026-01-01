@@ -60,6 +60,7 @@ namespace BepopJWT.BusinessLayer.Concrete
                     SongTitle = ps.Song.SongTitle,
                     ArtistName = ps.Song.Artist?.Name,
                     ImageUrl = ps.Song.ImageUrl,
+                    MinLevelRequired = ps.Song.MinLevelRequired,
                     FileUrl = ps.Song.FileUrl
                 }).ToList()
             }).ToList();

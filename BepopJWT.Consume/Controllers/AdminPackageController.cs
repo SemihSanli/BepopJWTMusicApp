@@ -3,9 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
 using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BepopJWT.Consume.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminPackageController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;

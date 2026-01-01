@@ -2,12 +2,14 @@
 using BepopJWT.Consume.DTOs.OrderDTOs;
 using BepopJWT.Consume.PackageDTOs;
 using BepopJWT.Consume.SongDTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
 
 namespace BepopJWT.Consume.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminDefaultController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
