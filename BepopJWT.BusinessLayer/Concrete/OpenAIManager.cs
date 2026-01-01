@@ -18,7 +18,7 @@ namespace BepopJWT.BusinessLayer.Concrete
         public OpenAIManager(HttpClient httpClient, IOptions<OpenAISettings> options)
         {
             _httpClient = httpClient;
-            _settings = options.Value; // Ayarlara buradan ulaşıyoruz
+            _settings = options.Value; 
         }
 
         public async Task<List<string>> GetSongSuggestionsAsync(string prompt, string userMood)
@@ -27,8 +27,6 @@ namespace BepopJWT.BusinessLayer.Concrete
             {
                 var requestBody = new
                 {
-                    // Model ismini appsettings'den alıyorsun, doğru olduğundan emin ol.
-                    // Test için buraya elle "gpt-4o-mini" yazıp deneyebilirsin.
                     model = _settings.Model,
                     messages = new[]
                     {
@@ -53,12 +51,10 @@ namespace BepopJWT.BusinessLayer.Concrete
                 }
                 else
                 {
-                    // --- GÜNCELLEME BURADA ---
-                    // Hata durumunda sadece kodu değil, hatanın içeriğini de okuyoruz.
+                    
                     var errorContent = await response.Content.ReadAsStringAsync();
 
-                    // Hata mesajını konsola veya loga yazdırabilirsin debugging için
-                    // Örnek çıktı: "API Hatası: {error: { message: 'You exceeded your current quota', ... }}"
+                  
                     return new List<string> { $"API Hatası ({response.StatusCode}): {errorContent}" };
                 }
             }

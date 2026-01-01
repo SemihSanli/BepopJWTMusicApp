@@ -1,0 +1,1214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\shared\\components\\_playlistdetailcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\shared\\components\\_playlistdetailcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\shared\\components\\_playlistcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\shared\\components\\_playlistcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\shared\\components\\_mainpagecomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\shared\\components\\_mainpagecomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\shared\\components\\_genrescomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\shared\\components\\_genrescomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\shared\\components\\_genrescategorycomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\shared\\components\\_genrescategorycomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\shared\\components\\_discovercomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\shared\\components\\_discovercomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\shared\\components\\_artistdetailcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\shared\\components\\_artistdetailcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\shared\\components\\_artistcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\shared\\components\\_artistcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\viewcomponents\\uiparts\\_playlistdetailcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\viewcomponents\\uiparts\\_playlistdetailcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\viewcomponents\\uiparts\\_playlistcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\viewcomponents\\uiparts\\_playlistcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\viewcomponents\\uiparts\\_mainpagecomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\viewcomponents\\uiparts\\_mainpagecomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\viewcomponents\\uiparts\\_genrescomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\viewcomponents\\uiparts\\_genrescomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\viewcomponents\\uiparts\\_genrescategorycomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\viewcomponents\\uiparts\\_genrescategorycomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\viewcomponents\\uiparts\\_discovercomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\viewcomponents\\uiparts\\_discovercomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\viewcomponents\\uiparts\\_artistdetailcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\viewcomponents\\uiparts\\_artistdetailcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\viewcomponents\\uiparts\\_artistcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\viewcomponents\\uiparts\\_artistcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\packages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\packages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\createmusiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\createmusiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\a\u0130recommendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\a\u0130recommendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\admincategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\admincategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.consume\\controllers\\adminartistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F6244D-811E-4D3F-8C66-2ECC76B60C89}|BepopJWT.Consume\\BepopJWT.Consume.csproj|solutionrelative:bepopjwt.consume\\controllers\\adminartistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\usersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\usersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\songmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\songmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\slidermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\slidermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\playlistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\playlistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\paymentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\packagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\packagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\openaimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\openaimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\mlrecommendationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\mlrecommendationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\iyzicomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\iyzicomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\fileuploadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\fileuploadmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\concrete\\artistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\concrete\\artistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\isongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\isongservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\iplaylistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\iplaylistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\iiyzicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\iiyzicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\imlrecommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\imlrecommendationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\ifileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\ifileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\abstract\\iartistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\abstract\\iartistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.businesslayer\\constants\\customclaimtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3028BB42-017C-4962-9DEF-463B17D56D95}|BepopJWT.BusinessLayer\\BepopJWT.BusinessLayer.csproj|solutionrelative:bepopjwt.businesslayer\\constants\\customclaimtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\playlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\playlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\mlsongsuggestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\mlsongsuggestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\authscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\authscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|c:\\users\\semih\\source\\repos\\bepopjwt\\bepopjwt.api\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{629489EE-3901-4593-8555-21F29873FF35}|BepopJWT.API\\BepopJWT.API.csproj|solutionrelative:bepopjwt.api\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Program.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Program.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Program.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:11:10.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_PlaylistDetailComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Shared\\Components\\_PlaylistDetailComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_PlaylistDetailComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Shared\\Components\\_PlaylistDetailComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAABACAAAAAAAAAAAAAOQBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:09:49.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_PlaylistComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Shared\\Components\\_PlaylistComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_PlaylistComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Shared\\Components\\_PlaylistComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAPkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:09:38.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_MainPageComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Shared\\Components\\_MainPageComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_MainPageComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Shared\\Components\\_MainPageComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAN8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:09:22.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_GenresComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Shared\\Components\\_GenresComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_GenresComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Shared\\Components\\_GenresComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:09:14.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_GenresCategoryComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Shared\\Components\\_GenresCategoryComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_GenresCategoryComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Shared\\Components\\_GenresCategoryComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:09:11.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_DiscoverComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Shared\\Components\\_DiscoverComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_DiscoverComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Shared\\Components\\_DiscoverComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAOABAAAAAAAAAAAAAPUBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:08:38.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_ArtistDetailComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Shared\\Components\\_ArtistDetailComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_ArtistDetailComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Shared\\Components\\_ArtistDetailComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAHEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:08:32.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_ArtistComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Shared\\Components\\_ArtistComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Shared\\Components\\_ArtistComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Shared\\Components\\_ArtistComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:08:28.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_PlaylistDetailComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_PlaylistDetailComponentPartial.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\ViewComponents\\UIParts\\_PlaylistDetailComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_PlaylistDetailComponentPartial.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\ViewComponents\\UIParts\\_PlaylistDetailComponentPartial.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:08:15.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_PlaylistComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_PlaylistComponentPartial.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\ViewComponents\\UIParts\\_PlaylistComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_PlaylistComponentPartial.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\ViewComponents\\UIParts\\_PlaylistComponentPartial.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:08:12.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_MainPageComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_MainPageComponentPartial.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\ViewComponents\\UIParts\\_MainPageComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_MainPageComponentPartial.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\ViewComponents\\UIParts\\_MainPageComponentPartial.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:08:09.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_GenresComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_GenresComponentPartial.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\ViewComponents\\UIParts\\_GenresComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_GenresComponentPartial.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\ViewComponents\\UIParts\\_GenresComponentPartial.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:08:04.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_GenresCategoryComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_GenresCategoryComponentPartial.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\ViewComponents\\UIParts\\_GenresCategoryComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_GenresCategoryComponentPartial.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\ViewComponents\\UIParts\\_GenresCategoryComponentPartial.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:08:01.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_DiscoverComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_DiscoverComponentPartial.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\ViewComponents\\UIParts\\_DiscoverComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_DiscoverComponentPartial.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\ViewComponents\\UIParts\\_DiscoverComponentPartial.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:07:54.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ArtistDetailComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_ArtistDetailComponentPartial.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\ViewComponents\\UIParts\\_ArtistDetailComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_ArtistDetailComponentPartial.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\ViewComponents\\UIParts\\_ArtistDetailComponentPartial.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:07:47.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ArtistComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_ArtistComponentPartial.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\ViewComponents\\UIParts\\_ArtistComponentPartial.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\ViewComponents\\UIParts\\_ArtistComponentPartial.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\ViewComponents\\UIParts\\_ArtistComponentPartial.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:07:39.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwKEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:07:12.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Packages\\Index.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Packages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Packages\\Index.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Packages\\Index.cshtml",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:07:05.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PackagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\PackagesController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\PackagesController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\PackagesController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\PackagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:07:01.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:59.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\ErrorController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:55.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "BepopJWT.Consume\\Views\\Default\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-01T19:06:54.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\DefaultController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:51.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateMusicController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\CreateMusicController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\CreateMusicController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\CreateMusicController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\CreateMusicController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:49.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowFoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:38.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "A\u0130RecommendController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\A\u0130RecommendController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\A\u0130RecommendController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\A\u0130RecommendController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\A\u0130RecommendController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wDcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:29.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\AdminUserController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\AdminUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:29.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AdminCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\AdminCategoryController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\AdminCategoryController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\AdminCategoryController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\AdminCategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:27.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminArtistController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\AdminArtistController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.Consume\\Controllers\\AdminArtistController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.Consume\\Controllers\\AdminArtistController.cs",
+              "RelativeToolTip": "BepopJWT.Consume\\Controllers\\AdminArtistController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:25.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\UsersManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\UsersManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\UsersManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\UsersManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:20.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TokenManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\TokenManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\TokenManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\TokenManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\TokenManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wCgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:06:08.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SongManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\SongManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\SongManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\SongManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\SongManager.cs",
+              "ViewState": "AgIAAPwAAAAAAAAAAAA8wK8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:05:42.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SliderManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\SliderManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\SliderManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\SliderManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\SliderManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:05:40.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PlaylistManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\PlaylistManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\PlaylistManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\PlaylistManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\PlaylistManager.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAIwG0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:05:31.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PaymentManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\PaymentManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\PaymentManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\PaymentManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\PaymentManager.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAA9wIMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:05:15.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PackageManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\PackageManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\PackageManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\PackageManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\PackageManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:05:13.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\OrderManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\OrderManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\OrderManager.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:05:11.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OpenAIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\OpenAIManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\OpenAIManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\OpenAIManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\OpenAIManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:05:03.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MLRecommendationManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\MLRecommendationManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\MLRecommendationManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\MLRecommendationManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\MLRecommendationManager.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:58.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FileUploadManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\FileUploadManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\FileUploadManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\FileUploadManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\FileUploadManager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:21.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IyzicoManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\IyzicoManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\IyzicoManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\IyzicoManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\IyzicoManager.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAiwDsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:20.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\CategoryManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\CategoryManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:18.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\AuthManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\AuthManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\AuthManager.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:16.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ArtistManager.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\ArtistManager.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Concrete\\ArtistManager.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Concrete\\ArtistManager.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Concrete\\ArtistManager.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAIwB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:09.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\ITokenService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\ITokenService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:07.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IUserService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:07.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ISongService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\ISongService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\ISongService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\ISongService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\ISongService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:05.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IPlayListService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IPlayListService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IPlayListService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IPlayListService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IPlayListService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:05.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IPaymentService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:04.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IPackageService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IPackageService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IPackageService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IPackageService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IPackageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:03.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IOpenAIService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IOpenAIService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IOpenAIService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IOpenAIService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IOpenAIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:03.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IMLRecommendationService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IMLRecommendationService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IMLRecommendationService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IMLRecommendationService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IMLRecommendationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:02.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IAuthService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:01.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\ICategoryService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:04:00.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IFileUploadService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IFileUploadService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IFileUploadService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IFileUploadService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IFileUploadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:03:57.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IGenericService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IGenericService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IGenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:03:57.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IIyzicoService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IIyzicoService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IIyzicoService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IIyzicoService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IIyzicoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:03:56.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IArtistService.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IArtistService.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Abstract\\IArtistService.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Abstract\\IArtistService.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Abstract\\IArtistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:03:54.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Program.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Program.cs",
+              "RelativeToolTip": "BepopJWT.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:03:33.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:03:24.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CustomClaimType.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Constants\\CustomClaimType.cs",
+              "RelativeDocumentMoniker": "BepopJWT.BusinessLayer\\Constants\\CustomClaimType.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.BusinessLayer\\Constants\\CustomClaimType.cs",
+              "RelativeToolTip": "BepopJWT.BusinessLayer\\Constants\\CustomClaimType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:02:58.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "SongsController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\SongsController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\SongsController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\SongsController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\SongsController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwvwsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:01:20.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "PlaylistsController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\PlaylistsController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\PlaylistsController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\PlaylistsController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\PlaylistsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:01:11.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA3wCEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:01:07.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "PackageController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\PackageController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\PackageController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\PackageController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\PackageController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:01:04.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "MLSongSuggestionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\MLSongSuggestionsController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\MLSongSuggestionsController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\MLSongSuggestionsController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\MLSongSuggestionsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:00:56.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:00:52.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AuthsController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\AuthsController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\AuthsController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\AuthsController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\AuthsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:00:49.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ArtistsController.cs",
+              "DocumentMoniker": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\ArtistsController.cs",
+              "RelativeDocumentMoniker": "BepopJWT.API\\Controllers\\ArtistsController.cs",
+              "ToolTip": "C:\\Users\\Semih\\source\\repos\\BepopJWT\\BepopJWT.API\\Controllers\\ArtistsController.cs",
+              "RelativeToolTip": "BepopJWT.API\\Controllers\\ArtistsController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T19:00:46.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

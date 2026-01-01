@@ -46,12 +46,12 @@ namespace BepopJWT.BusinessLayer.Concrete
                 newSong.FileUrl = await _fileUploadService.UploadMusicAsync(musicDto);
             }
 
-            // Resim Yükleme (HATANIN ÇÖZÜLDÜĞÜ YER) 👇
+           
             if (createSongDto.ImageFile != null)
             {
                 var imageDto = new UploadImageDTO { imageFile = createSongDto.ImageFile };
 
-                // Buraya "bepop_covers" ekledik, artık patlamaz.
+              
                 newSong.ImageUrl = await _fileUploadService.UploadImageAsync(imageDto, "bepop_covers");
             }
 
@@ -109,10 +109,10 @@ namespace BepopJWT.BusinessLayer.Concrete
 
             int userPackageLevel = userPackage.PackageLevel;
 
-            // 2️⃣ Veritabanındaki tüm şarkıları çekiyoruz
+        
             var allSongs = await _songDal.GetSongWithArtist();
 
-            // 3️⃣ Kullanıcının paket seviyesine uygun olanları filtreliyoruz
+         
             var authorizedSongs = allSongs
                 .Where(song => song.MinLevelRequired <= userPackageLevel)
                 .ToList();
@@ -122,14 +122,10 @@ namespace BepopJWT.BusinessLayer.Concrete
                 return new List<ResultSongWithArtists>();
             }
 
-            // --- 🔥 DÜZELTME BURADA BAŞLIYOR ---
-
-            // Listeyi her seferinde rastgele karıştırıyoruz (Shuffle)
-            // Ve AI'ya yollamak için rastgele 30 şarkı seçiyoruz (Random Pool).
-            // Bu sayede AI her seferinde farklı bir aday listesi görüyor.
+        
             var randomPool = authorizedSongs
-                .OrderBy(x => Guid.NewGuid()) // Rastgele sıralama hilesi
-                .Take(30) // Sadece 30 aday gönder (Hem hızlanır hem çeşitlilik artar)
+                .OrderBy(x => Guid.NewGuid()) 
+                .Take(30) 
                 .ToList();
 
             // 4️⃣ AI için liste metni oluşturuyoruz (Artık randomPool üzerinden)
@@ -147,20 +143,20 @@ Lütfen şarkı isimlerini listedeki haliyle birebir aynı yaz.
 {songListText}
 ";
 
-            // AI Servisine istek atılıyor
+         
             List<string> aiSuggestions = await _openAIService.GetSongSuggestionsAsync(systemPrompt, userMood);
 
             var resultList = new List<ResultSongWithArtists>();
 
             foreach (var suggestion in aiSuggestions)
             {
-                // Eşleştirmeyi yaparken de randomPool içinden bakıyoruz
+             
                 var matchedSong = randomPool.FirstOrDefault(s =>
                     suggestion.Contains(s.SongTitle, StringComparison.OrdinalIgnoreCase));
 
                 if (matchedSong != null)
                 {
-                    // Aynı şarkıyı tekrar eklememek için kontrol (AI bazen aynı ismi 2 kere yazabilir)
+                   
                     if (!resultList.Any(r => r.SongId == matchedSong.SongId))
                     {
                         resultList.Add(new ResultSongWithArtists
@@ -177,8 +173,7 @@ Lütfen şarkı isimlerini listedeki haliyle birebir aynı yaz.
                 }
             }
 
-            // 5️⃣ Fallback (Yedek Plan)
-            // Eğer AI saçmalarsa veya eşleşme bulamazsa, randomPool içinden rastgele 3 tane veriyoruz.
+          
             if (!resultList.Any() && randomPool.Any())
             {
                 return randomPool.Take(3).Select(x => new ResultSongWithArtists

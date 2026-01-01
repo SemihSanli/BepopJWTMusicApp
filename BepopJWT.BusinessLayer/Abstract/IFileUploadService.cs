@@ -14,7 +14,7 @@ namespace BepopJWT.BusinessLayer.Abstract
         Task<string> UploadMusicAsync(UploadMusicDTO uploadMusicDto);
 
 
-        //Sürekli if-else döngüsüne girmemek için bu 2 metodu ekliyorum
+      
         Task DeleteImageAsync(string imageUrl);
         Task DeleteMusicAsync(string musicUrl);
 

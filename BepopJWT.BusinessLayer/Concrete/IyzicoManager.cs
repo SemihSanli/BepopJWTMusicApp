@@ -49,15 +49,15 @@ namespace BepopJWT.BusinessLayer.Concrete
             var request = new CreateCancelRequest();
             request.ConversationId = Guid.NewGuid().ToString();
             request.Locale = Locale.TR.ToString();
-            request.PaymentId = paymentId; // İptal edilecek işlemin Iyzico ID'si
-            request.Ip = ip ?? "127.0.0.1"; // İsteği yapan IP adresi
+            request.PaymentId = paymentId; 
+            request.Ip = ip ?? "127.0.0.1"; 
             request.Reason = "other";
             request.Description = "Sistem hatası nedeniyle otomatik iptal (Rollback)";
           
             {
                 var cancel = await Cancel.Create(request, GetOptions());
 
-                // Artık burası kesinlikle string, hata vermez.
+              
                 if (cancel.Status == "success")
                 {
                     return true;

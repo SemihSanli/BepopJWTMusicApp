@@ -21,11 +21,11 @@ namespace BepopJWT.Consume.Controllers
         [HttpGet]
         public IActionResult SongRecommendation()
         {
-            // Sayfaya boş model gönderiyoruz ki "Input Ekranı" açılsın
+          
             return View();
         }
 
-        // 2. POST: Kullanıcı butona basınca burası çalışır (Sonuç ekranı gelir)
+  
         [HttpPost]
         public async Task<IActionResult> SongRecommendation(string mood)
         {
@@ -46,14 +46,14 @@ namespace BepopJWT.Consume.Controllers
                 var jsonData = await response.Content.ReadAsStringAsync();
                 var values = JsonConvert.DeserializeObject<List<ResultSongWithArtists>>(jsonData);
 
-                // Seçilen modu ekranda göstermek için saklıyoruz
+              
                 ViewBag.SelectedMood = mood;
 
-                // Veriyi sayfaya geri gönderiyoruz
+               
                 return View(values);
             }
 
-            // Hata varsa yine boş sayfaya dönsün ama hata mesajı ile
+       
             ViewBag.Error = "Şarkı bulunamadı.";
             return View();
         }

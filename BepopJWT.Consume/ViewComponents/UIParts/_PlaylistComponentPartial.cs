@@ -28,7 +28,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
 
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            // Kullanıcının oluşturduğu listeleri getiren API endpoint'in
+         
             var response = await client.GetAsync($"https://localhost:7209/api/Playlists/user/{userId}");
 
             if (response.IsSuccessStatusCode)

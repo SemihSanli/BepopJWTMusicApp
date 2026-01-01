@@ -31,7 +31,7 @@ namespace BepopJWT.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                // Bir hata olursa (Level yetmezse vs.) hatayı dönüyoruz.
+               
                 return BadRequest(new { Message = ex.Message });
             }
         }

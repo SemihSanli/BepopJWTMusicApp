@@ -29,18 +29,17 @@ namespace BepopJWT.API.Controllers
         {
             var songIds = await _mlRecommendationService.GetRecommendedSongIds(userId);
 
-            // 2. Eğer yapay zeka bir şey önermediyse (yeni kullanıcı vb.) boş liste dön
+          
             if (songIds == null || !songIds.Any())
             {
-                // İstersen burada "En Çok Dinlenenler" gibi bir fallback yapabilirsin
-                // Şimdilik boş dönüyoruz
+              
                 return Ok(new List<ResultSongWithArtists>());
             }
 
-            // 3. Şarkı Servisinden DTO iste (Controller artık mapping yapmıyor!)
+          
             var recommendedSongsDTO = await _songService.GetSongsByIdsAsync(songIds);
 
-            // 4. Sonucu dön
+          
             return Ok(recommendedSongsDTO);
         }
     }

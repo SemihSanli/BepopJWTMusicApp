@@ -36,7 +36,7 @@ namespace BepopJWT.API.Controllers
             try
             {
                 var token = await _authService.LogIn(loginDto);
-                //Direkt "return Ok(token) diyebilirdik fakat Frontend(React, Angular vs.) tarafında istek atarken token'a ulaşabilmesi için aşağıdaki gibi yaptım
+                
                 return Ok(new
                 {
                     Token = token,

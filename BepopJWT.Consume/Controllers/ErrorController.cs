@@ -7,7 +7,7 @@ namespace BepopJWT.Consume.Controllers
     {
         public IActionResult Page(int id)
         {
-            // Hata koduna göre mesaj ve başlık belirliyoruz
+           
             var errorModel = new ErrorPageModel();
 
             switch (id)

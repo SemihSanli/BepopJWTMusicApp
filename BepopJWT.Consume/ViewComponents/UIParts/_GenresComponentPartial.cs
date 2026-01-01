@@ -27,7 +27,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
             if (!string.IsNullOrEmpty(token))
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            // API zaten tüm şarkıları kategorileri ile birlikte döndürüyor
+           
             string url = "https://localhost:7209/api/Songs/getsongswithcategory";
             var response = await client.GetAsync(url);
 
@@ -36,7 +36,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
                 var jsonData = await response.Content.ReadAsStringAsync();
                 var allSongs = JsonConvert.DeserializeObject<List<ResultSongWithArtists>>(jsonData);
 
-                // Eğer kategori seçilmişse client-side filtre uygula
+               
                 if (categoryId != 0)
                     allSongs = allSongs.Where(s => s.CategoryId == categoryId).ToList();
 

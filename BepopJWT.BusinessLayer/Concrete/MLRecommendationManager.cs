@@ -33,7 +33,7 @@ namespace BepopJWT.BusinessLayer.Concrete
             ITransformer model = _mlContext.Model.Load(_modelPath, out var schema);
             var predictionEngine = _mlContext.Model.CreatePredictionEngine<SongRating, SongPrediction>(model);
 
-            // Adayları bul
+        
             var allSongIds = _context.Songs.Select(s => s.SongId).ToList();
             var likedSongIds = _context.Favorites.Where(x => x.UserId == userId).Select(x => x.SongId).ToList();
             var candidateSongs = allSongIds.Except(likedSongIds).ToList();

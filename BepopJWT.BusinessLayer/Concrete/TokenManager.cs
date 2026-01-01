@@ -1,4 +1,5 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
+using BepopJWT.BusinessLayer.Constants;
 using BepopJWT.BusinessLayer.Constants.CustomClaimTypes;
 using BepopJWT.DTOLayer.TokenDTOs;
 using Microsoft.Extensions.Configuration;
@@ -24,7 +25,7 @@ namespace BepopJWT.BusinessLayer.Concrete
 
         public string CreateToken(UserTokenDTO userTokenDTO)
         {
-            //Secret keyimi byte dizisine  çevirdim
+           
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:SecretKey"]));
 
             var claim = new List<Claim>
@@ -37,7 +38,7 @@ namespace BepopJWT.BusinessLayer.Concrete
             };
             if (userTokenDTO.PackageId.HasValue)
             {
-                //PackageId'yi "" içinde yazıp hata almamak için BusinessLayer.Constants.CustomClaimTypes içine CustomClaimType ekledim. Ve burada oradan çağırdım.
+               
                 claim.Add(new Claim(CustomClaimType.PackageId, userTokenDTO.PackageId.Value.ToString()));
             }
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

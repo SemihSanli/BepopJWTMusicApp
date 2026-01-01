@@ -26,15 +26,13 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.LoginPath = "/Auth/SignIn";
         options.LogoutPath = "/Auth/SignOut";
 
-        // ? BUNU KALDIRDIK
-        // options.AccessDeniedPath = "/Auth/AccessDenied";
 
         options.Cookie.Name = "Bepop.Consume.Auth";
         options.Cookie.HttpOnly = true;
         options.SlidingExpiration = true;
         options.ExpireTimeSpan = TimeSpan.FromDays(7);
 
-        // ?? KRÝTÝK KISIM
+     
         options.Events = new CookieAuthenticationEvents
         {
             OnRedirectToLogin = context =>
@@ -54,14 +52,13 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
 var app = builder.Build();
 
-// Production exception
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error/Page/500");
     app.UseHsts();
 }
 
-// ?? Status code handler (404, 500 vs)
+
 app.UseStatusCodePagesWithReExecute("/Error/Page/{0}");
 
 app.UseHttpsRedirection();

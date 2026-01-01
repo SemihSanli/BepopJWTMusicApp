@@ -5,19 +5,17 @@
     ViewData["Title"] = "Ana Sayfa";
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 
-    // --- GÖRSEL YARDIMCISI ---
-    // DB'den görsel gelmezse veya liste boşsa placeholder kullanmak için.
+   
     var images = Model != null && Model.Any() ? Model.Select(x => x.ImageUrl).Where(x => !string.IsNullOrEmpty(x)).ToList() : new List<string>();
 
-    // Eğer hiç resim yoksa, placeholder resimlerden bir havuz oluşturalım ki döngü çalışsın.
+   
     if (images.Count == 0)
     {
         for (int i = 0; i < 5; i++) images.Add($"/Bebop/assets/img/b{i}.jpg");
-        // NOT: Projende bu yolda varsayılan resimlerin olduğundan emin ol yoksa kırık link görünür.
-        // Yoksa buraya "/img/default-artist.png" gibi tek bir statik resim de verebilirsin.
+       
     }
 
-    // Modulo (%) kullanarak sonsuz döngü illüzyonu yaratan fonksiyon
+   
     string GetArtistImage(int index)
     {
         return images[index % images.Count];
@@ -223,8 +221,7 @@
         <div class="scrolling-wrapper">
             @if (images.Count > 0)
             {
-                // 15 tane kart gösterelim, görüntüyü doldursun.
-                // Veri azsa bile başa dönerek dolduracak.
+             
                 for (int i = 0; i < 12; i++)
                 {
                     var imgUrl = GetArtistImage(i);

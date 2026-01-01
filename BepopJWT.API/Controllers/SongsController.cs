@@ -1,5 +1,5 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
-using BepopJWT.BusinessLayer.Constants.CustomClaimTypes;
+using BepopJWT.BusinessLayer.Constants;
 using BepopJWT.DTOLayer.SongDTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

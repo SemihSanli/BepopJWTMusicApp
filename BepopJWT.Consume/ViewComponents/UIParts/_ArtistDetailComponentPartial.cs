@@ -17,7 +17,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
             _apiClientHelper = apiClientHelper;
         }
 
-        // Parametre olarak ID alıyor
+      
         public async Task<IViewComponentResult> InvokeAsync(int id)
         {
             var client = _apiClientHelper.GetClient();
@@ -25,7 +25,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
             var token = HttpContext.User.FindFirst("AccessToken")?.Value;
             if (!string.IsNullOrEmpty(token))
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            // API'den Sanatçı + Şarkıları çek
+           
             var response = await client.GetAsync($"https://localhost:7209/api/Artists/GetArtistDetail/{id}");
 
             if (response.IsSuccessStatusCode)

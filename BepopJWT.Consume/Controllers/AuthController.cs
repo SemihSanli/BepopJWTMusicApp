@@ -35,12 +35,12 @@ namespace BepopJWT.Consume.Controllers
          
             var multipartContent = new MultipartFormDataContent();
 
-           //FormFile olduğu için MultipartContent var.
+          
             multipartContent.Add(new StringContent(registerDto.Username ?? ""), "Username");
             multipartContent.Add(new StringContent(registerDto.FullName ?? ""), "FullName");
             multipartContent.Add(new StringContent(registerDto.Email ?? ""), "Email");
             multipartContent.Add(new StringContent(registerDto.PasswordHash ?? ""), "PasswordHash");
-            multipartContent.Add(new StringContent("Member"), "Role"); // Varsayılan rol
+            multipartContent.Add(new StringContent("Member"), "Role"); 
 
           
             if (registerDto.ProfileImage != null)
@@ -78,7 +78,7 @@ namespace BepopJWT.Consume.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                // 4. API'den gelen cevabı (Token) oku
+             
                 var jsonData = await response.Content.ReadAsStringAsync();
                 var tokenModel = JsonConvert.DeserializeObject<TokenResponseDTO>(jsonData);
 
@@ -88,7 +88,7 @@ namespace BepopJWT.Consume.Controllers
                     var handler = new JwtSecurityTokenHandler();
                     var jwtToken = handler.ReadJwtToken(tokenModel.Token);
 
-                    // Claims listesini oluşturuyoruz
+                   
                     var claims = new List<Claim>();
                     claims.AddRange(jwtToken.Claims);
 

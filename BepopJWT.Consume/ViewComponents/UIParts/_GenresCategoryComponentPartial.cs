@@ -20,7 +20,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
             var client = _apiClientHelper.GetClient();
             var client2 = _httpClientFactory.CreateClient();
 
-            // API'den Kategorileri çekiyoruz
+           
             var response = await client.GetAsync("https://localhost:7209/api/Categories"); 
 
             if (response.IsSuccessStatusCode)

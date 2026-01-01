@@ -25,7 +25,7 @@ namespace BepopJWT.API.Controllers
         [HttpGet("getbyemail")]
         public async Task< IActionResult> GetByEmail(string email)
         {
-            // Sen serviste yazmışsın ya, işte onu burada çağıracağız.
+            
             var user = await _userService.TGetByEmailAsync(email);
 
             if (user == null) return NotFound();

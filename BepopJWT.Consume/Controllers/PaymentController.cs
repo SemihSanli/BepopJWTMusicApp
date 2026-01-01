@@ -26,15 +26,15 @@ namespace BepopJWT.Consume.Controllers
 
 
 
-        // Dosya: BepopJWT.Consume/Controllers/PaymentController.cs
+      
 
         [HttpPost]
         public async Task<IActionResult> ProcessPayment(int packageId) // 'email' parametresini kaldırdık
         {
-            // 1. Kullanıcı Giriş Yapmış mı Kontrolü
+           
             if (!User.Identity.IsAuthenticated)
             {
-                return RedirectToAction("SignIn", "Login"); // Giriş yapmamışsa login sayfasına at
+                return RedirectToAction("SignIn", "Login"); 
             }
 
            
@@ -92,8 +92,7 @@ namespace BepopJWT.Consume.Controllers
 
                 if (!paymentResponse.IsSuccessStatusCode)
                 {
-                    // Manager'daki "Zaten bu pakete sahipsiniz" hatası burada yakalanır
-                    // İstersen burada TempData ile hata mesajını View'e taşıyıp kullanıcıya şık bir uyarı gösterebilirsin.
+                   
                     return Content($"⚠️ İŞLEM BAŞARISIZ: {responseStr}");
                 }
 
@@ -104,7 +103,7 @@ namespace BepopJWT.Consume.Controllers
                     return Content("❌ HATA: Iyzico ödeme sayfası oluşturulamadı.");
                 }
 
-                // HATA YOKSA IYZICO'YA YÖNLENDİR
+            
                 return Redirect(result.Url);
             }
             catch (Exception ex)
@@ -117,7 +116,7 @@ namespace BepopJWT.Consume.Controllers
         [IgnoreAntiforgeryToken]
         public async Task<IActionResult> CallBack(IyzicoCallbackDTO iyzicoCallbackDto)
         {
-            // 1. Token Kontrolü
+            
             if (string.IsNullOrEmpty(iyzicoCallbackDto.Token))
             {
                 return Content("❌ HATA: Iyzico'dan Token gelmedi!");
@@ -126,7 +125,7 @@ namespace BepopJWT.Consume.Controllers
             var client = _httpClientFactory.CreateClient();
             string apiUrl = "https://localhost:7209";
 
-            // 2. API'ye Ödeme Onayı Gönder
+          
             var jsonContent = new StringContent(JsonConvert.SerializeObject(iyzicoCallbackDto), Encoding.UTF8, "application/json");
             var response = await client.PostAsync($"{apiUrl}/api/Payments/callback", jsonContent);
 
@@ -160,7 +159,7 @@ namespace BepopJWT.Consume.Controllers
                         var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                         var authProperties = new AuthenticationProperties
                         {
-                            IsPersistent = true, // Beni hatırla mantığı varsa
+                            IsPersistent = true, 
                             ExpiresUtc = DateTime.UtcNow.AddDays(7)
                         };
 
@@ -191,16 +190,16 @@ namespace BepopJWT.Consume.Controllers
         [HttpGet]
         public IActionResult Result()
         {
-            // TempData'dan verileri alıp View'a gönderiyoruz
+          
             ViewBag.Status = TempData["PaymentStatus"];
             ViewBag.Message = TempData["Message"];
 
             if (ViewBag.Status == null)
             {
-                return RedirectToAction("Index", "Packages"); // Doğrudan linkle girmeye çalışırsa geri at
+                return RedirectToAction("Index", "Packages"); 
             }
 
-            return View(); // Views/Payment/Result.cshtml
+            return View(); 
 
         }
     }

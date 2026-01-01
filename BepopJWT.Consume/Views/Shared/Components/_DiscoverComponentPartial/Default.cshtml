@@ -30,7 +30,7 @@
         font-family: 'Inter', sans-serif;
         background-color: var(--bg-dark);
         color: var(--text-light);
-        padding-bottom: 100px; /* Player için alt boşluk */
+        padding-bottom: 100px; 
     }
 
     .container-fluid {
@@ -294,7 +294,7 @@
         flex-grow: 1;
     }
 
-    /* Varsayılan audio player stilini biraz daha karanlık temaya uydurmak zor olsa da width:100% veriyoruz */
+  
     audio {
         width: 100%;
         height: 40px;
@@ -304,7 +304,7 @@
 
 <div class="container-fluid">
 
-    @* --- Hero Section --- *@
+   
     <div class="hero-section">
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -314,7 +314,7 @@
         </div>
     </div>
 
-    @* --- Trendler --- *@
+ 
     <h2 class="fw-bold mb-3">Trendler</h2>
     <div class="music-grid">
         @if (Model != null)
@@ -333,7 +333,7 @@
         }
     </div>
 
-    @* --- Önerilen Şarkılar --- *@
+   
     <h2 class="fw-bold mb-3 mt-5">Senin İçin Özelleştirildi ✨</h2>
     <div class="music-grid">
         @if (recommendedSongs != null && recommendedSongs.Any())
@@ -353,7 +353,7 @@
         }
     </div>
 
-    @* --- Yeni Çıkanlar ve Etkinlik --- *@
+   
     <div class="row mt-5">
         <div class="col-lg-8">
             <h3 class="fw-bold mb-4">Yeni Çıkanlar</h3>
@@ -415,7 +415,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
-    // Şarkı erişimini kontrol et ve çal
+   
     function checkSongAccess(e, songId, songUrl, songTitle, imageUrl, artistName) {
         if(e) e.preventDefault();
 
@@ -435,7 +435,7 @@
             return;
         }
 
-        // Fetch isteği
+      
         fetch(`https://localhost:7209/api/Songs/check-access/${songId}`, {
             method: 'GET',
             headers: {
@@ -449,7 +449,7 @@
         })
         .then(data => {
             if (data.isSuccess) {
-                // Başarılıysa player'ı hazırla ve çal
+               
                 playMusic(songUrl, songTitle, imageUrl, artistName);
 
                 const Toast = Swal.mixin({
@@ -460,12 +460,12 @@
                     background: '#1e1e2d',
                     color: '#fff',
                     didOpen: (toast) => {
-                        toast.style.marginBottom = '80px'; // Player'ın üstünde çıksın
+                        toast.style.marginBottom = '80px'; 
                     }
                 });
                 Toast.fire({ icon: 'success', title: 'Çalıyor: ' + songTitle });
             } else {
-                // Başarısız (Premium yok vs.)
+               
                 Swal.fire({
                     title: 'Premium Gerekli 💎',
                     text: data.message || 'Bu içeriğe erişmek için premium üye olmalısınız.',
@@ -486,20 +486,20 @@
         });
     }
 
-    // 2. DÜZELTME VE GELİŞTİRME: Player fonksiyonu
+   
     function playMusic(url, title, img, artist) {
         var playerBar = document.getElementById("musicPlayerBar");
         var audio = document.getElementById("globalAudioPlayer");
 
-        // Player UI güncelleme
+       
         document.getElementById("playerTitle").innerText = title;
         document.getElementById("playerImage").src = img;
         document.getElementById("playerArtist").innerText = artist;
 
-        // Player Bar'ı göster
+        
         playerBar.style.display = "flex";
 
-        // Kaynağı ata ve oynat
+      
         audio.src = url;
         audio.play().catch(e => console.error("Oynatma hatası:", e));
     }

@@ -28,7 +28,7 @@ namespace BepopJWT.BusinessLayer.Concrete
 
             if (createArtistDto.ImageUrl != null)
             {
-                // Artist resimleri "bepop_artists" klasörüne gider
+               
                 imageUrl = await _fileUploadService.UploadImageAsync(
                     new UploadImageDTO { imageFile = createArtistDto.ImageUrl },
                     "bepop_artists"

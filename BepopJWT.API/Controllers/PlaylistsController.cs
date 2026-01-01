@@ -18,16 +18,16 @@ namespace BepopJWT.API.Controllers
             _playlistService = playlistService;
         }
 
-        // 1. KULLANICININ LİSTELERİNİ GETİR (Resimli, Şarkılı, İsimli)
+     
         [HttpGet("user/{userId}")]
         public async Task<IActionResult> GetUserPlaylists(int userId)
         {
-            // Manager'daki o özel DTO dönüşümünü çağırıyoruz
+           
             var values = await _playlistService.GetPlaylistsByUserIdAsync(userId);
             return Ok(values);
         }
 
-        // 2. YENİ LİSTE OLUŞTUR
+     
         [HttpPost("create")]
         public async Task<IActionResult> CreatePlaylist([FromBody] CreatePlaylistDTO createPlaylistDto)
         {
@@ -35,7 +35,7 @@ namespace BepopJWT.API.Controllers
             return StatusCode(201, "Playlist başarıyla oluşturuldu.");
         }
 
-        // 3. LİSTEYE ŞARKI EKLE
+     
         [HttpPost("add-song")]
         public async Task<IActionResult> AddSongToPlaylist([FromBody] AddSongToPlaylistDTO addSongToPlaylistDto)
         {
@@ -43,7 +43,7 @@ namespace BepopJWT.API.Controllers
             return Ok("Şarkı listeye eklendi.");
         }
 
-        // 4. (Opsiyonel) TÜM LİSTELERİ GÖR
+     
         [HttpGet]
         public async Task<IActionResult> GetAllPlaylists()
         {

@@ -29,7 +29,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             }
 
-            // 1. Önerilen şarkıları ML API'sinden çekiyoruz
+          
             var mlResponse = await client.GetAsync($"https://localhost:7209/api/MLSongSuggestions/GetRecommendations/{userIdStr}");
 
             List<ResultSongWithArtists> recommendedSongs = new List<ResultSongWithArtists>();
@@ -40,7 +40,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
                 recommendedSongs = JsonConvert.DeserializeObject<List<ResultSongWithArtists>>(mlData);
             }
 
-            // 2. Sayfanın geri kalanı için genel şarkıları çekiyoruz
+           
             var allSongsResponse = await client.GetAsync("https://localhost:7209/api/Songs");
             List<ResultSongWithArtists> allSongs = new List<ResultSongWithArtists>();
 
@@ -50,8 +50,7 @@ namespace BepopJWT.Consume.ViewComponents.UIParts
                 allSongs = JsonConvert.DeserializeObject<List<ResultSongWithArtists>>(allData);
             }
 
-            // İki listeyi de View'a göndermek için bir ViewModel kullanabilirsin 
-            // veya ViewBag üzerinden önerileri gönderip ana modeli "Tüm Şarkılar" yapabilirsin.
+         
             ViewBag.RecommendedSongs = recommendedSongs;
 
             return View(allSongs);

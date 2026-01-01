@@ -27,7 +27,7 @@ namespace BepopJWT.BusinessLayer.Concrete
             _packageService = packageService;
         }
 
-        // Dosya: BepopJWT.BusinessLayer.Concrete/PaymentManager.cs
+        
 
         public async Task<string> InitializePayment(PaymentRequestDTO paymentRequestDto)
         {
@@ -37,23 +37,21 @@ namespace BepopJWT.BusinessLayer.Concrete
             if (user == null || newPackage == null)
                 throw new Exception("Kullanıcı veya paket bulunamadı");
 
-            // --- DÜZENLEME BURADA BAŞLIYOR ---
+           
 
-            // Eğer kullanıcının zaten bir paketi varsa
+         
             if (user.PackageId != null && user.PackageId != 0)
             {
-                // 1. KURAL: Kullanıcı zaten sahip olduğu paketi tekrar alamaz.
+              
                 if (user.PackageId == newPackage.PackageId)
                 {
                     throw new Exception("Zaten şu anda bu paketi kullanıyorsunuz. Aynı paketi tekrar satın alamazsınız.");
                 }
 
-                // NOT: Senin eski kodunda "Level" kontrolü vardı ve düşürmeye izin vermiyordu.
-                // İsteğin üzerine "yükseltme veya düşürme" yapabilmesi için o kısıtlamayı kaldırdık.
-                // Artık sadece "Aynı paket mi?" kontrolü yapıyoruz.
+             
             }
 
-            // --- DÜZENLEME BİTTİ ---
+       
 
             var order = new Order
             {
@@ -119,7 +117,7 @@ namespace BepopJWT.BusinessLayer.Concrete
                 };
                 await _paymentDal.AddAsync(payment);
 
-                // 5. Kullanıcının paketini güncelliyoruz
+              
                 var user = await _userService.TGetByIdAsync(order.UserId);
                 if (user != null)
                 {
@@ -131,7 +129,7 @@ namespace BepopJWT.BusinessLayer.Concrete
             }
             catch (Exception ex)
             {
-                // Sistemde kopukluk veya hata olursa ödeme iadesi yapıyoruz
+                
                 await _iyzicoService.RefundPayment(form.PaymentId, "127.0.0.1");
                 return "SYSTEM_ERROR_REFUNDED: " + ex.Message;
             }

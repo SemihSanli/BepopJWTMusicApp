@@ -4,18 +4,14 @@
 
 @{
     ViewData["Title"] = (Model?.PlaylistName ?? "Liste") + " - Detay";
-    // Layout'u null yapıyoruz çünkü bu bir ViewComponent, zaten ana sayfa içinde render ediliyor.
-    // Eğer bu ayrı bir sayfaysa Layout kalabilir. ViewComponent ise Layout satırını silmelisin.
-    // Layout = "~/Views/Shared/_MainLayout.cshtml";
-
-    // Token'ı backend'den alıyoruz
+   
     var accessToken = User.FindFirst("AccessToken")?.Value;
 }
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-    /* CSS kodların aynen korundu */
+   
     body {
         margin-bottom: 120px;
     }
@@ -299,7 +295,7 @@
     let currentSongIndex = -1;
     let audioBlobUrl = null;
 
-    // DEĞİŞİKLİK: Listeye ID bilgisini de ekledik
+   
     const songList = [
     @if (Model?.Songs != null)
     {
@@ -313,32 +309,32 @@
     const playIcon = document.getElementById("playIcon");
     const progress = document.getElementById("progress");
 
-    // --- YENİ MANTIK: Önce ID ile Yetki Kontrolü, Sonra Çalma ---
+ 
 
     function selectSong(id, url, title, artist, image) {
-        // İndexi bul
+     
         currentSongIndex = songList.findIndex(s => s.id === id);
 
-        // UI'ı güncelle
+     
         updatePlayerUI(title, artist, image);
 
-        // Yetki kontrolü yap ve çal
+       
         checkAccessAndPlay(id, url);
     }
 
-    // 1. ADIM: Yetki Kontrolü
+   
     async function checkAccessAndPlay(songId, songUrl) {
-        // Token yoksa hata ver
+        
         if (!token) {
             Swal.fire({icon: 'error', title: 'Giriş Yapın', text: 'Müzik dinlemek için oturum açmalısınız.', background: '#282828', color: 'white'});
             return;
         }
 
-        // İkonu yükleniyor yap
+      
         playIcon.className = "fa fa-spinner fa-spin";
 
         try {
-            // API'ye "Bu şarkıya erişebilir miyim?" diye soruyoruz
+           
             const response = await fetch(`https://localhost:7209/api/Songs/check-access/${songId}`, {
                 method: 'GET',
                 headers: {
@@ -356,10 +352,10 @@
             const data = await response.json();
 
             if (data && data.isSuccess) {
-                // 2. ADIM: Yetki varsa dosyayı güvenli şekilde getir ve çal
+              
                 playWithAuth(songUrl);
             } else {
-                // Yetki yoksa (Premium lazım vs.)
+                
                 playIcon.className = "fa fa-play-circle";
                 Swal.fire({
                     title: 'Erişim Engellendi',
@@ -380,7 +376,7 @@
         }
     }
 
-    // 3. ADIM: Dosyayı Token ile Çekip Blob Olarak Oynatma
+  
     async function playWithAuth(url) {
         if (audioBlobUrl) {
             URL.revokeObjectURL(audioBlobUrl);
@@ -401,7 +397,7 @@
                     isPlaying = true;
                     playIcon.className = "fa fa-pause-circle";
 
-                    // Küçük toast bildirimi (Opsiyonel)
+                 
                     const Toast = Swal.mixin({
                         toast: true, position: 'bottom-end', showConfirmButton: false, timer: 3000,
                         background: '#282828', color: 'white'
@@ -417,7 +413,7 @@
         }
     }
 
-    // --- STANDART PLAYER FONKSİYONLARI ---
+   
 
     function updatePlayerUI(title, artist, image) {
         document.getElementById("title").innerText = title;
@@ -427,7 +423,7 @@
 
     function togglePlay() {
         if (!audio.src && songList.length > 0) {
-             // Hiçbir şey seçili değilse ilkini çalmaya çalış (yetki kontrolüyle)
+           
              playAtIndex(0);
              return;
         }
@@ -458,11 +454,11 @@
 
     function playAtIndex(index) {
         const song = songList[index];
-        // Yeni ID'li selectSong fonksiyonunu çağırıyoruz
+      
         selectSong(song.id, song.url, song.title, song.artist, song.image);
     }
 
-    // Progress Bar ve Time Update
+  
     audio.ontimeupdate = () => {
         if (!audio.duration) return;
         const percent = (audio.currentTime / audio.duration) * 100;
@@ -486,7 +482,7 @@
         audio.currentTime = (e.offsetX / w) * audio.duration;
     }
 
-    // --- SİLME ve EKLEME FONKSİYONLARI (Aynen Korundu) ---
+   
     function removeSong(pId, sId) {
         Swal.fire({
             title: 'Emin misiniz?', text: "Şarkı listeden kaldırılacak.", icon: 'warning',

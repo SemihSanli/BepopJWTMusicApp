@@ -50,7 +50,7 @@ namespace BepopJWT.BusinessLayer.Concrete
             {
                 var deletionParams = new DeletionParams(publicId)
                 {
-                    // İsim çakışmasını böyle önlüyoruz:
+                   
                     ResourceType = CloudinaryDotNet.Actions.ResourceType.Video
                 };
 

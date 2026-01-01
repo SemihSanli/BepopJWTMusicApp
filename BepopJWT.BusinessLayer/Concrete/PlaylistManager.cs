@@ -53,7 +53,7 @@ namespace BepopJWT.BusinessLayer.Concrete
                 PlaylistName = x.PlaylistName,
                 UserId = x.UserId,
 
-                // Alt component'e gidecek olan şarkılar
+             
                 Songs = x.PlaylistSongs.Select(ps => new ResultsSongsForPlaylistDTO
                 {
                     SongId = ps.Song.SongId,
@@ -102,12 +102,12 @@ namespace BepopJWT.BusinessLayer.Concrete
 
             if (playlist == null) return null;
 
-            // 2. Entity -> DTO Dönüşümü (Mapping)
+           
             return new ResultPlaylistWithSongsDTO
             {
                 PlaylistId = playlist.PlaylistId,
                 PlaylistName = playlist.PlaylistName,
-                Username = playlist.User?.Username, // İstersen User'ı da Include edebilirsin
+                Username = playlist.User?.Username, 
                 Songs = playlist.PlaylistSongs.Select(ps => new ResultsSongsForPlaylistDTO
                 {
                     SongId = ps.Song.SongId,
