@@ -7,7 +7,7 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green?style=for-the-badge&logo=openai)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-Media-orange?style=for-the-badge&logo=cloudinary)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
 
 </div>
 <p align="center">
