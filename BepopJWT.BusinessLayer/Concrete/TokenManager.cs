@@ -1,6 +1,5 @@
 ﻿using BepopJWT.BusinessLayer.Abstract;
 using BepopJWT.BusinessLayer.Constants;
-using BepopJWT.BusinessLayer.Constants.CustomClaimTypes;
 using BepopJWT.DTOLayer.TokenDTOs;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;

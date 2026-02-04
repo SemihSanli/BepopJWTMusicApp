@@ -1,0 +1,24 @@
+# Docker sensitive files
+.env
+*.env
+.env.*
+!.env.example
+
+# ASP.NET Core sensitive files
+appsettings.Development.json
+appsettings.Local.json
+**/secrets.json
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+
+# Build outputs
+bin/
+obj/
+
+# Other
+*.db
+Thumbs.db
