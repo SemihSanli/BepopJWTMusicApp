@@ -1,14 +1,83 @@
 # 🎵 Bepop Music - AI Destekli Müzik Akış Platformu
 
-![.NET Core](https://img.shields.io/badge/.NET%20Core-8.0-purple)
-![ML.NET](https://img.shields.io/badge/ML.NET-Machine%20Learning-blue)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green)
-![Cloudinary](https://img.shields.io/badge/Cloud-Storage-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+<div align="center">
 
-**Bepop Music**, kullanıcıların müzik dinleyebileceği, yapay zeka destekli öneriler alabileceği ve abonelik paketlerine göre içeriklere erişebileceği N-Katmanlı mimari ile geliştirilmiş modern bir web uygulamasıdır. 
+![.NET Core](https://img.shields.io/badge/.NET-8.0-purple?style=for-the-badge&logo=.net)
+![ML.NET](https://img.shields.io/badge/ML.NET-AI-blue?style=for-the-badge&logo=dotnet)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green?style=for-the-badge&logo=openai)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-Media-orange?style=for-the-badge&logo=cloudinary)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-Proje; **Clean Architecture** prensipleri, **SOLID** kuralları ve **RESTful API** standartları gözetilerek geliştirilmiştir.
+</div>
+<p align="center">
+  <strong>Bepop Music</strong>, kullanıcıların müzik dinleyebileceği, yapay zeka destekli öneriler alabileceği ve abonelik paketlerine göre içeriklere erişebileceği, <strong>N-Katmanlı mimari</strong> ile geliştirilmiş modern bir web uygulamasıdır.
+</p>
+
+<p align="center">
+  Proje; <strong>Clean Architecture</strong> prensipleri, <strong>SOLID</strong> kuralları ve <strong>RESTful API</strong> standartları gözetilerek geliştirilmiştir.
+</p>
+
+
+## 📋 İçindekiler
+- [🐳 Docker ile Hızlı Başlangıç](#-docker-ile-hızlı-başlangıç)
+- [🚀 Proje Özellikleri](#-proje-özellikleri-ve-iş-akışı)
+- [🏗️ Mimari ve Teknik Detaylar](#️-mimari-ve-teknik-detaylar)
+- [🛠️ Teknoloji Yığını](#️-kullanılan-teknolojiler-ve-kütüphaneler)
+- [🔒 Yetkilendirme Matrisi](#-yetkilendirme-matrisi)
+- [⚙️ Konfigürasyon](#️-konfigürasyon)
+
+
+## 🐳 Docker ile Hızlı Başlangıç
+
+Proje Docker ile tam uyumlu hale getirilmiştir. Aşağıdaki adımları sırasıyla uygulayarak projeyi ayağa kaldırabilirsiniz.
+
+### Gereksinimler
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+### Kurulum Adımları
+
+**1. Projeyi Klonlayın**
+Terminal veya komut satırına şu komutu yapıştırın:
+`git clone https://github.com/SemihSanli/BepopJWTMusicApp.git`
+
+**2. Proje Dizinine Girin**
+`cd BepopJWTMusicApp`
+
+**3. Environment Dosyasını Oluşturun**
+Örnek dosyayı kopyalayarak asıl dosyayı oluşturun:
+`cp .env.example .env`
+
+**4. Docker ile Çalıştırın**
+Tüm servisleri tek komutla başlatın:
+`docker-compose up --build`
+
+### 📡 Erişim Bilgileri
+
+| Servis | URL | Açıklama |
+| :--- | :--- | :--- |
+| **API (Swagger)** | `http://localhost:8080/swagger` | API Dokümantasyonu ve Test |
+| **SQL Server** | `localhost, 1433` | Veritabanı Sunucusu |
+
+### 🧩 Docker Mimarisi
+```text
+┌─────────────────────────────────────────┐
+│           Docker Network                │
+│                                         │
+│  ┌──────────────┐    ┌──────────────┐   │
+│  │  sqlserver   │◄──►│     api      │   │
+│  │  Port: 1433  │    │  Port: 8080  │   │
+│  │  SQL Server  │    │  ASP.NET API │   │
+│  └──────────────┘    └──────────────┘   │
+└─────────────────────────────────────────┘
+
+```
+> **Docker Özellikleri:**
+> * ✅ **Multi-stage Build:** Optimize edilmiş image boyutu (~100MB).
+> * ✅ **Docker Compose:** API + SQL Server multi-container orchestration.
+> * ✅ **Environment Variables:** Güvenli konfigürasyon yönetimi.
+> * ✅ **Volume:** Veritabanı kalıcılığı (Data Persistence).
+
 
 ---
 
@@ -47,18 +116,36 @@ Proje iki farklı AI teknolojisini barındırır:
 
 ## 🏗️ Mimari ve Teknik Detaylar
 
-Bu proje, sürdürülebilirlik ve ölçeklenebilirlik hedeflenerek **N-Katmanlı Mimari (N-Layer Architecture)** üzerine inşa edilmiştir.
+```text
+BepopJWTMusicApp/
+├── 🐳 Docker
+│   ├── Dockerfile              # Multi-stage build
+│   ├── docker-compose.yml      # Orchestration
+│   └── .env.example            # Env template
+│
+├── 📦 BepopJWT.API             # Web API Layer
+├── 💼 BepopJWT.BusinessLayer   # Business Logic
+├── 🗃️ BepopJWT.DataAccessLayer # Data Access (EF Core)
+├── 📋 BepopJWT.DTOLayer        # Data Transfer Objects
+├── 🏛️ BepopJWT.EntityLayer     # Domain Entities
+└── 🖥️ BepopJWT.Consume         # MVC Frontend
 
-### Kullanılan Teknolojiler ve Kütüphaneler
-| Teknoloji | Kullanım Amacı |
-| :--- | :--- |
-| **.NET 8.0** | Backend Framework |
-| **ML.NET** | Makine Öğrenimi ve Öneri Motoru |
-| **OpenAI API (GPT-4o)** | BepopDJ Asistanı (Generative AI) |
-| **Iyzipay** | Ödeme Sistemi Entegrasyonu |
-| **Cloudinary** | Medya Yönetimi ve Depolama |
-| **BCrypt.Net-Next** | Şifreleme (Hashing) |
-| **JWT (Json Web Token)** | Kimlik Doğrulama |
+
+Bu proje, sürdürülebilirlik ve ölçeklenebilirlik hedeflenerek **N-Katmanlı Mimari (N-Layer Architecture)** üzerine inşa edilmiştir.
+```
+### 🧩 Kullanılan Teknolojiler ve Kütüphaneler
+
+| Kategori | Teknoloji | Kullanım Amacı |
+| :--- | :--- | :--- |
+| 🧱 Backend | **.NET 8.0** | Yüksek performanslı, modern Web API geliştirme |
+| 🤖 AI / ML | **ML.NET** | Müzik öneri motoru ve kullanıcı davranış analizi |
+| 🧠 Generative AI | **OpenAI API (GPT-4o)** | BepopDJ Asistanı (akıllı etkileşim & öneriler) |
+| 💳 Ödeme | **Iyzipay** | Güvenli ödeme altyapısı entegrasyonu |
+| 🖼️ Medya Yönetimi | **Cloudinary** | Medya dosyalarının yönetimi ve depolanması |
+| 🔐 Güvenlik | **BCrypt.Net-Next** | Parola hashleme ve güvenli kimlik doğrulama |
+| 🪪 Yetkilendirme | **JWT (JSON Web Token)** | Stateless kimlik doğrulama ve rol bazlı yetkilendirme |
+| 🐳 Containerization | **Docker & Docker Compose** | Multi-container yapı, ortam bağımsız çalıştırma |
+
 
 ### Uygulanan Tasarım Desenleri ve Prensipler
 * **Clean Code & SOLID:** Kodun okunabilirliği ve bağımlılıkların yönetimi için katı kurallar uygulandı.
@@ -80,6 +167,25 @@ Bu proje, sürdürülebilirlik ve ölçeklenebilirlik hedeflenerek **N-Katmanlı
 | Playlist Oluşturma | ❌ | ✅ | ✅ |
 | Admin Paneli | ❌ | ❌ (403 Forbidden) | ✅ |
 | Analizleri Görme | ❌ | ❌ | ✅ |
+
+---
+## ⚙️ Konfigürasyon
+
+Uygulamanın doğru şekilde çalışabilmesi için aşağıdaki konfigürasyon adımlarının tamamlanması gerekmektedir.
+
+---
+
+### 🌱 Environment Variables (`.env`)
+
+Projenin **kök dizininde** `.env` dosyası oluşturun:
+
+```env
+# SQL Server
+MSSQL_SA_PASSWORD=YourStrongPassword123!
+
+# Database Connection
+DB_CONNECTION_STRING=Server=sqlserver;Database=BepopJwtDb;User Id=sa;Password=YourStrongPassword123!;TrustServerCertificate=True;
+```
 
 ---
 
